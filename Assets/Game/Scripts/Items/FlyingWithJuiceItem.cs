@@ -16,11 +16,13 @@ public class FlyingWithJuiceItem : Item
     [SerializeField] private float _minScale;
     [SerializeField] private float _speedMultiplier;
     [SerializeField] private GameObject _sliced;
+    [SerializeField] private MeshRenderer _wholeMesh;
     [SerializeField] private bool _isGorizontalItem;
     [SerializeField] private bool _useTwoWavesOfEffects;
     [SerializeField] private float _scaleZDeformateSpead;
     [SerializeField] private int _endurance;
     [SerializeField] private Color _explosionColor;
+    [SerializeField] private BoxCollider _boxCollider;
 
     private Coroutine _deformate;
     private bool _isDeformated;
@@ -31,12 +33,13 @@ public class FlyingWithJuiceItem : Item
     
     private  void BlowUp()
     {
-        
+        _boxCollider.enabled = false;
+        _bomb.Explode(_bombDellay);
         PlayEffects();
         UseGravity();
         TurnOnColdiers();
-        _bomb.Explode(_bombDellay);
-        gameObject.SetActive(false);
+       
+        _wholeMesh.enabled = false;
         _sliced.SetActive(true);
         Desrtoyed();
         Destroyed?.Invoke();
@@ -45,9 +48,11 @@ public class FlyingWithJuiceItem : Item
 
     protected override void Flatten(float speed)
     {
+        BlowUp();
+        
         //base.Deform(speed);
 
-        StartCoroutine(poc(speed));
+       // StartCoroutine(poc(speed));
     }
 
     private IEnumerator poc(float speed)

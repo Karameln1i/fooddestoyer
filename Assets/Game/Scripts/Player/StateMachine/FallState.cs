@@ -17,7 +17,7 @@ public class FallState : MonoBehaviour
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
 
 
-    private MoveState _moveState;
+   // private MoveState _moveState;
     private StateMachine _stateMachine;
     private Animator _animator;
     private FullBodyBipedIK _fullBodyBipedIk;
@@ -31,14 +31,14 @@ public class FallState : MonoBehaviour
         _animator = GetComponent<Animator>();
         _fullBodyBipedIk = GetComponent<FullBodyBipedIK>();
         _player = GetComponent<Player>();
-        _moveState = GetComponent<MoveState>();
+       // _moveState = GetComponent<MoveState>();
 
 
     }
     
     private void OnEnable()
     {
-        _moveState.FallItemReached += OnFallItemReached;
+      //  _moveState.FallItemReached += OnFallItemReached;
         
         for (int i = 0; i < _fallItems.Capacity; i++)
         {
@@ -50,7 +50,7 @@ public class FallState : MonoBehaviour
 
     private void OnDisable()
     {
-        _moveState.FallItemReached -= OnFallItemReached;
+        //_moveState.FallItemReached -= OnFallItemReached;
         
         for (int i = 0; i < _fallItems.Capacity; i++)
         {

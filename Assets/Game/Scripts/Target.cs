@@ -7,6 +7,8 @@ public class Target : MonoBehaviour
 
     private Vector3 _startPosition;
 
+    public Vector3 StartPosition => _startPosition;
+
     private void Awake()
     {
         _startPosition = transform.localPosition;
@@ -14,6 +16,6 @@ public class Target : MonoBehaviour
     
     public void ResetPosition()
     {
-        transform.localPosition=new Vector3(_startPosition.x,_startPosition.y,0);
+        transform.localPosition=_startPosition;
     }
 }
