@@ -5,11 +5,11 @@ using UnityEngine.EventSystems;
 
 public class ClickToPlayPanel : MonoBehaviour,IPointerClickHandler
 {
-    [SerializeField] private StateMachine _stateMachine;
+    //[SerializeField] private StateMachine _stateMachine;
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        _stateMachine.enabled = true;
+       // _stateMachine.enabled = true;
         gameObject.SetActive(false);
     }
 }

@@ -11,8 +11,9 @@ public class ChangeTargetPosition : MonoBehaviour
     [SerializeField] private PlayerInput _playerInput;
     [SerializeField] private ScaleValueChecker _scaleValueChecker;
     [SerializeField] private Vector3 _deltaPosition1;
-    [SerializeField] private Vector3 _deltaPosition2;
+  //  [SerializeField] private Vector3 _deltaPosition2;
     [SerializeField] private float _legLiftingSpeed;
+    [SerializeField] private float _legLoweringSpead;
     [SerializeField] private float _legLoweringSpedForFlattening;
     [SerializeField] private LevelComplitedPanel _levelComplitedPanel;
     [SerializeField] private MoveState _moveState;
@@ -44,13 +45,13 @@ public class ChangeTargetPosition : MonoBehaviour
     private void OnEnable()
     {
        _playerCollisionHandler.TouchedFlyingWithJuiceItem += OnTouchedFlyingWithJuiceItem;
-       _moveState.WayPointReached += OnWayPointReached;
+     //  _moveState.WayPointReached += OnWayPointReached;
         _levelComplitedPanel.Opened += OnPanelOpened;
         _playerInput.Clicked += OnClicked;
         _scaleValueChecker.StopedOnGreen += OnStopedOnGreenZone;
         _scaleValueChecker.StopedYellow += OnStopedOnYellowZone;
         //_legloweringSpeed = _legLiftingSpeed;
-        _moveState.ReceivedLegTarget += OnReceivedLegTarget;
+     //   _moveState.ReceivedLegTarget += OnReceivedLegTarget;
         Debug.Log("cahngetargetpositionon");
     }
 
@@ -61,8 +62,8 @@ public class ChangeTargetPosition : MonoBehaviour
        _playerCollisionHandler.TouchedFlyingWithJuiceItem -= OnTouchedFlyingWithJuiceItem;
         _scaleValueChecker.StopedOnGreen -= OnStopedOnGreenZone;
         _scaleValueChecker.StopedYellow -= OnStopedOnYellowZone;
-        _moveState.ReceivedLegTarget -= OnReceivedLegTarget;
-        _moveState.WayPointReached -= OnWayPointReached;
+       // _moveState.ReceivedLegTarget -= OnReceivedLegTarget;
+       // _moveState.WayPointReached -= OnWayPointReached;
         StopMoveToTarget();
     }
 
@@ -74,6 +75,7 @@ public class ChangeTargetPosition : MonoBehaviour
     public IEnumerator MoveTarget()
     {
 
+        Debug.Log("moveTarget Started");
         
         Vector3 targetPosition1 = _target.transform.position + _deltaPosition1;
 
@@ -83,26 +85,23 @@ public class ChangeTargetPosition : MonoBehaviour
             yield return null;
         }
             
-            Vector3 targetPosition2 = _target.transform.position + _deltaPosition1;
+            //Vector3 targetPosition2 = _target.transform.position + _deltaPosition1;
 
-            while (_target.transform.position!=targetPosition2)
+            while (_target.transform.localPosition!=_target.StartPosition)
             {
-               
-                
-                
-                _target.transform.position=Vector3.MoveTowards(_target.transform.position,targetPosition2,_legLiftingSpeed*Time.deltaTime);
+                _target.transform.localPosition=Vector3.MoveTowards(_target.transform.localPosition,_target.StartPosition,_legLoweringSpead*Time.deltaTime);
                 yield return null;
             }
             
             
-        while (_target.transform.position!=_endPoint.transform.position)
+     /*   while (_target.transform.position!=_endPoint.transform.position)
         {
             _target.transform.position=Vector3.MoveTowards(_target.transform.position,_endPoint.transform.position,_legloweringSpeed*Time.deltaTime);
           // Vector3 direction = _endPoint.transform.position - _target.transform.position;
            //_target.transform.Translate(direction*_legloweringSpeed*Time.deltaTime);
             //_target.transform.position=Vector3.Lerp(_target.transform.position,_endPoint.transform.position,_legloweringSpeed*Time.deltaTime);
             yield return null;
-        }
+        }*/
 
         _clickCount = 0;
         TargetAchived?.Invoke();
@@ -120,6 +119,7 @@ public class ChangeTargetPosition : MonoBehaviour
     {
         if (_clickCount==0)
         {
+            Debug.Log(_clickCount);
             _moveToTergetJob=StartCoroutine(MoveTarget());
             _clickCount++;
         }

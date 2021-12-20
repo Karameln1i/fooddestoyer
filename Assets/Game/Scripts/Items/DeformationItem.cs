@@ -76,6 +76,7 @@ public class DeformationItem : Item
         
        RotateBones();
        _boneToChangePosition.transform.position=Vector3.MoveTowards(_boneToChangePosition.transform.position,item.LegTarget.transform.position,speed*_speedMultiplayer*Time.deltaTime);
+           //_boneToChangePosition.transform.Translate(Vector3.down*speed*_speedMultiplayer);
     }
 
     

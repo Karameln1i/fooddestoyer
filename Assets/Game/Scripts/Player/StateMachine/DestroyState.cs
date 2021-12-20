@@ -7,7 +7,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(FullBodyBipedIK),typeof(Animator),typeof(Player))]
-public class DestroyState : State
+public class DestroyState : MonoBehaviour
 {
 
     [SerializeField] private PlayerInput _playerInput;
