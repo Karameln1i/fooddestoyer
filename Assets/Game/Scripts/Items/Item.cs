@@ -19,8 +19,7 @@ public abstract class Item : MonoBehaviour
     public GameObject LegTarget => _legTarget;
     
     public event UnityAction<Item> Destroyed;
-    public event UnityAction<float> StrengthBroken;
-    
+
 
     private void Awake()
     {
@@ -33,7 +32,7 @@ public abstract class Item : MonoBehaviour
         
     }
 
-    protected virtual void Flatten(float speed)
+    protected virtual void Flatten(float speed,GameObject legPivot)
     {
         
     }
@@ -53,10 +52,10 @@ public abstract class Item : MonoBehaviour
          _notDestroyed = false;
      }
 
-    public void Liquidate(float speed)
+    public void Liquidate(float speed,GameObject legPivot)
     { 
       Break();
-      Flatten(speed);
+      Flatten(speed,legPivot);
 
       /*while (_notDestroyed)
       { 

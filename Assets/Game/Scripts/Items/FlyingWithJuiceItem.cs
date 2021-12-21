@@ -5,6 +5,7 @@ using RayFire;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(Rigidbody))]
 public class FlyingWithJuiceItem : Item
 {
     [SerializeField] private float _bombDellay;
@@ -23,17 +24,24 @@ public class FlyingWithJuiceItem : Item
     [SerializeField] private int _endurance;
     [SerializeField] private Color _explosionColor;
     [SerializeField] private BoxCollider _boxCollider;
+    [SerializeField] private GameObject _topPoint;
 
     private Coroutine _deformate;
     private bool _isDeformated;
+    private Rigidbody _rigidbody;
 
     public int Endurance => _endurance;
     public event UnityAction Destroyed;
     public event UnityAction<Color> Exploaded;
+
+    private void Awake()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+    }
     
     private  void BlowUp()
     {
-        _boxCollider.enabled = false;
+//        _boxCollider.enabled = false;
         _bomb.Explode(_bombDellay);
         PlayEffects();
         UseGravity();
@@ -46,15 +54,44 @@ public class FlyingWithJuiceItem : Item
         Exploaded?.Invoke(_explosionColor);
     }
 
-    protected override void Flatten(float speed)
+    protected override void Flatten(float speed,GameObject legPivot)
     {
+        /* if (legPivot.transform.position.y<_topPoint.transform.position.y)
+        {
+            Discard();
+            Debug.Log("отлетел");
+        }
+        else
+        {
+            BlowUp();
+            Debug.Log("взорвался");
+        }*/
+
         BlowUp();
-        
         //base.Deform(speed);
 
        // StartCoroutine(poc(speed));
     }
 
+    private void Discard()
+    {
+        _rigidbody.AddForce(Vector3.up*70);
+        _rigidbody.AddForce(Vector3.right*70);
+
+        var directionIndex = Random.Range(1, 3);
+        
+        switch (directionIndex)
+        {
+            case 1:
+                _rigidbody.AddForce(Vector3.back*70);
+                break;
+                case 2:
+                    _rigidbody.AddForce(Vector3.forward*70);
+                    break;
+                    
+        }
+    }
+    
     private IEnumerator poc(float speed)
     {
         yield return new WaitForSeconds(0.1f);
@@ -138,6 +175,7 @@ public class FlyingWithJuiceItem : Item
         for (int i = 0; i < _rigidbodies.Capacity; i++)
         {
             _rigidbodies[i].useGravity = true;
+            _rigidbodies[i].isKinematic = false;
         }
     }
 }
