@@ -95,9 +95,8 @@ public class ChangeTargetPosition : MonoBehaviour
         _currentTime = 0;
         
         Vector3 targetPosition = _target.transform.position + _deltaPosition1;
-        Debug.Log(_target.transform.position);
 
-            while (_target.transform.position!=targetPosition)
+        while (_target.transform.position!=targetPosition)
             {
                 var speed=_legLiftingSpead.Evaluate(_currentTime);
                 _currentTime += Time.deltaTime;
