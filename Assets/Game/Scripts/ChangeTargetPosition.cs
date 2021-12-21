@@ -13,14 +13,22 @@ public class ChangeTargetPosition : MonoBehaviour
     [SerializeField] private Vector3 _deltaPosition1;
   //  [SerializeField] private Vector3 _deltaPosition2;
     [SerializeField] private float _legLiftingSpeed;
-    [SerializeField] private float _legLoweringSpead;
+   // [SerializeField] private float _legLoweringSpead;
     [SerializeField] private float _legLoweringSpedForFlattening;
     [SerializeField] private LevelComplitedPanel _levelComplitedPanel;
     [SerializeField] private MoveState _moveState;
     [SerializeField] private GameObject _legPivot;
     [SerializeField] private PlayerCollisionHandler _playerCollisionHandler;
+    [SerializeField] private float _legLiftingDellay;
 
     [SerializeField] private float _legloweringSpeed;
+
+    [SerializeField] private AnimationCurve _legLiftingSpead;
+    [SerializeField] private AnimationCurve _legLoweringSpead;
+    
+    private float _currentTime;
+    private float _totalTime;
+    
 
     //private float _legSpeed;
     private float _legLoweringSpeedAfterTouching;
@@ -33,6 +41,8 @@ public class ChangeTargetPosition : MonoBehaviour
     public float LegloweringSpeed => _legloweringSpeed;
     private const float LegSpedForFlattening=0.1f;
     private const float LegLoweringSpeed=1f;
+    private Coroutine MoveTargetInJob;
+    private bool MoveTargetIsWorking;
     
 
     public event UnityAction TargetAchived;
@@ -40,6 +50,8 @@ public class ChangeTargetPosition : MonoBehaviour
     private void Awake()
     {
         _target = GetComponent<Target>();
+        _moveToTergetJob = StartCoroutine(MoveTarget());
+        _totalTime = _legLiftingSpead.keys[_legLiftingSpead.keys.Length - 1].time;
     }
 
     private void OnEnable()
@@ -71,42 +83,51 @@ public class ChangeTargetPosition : MonoBehaviour
     {
         enabled = false;
     }
-    
-    public IEnumerator MoveTarget()
+
+    private IEnumerator Dellay(float time)
     {
-
-        Debug.Log("moveTarget Started");
+        yield return new WaitForSeconds(time);
+    }
+    
+    private IEnumerator MoveTarget()
+    {
+        MoveTargetIsWorking = true;
+        _currentTime = 0;
         
-        Vector3 targetPosition1 = _target.transform.position + _deltaPosition1;
+        Vector3 targetPosition = _target.transform.position + _deltaPosition1;
+        Debug.Log(_target.transform.position);
 
-            while (_target.transform.position!=targetPosition1)
-        {
-            _target.transform.position=Vector3.MoveTowards(_target.transform.position,targetPosition1,_legLiftingSpeed*Time.deltaTime);
+            while (_target.transform.position!=targetPosition)
+            {
+                var speed=_legLiftingSpead.Evaluate(_currentTime);
+                _currentTime += Time.deltaTime;
+
+                _target.transform.position=Vector3.MoveTowards(_target.transform.position,targetPosition,speed*Time.deltaTime);
             yield return null;
+          
         }
+        
+            yield return new WaitForSeconds(_legLiftingDellay);
             
-            //Vector3 targetPosition2 = _target.transform.position + _deltaPosition1;
-
+            _currentTime = 0;
+            
             while (_target.transform.localPosition!=_target.StartPosition)
             {
-                _target.transform.localPosition=Vector3.MoveTowards(_target.transform.localPosition,_target.StartPosition,_legLoweringSpead*Time.deltaTime);
+                var speed=_legLoweringSpead.Evaluate(_currentTime);
+                _currentTime += Time.deltaTime;
+                
+                _target.transform.localPosition=Vector3.MoveTowards(_target.transform.localPosition,_target.StartPosition,speed*Time.deltaTime);
                 yield return null;
+               
             }
-            
-            
-     /*   while (_target.transform.position!=_endPoint.transform.position)
-        {
-            _target.transform.position=Vector3.MoveTowards(_target.transform.position,_endPoint.transform.position,_legloweringSpeed*Time.deltaTime);
-          // Vector3 direction = _endPoint.transform.position - _target.transform.position;
-           //_target.transform.Translate(direction*_legloweringSpeed*Time.deltaTime);
-            //_target.transform.position=Vector3.Lerp(_target.transform.position,_endPoint.transform.position,_legloweringSpeed*Time.deltaTime);
-            yield return null;
-        }*/
+        
 
-        _clickCount = 0;
+            //_clickCount = 0;
+      
         TargetAchived?.Invoke();
-        _target.ResetPosition();
+        //_target.ResetPosition();
         Debug.Log("всё");
+        MoveTargetIsWorking = false;
     }
 
     private void OnReceivedLegTarget(GameObject legtarget)
@@ -117,11 +138,16 @@ public class ChangeTargetPosition : MonoBehaviour
     
     private void OnClicked()
     {
-        if (_clickCount==0)
+        if (MoveTargetIsWorking)
         {
-            Debug.Log(_clickCount);
+           Debug.Log(_clickCount);
+           StopCoroutine(_moveToTergetJob);
             _moveToTergetJob=StartCoroutine(MoveTarget());
-            _clickCount++;
+           _clickCount++;
+        }
+        else
+        {
+            _moveToTergetJob=StartCoroutine(MoveTarget());
         }
     }
 
