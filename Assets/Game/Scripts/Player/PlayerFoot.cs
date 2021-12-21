@@ -5,6 +5,9 @@ using UnityEngine;
 public class PlayerFoot : MonoBehaviour
 {
     [SerializeField] private ChangeTargetPosition _changeTargetPosition;
+    [SerializeField] private GameObject _legPivot;
+
+    public GameObject LegPivot => _legPivot;
 
     public ChangeTargetPosition GetChangeTargetPosition()
     {
