@@ -41,4 +41,9 @@ public class PlayerFoot : MonoBehaviour
         }
     }
     
+    private void Update()
+    {
+        Debug.Log(_legPivot.transform.position.y);
+    }
+    
 }

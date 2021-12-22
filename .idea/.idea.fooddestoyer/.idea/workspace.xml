@@ -21,40 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4aa95556-c4f2-45dd-b04f-a23a60db565f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Body.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyebrows.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyebrows.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyeliner.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyeliner.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_EyeReflection.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_EyeReflection.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_head.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/mouth_inside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/mouth_inside.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/Material 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/jarst_watermelon_Sub.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/jarst_watermelon_Sub.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Target.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +46,16 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/DestroyState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Discard.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Target.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +89,10 @@
       <workItem from="1640007422540" duration="4071000" />
       <workItem from="1640021197129" duration="3910000" />
       <workItem from="1640080410647" duration="5895000" />
+      <workItem from="1640165689244" duration="103000" />
+      <workItem from="1640174764998" duration="4561000" />
+      <workItem from="1640188051700" duration="1978000" />
+      <workItem from="1640201129089" duration="326000" />
     </task>
     <servers />
   </component>

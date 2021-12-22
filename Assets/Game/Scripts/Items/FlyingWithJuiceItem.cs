@@ -42,7 +42,7 @@ public class FlyingWithJuiceItem : Item
     private  void BlowUp()
     {
 //        _boxCollider.enabled = false;
-        _bomb.Explode(_bombDellay);
+       // _bomb.Explode(_bombDellay);
         PlayEffects();
         UseGravity();
         TurnOnColdiers();
@@ -59,7 +59,7 @@ public class FlyingWithJuiceItem : Item
         Debug.Log("top point "+ _topPoint.transform.localPosition.y);
         Debug.Log("leg point "+ legPivot.transform.position.y);
         
-         if (legPivot.transform.position.y<_topPoint.transform.position.y)
+         if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
         {
             Discard();
             Debug.Log("отлетел");
