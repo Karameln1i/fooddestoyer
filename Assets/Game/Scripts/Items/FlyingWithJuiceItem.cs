@@ -25,6 +25,7 @@ public class FlyingWithJuiceItem : Item
     [SerializeField] private Color _explosionColor;
     [SerializeField] private BoxCollider _boxCollider;
     [SerializeField] private GameObject _topPoint;
+    [SerializeField] private GameObject _emoji;
 
     private Coroutine _deformate;
     private bool _isDeformated;
@@ -41,12 +42,12 @@ public class FlyingWithJuiceItem : Item
     
     private  void BlowUp()
     {
-//        _boxCollider.enabled = false;
-        _bomb.Explode(_bombDellay);
+     // _boxCollider.enabled = false;
+     //       _bomb.Explode(_bombDellay);
         PlayEffects();
-        UseGravity();
-        TurnOnColdiers();
-       
+       // UseGravity();
+        //TurnOnColdiers();
+       _emoji.SetActive(false);
         _wholeMesh.enabled = false;
         _sliced.SetActive(true);
         Desrtoyed();
@@ -59,7 +60,7 @@ public class FlyingWithJuiceItem : Item
         Debug.Log("top point "+ _topPoint.transform.localPosition.y);
         Debug.Log("leg point "+ legPivot.transform.position.y);
         
-         if (legPivot.transform.position.y<_topPoint.transform.position.y)
+         if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
         {
             Discard();
             Debug.Log("отлетел");

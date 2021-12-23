@@ -15,6 +15,8 @@ public class FallState : MonoBehaviour
     [SerializeField] private List<FallItem> _fallItems;
     [SerializeField] private PlayerInput _playerInput;
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
+    [SerializeField] private PlayerCollisionHandler _collisionHandler;
+    [SerializeField] private RagdollActivator _ragdollActivator;
 
 
    // private MoveState _moveState;
@@ -27,6 +29,7 @@ public class FallState : MonoBehaviour
     
     private void Awake()
     {
+        
         _stateMachine = GetComponent<StateMachine>();
         _animator = GetComponent<Animator>();
         _fullBodyBipedIk = GetComponent<FullBodyBipedIK>();
@@ -38,7 +41,7 @@ public class FallState : MonoBehaviour
     
     private void OnEnable()
     {
-      //  _moveState.FallItemReached += OnFallItemReached;
+        _collisionHandler.TouchedFallItem += OnTouchedFallItem;
         
         for (int i = 0; i < _fallItems.Capacity; i++)
         {
@@ -50,12 +53,18 @@ public class FallState : MonoBehaviour
 
     private void OnDisable()
     {
-        //_moveState.FallItemReached -= OnFallItemReached;
+
+        _collisionHandler.TouchedFallItem -= OnTouchedFallItem;
         
         for (int i = 0; i < _fallItems.Capacity; i++)
         {
             _fallItems[i].TouchedFallItem -= OnFallItemReached; 
         }
+    }
+
+    private void OnTouchedFallItem()
+    {
+        _ragdollActivator.ActivateRagDoll();
     }
 
     private void OnFallItemReached()
@@ -83,14 +92,6 @@ public class FallState : MonoBehaviour
         _animator.SetTrigger(PlayerAnimationController.Trigers.SwitchToFall);
         Debug.Log("clicked");
     }
-    
-    private void TurnOffColdiers()
-    {
-        for (int i = 0; i < _colliders.Count; i++)
-        {
-            _colliders[i].enabled = false;
-        }
-    }
 
-   
+
 }

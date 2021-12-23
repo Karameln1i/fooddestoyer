@@ -9,6 +9,8 @@ public class PlayerCollisionHandler : MonoBehaviour
 
     public event UnityAction<GameObject> TouchedControlPoint;
     public event UnityAction<FlyingWithJuiceItem> TouchedFlyingWithJuiceItem;
+    public event UnityAction TouchedFallItem;
+        
 
     private void OnTriggerEnter(Collider collision)
     {
@@ -24,6 +26,11 @@ public class PlayerCollisionHandler : MonoBehaviour
         if (collision.TryGetComponent<FlyingWithJuiceItem>(out FlyingWithJuiceItem flyingWithJuiceItem))
         {
             TouchedFlyingWithJuiceItem?.Invoke(flyingWithJuiceItem);
+        }
+        
+        if (collision.TryGetComponent<FallItem>(out FallItem fall))
+        {
+            TouchedFallItem?.Invoke();
         }
     }
 }

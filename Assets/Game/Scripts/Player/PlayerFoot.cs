@@ -40,5 +40,4 @@ public class PlayerFoot : MonoBehaviour
             //TouchedItem?.Invoke();
         }
     }
-    
 }

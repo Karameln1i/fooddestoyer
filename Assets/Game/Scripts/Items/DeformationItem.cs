@@ -14,6 +14,8 @@ public class DeformationItem : Item
     [SerializeField] private bool _turningTheSecondBone;
     [SerializeField] private bool _playEffects;
     [SerializeField] private float _speedMultiplayer;
+    [SerializeField] private float _deformateSpeed;
+    [SerializeField] private Transform _boneTarget;
 
     private bool _effecIsPlayed;
     private Item item;
@@ -75,9 +77,22 @@ public class DeformationItem : Item
         }
         
        RotateBones();
-       _boneToChangePosition.transform.position=Vector3.MoveTowards(_boneToChangePosition.transform.position,item.LegTarget.transform.position,speed*_speedMultiplayer*Time.deltaTime);
+           //_boneToChangePosition.transform.position=Vector3.MoveTowards(_boneToChangePosition.transform.position,item.LegTarget.transform.position,speed*_speedMultiplayer*Time.deltaTime);
+           //_boneToChangePosition.transform.Translate(Vector3.down*_deformateSpeed*Time.deltaTime);
+           StartCoroutine(Deformate());
            //_boneToChangePosition.transform.Translate(Vector3.down*speed*_speedMultiplayer);
     }
 
-    
+    private IEnumerator Deformate()
+    {
+        while (_boneToChangePosition.transform.position != _boneTarget.transform.position)
+        {
+            _boneToChangePosition.transform.position = Vector3.MoveTowards(_boneToChangePosition.transform.position,
+                _boneTarget.transform.position, _deformateSpeed * Time.deltaTime);
+
+            yield return null;
+        }
+    }
+
+
 }
