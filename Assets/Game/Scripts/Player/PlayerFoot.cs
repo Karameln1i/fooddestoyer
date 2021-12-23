@@ -40,10 +40,4 @@ public class PlayerFoot : MonoBehaviour
             //TouchedItem?.Invoke();
         }
     }
-    
-    private void Update()
-    {
-        Debug.Log(_legPivot.transform.position.y);
-    }
-    
 }

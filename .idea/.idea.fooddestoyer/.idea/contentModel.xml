@@ -1597,6 +1597,7 @@
             </e>
             <e p="PlayerInput.cs" t="Include" />
             <e p="RagdollActivator.cs" t="Include" />
+            <e p="RagDollActivator1.cs" t="Include" />
             <e p="RememberLevel.cs" t="Include" />
             <e p="SlowDownTime.cs" t="Include" />
             <e p="Target.cs" t="Include" />

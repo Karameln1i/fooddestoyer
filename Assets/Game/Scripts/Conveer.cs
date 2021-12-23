@@ -6,6 +6,7 @@ public class Conveer : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private Material _material;
+    [SerializeField] private float _mainTextureOffsetSpead;
 
     private Rigidbody _rigidbody;
 
@@ -16,7 +17,7 @@ public class Conveer : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _material.mainTextureOffset=new Vector2(0f,-Time.time*100*Time.deltaTime);
+        _material.mainTextureOffset=new Vector2(0f,-Time.time*_mainTextureOffsetSpead*Time.deltaTime);
         Vector3 pos = _rigidbody.position;
         _rigidbody.position += Vector3.right * _speed * Time.fixedDeltaTime;
         _rigidbody.MovePosition(pos);

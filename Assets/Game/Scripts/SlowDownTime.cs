@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class SlowDownTime : MonoBehaviour
 {
-    [SerializeField] private float _timeScaleValue;
-    [SerializeField] private List<RayfireBomb> _bombs;
+    [SerializeField] private List<FlyingWithJuiceItem> _flyingWithJuiceItems;
     
     [SerializeField] private float _slowMotionDuration;
     [SerializeField] private AnimationCurve _slowMotionCurve;
@@ -14,34 +13,25 @@ public class SlowDownTime : MonoBehaviour
 
     private void OnEnable()
     {
-        for (int i = 0; i < _bombs.Capacity; i++)
+        for (int i = 0; i < _flyingWithJuiceItems.Capacity; i++)
         {
-            _bombs[i].Exploded += OnExploded;
+            _flyingWithJuiceItems[i].Destroyed += OnDestroyed;
         }
     }
 
     private void OnDisable()
     {
-        for (int i = 0; i < _bombs.Capacity; i++)
+        for (int i = 0; i < _flyingWithJuiceItems.Capacity; i++)
         {
-            _bombs[i].Exploded -= OnExploded;
+            _flyingWithJuiceItems[i].Destroyed -= OnDestroyed;
         }
     }
 
-    private void OnExploded()
+    private void OnDestroyed()
     {
-        //Time.timeScale = _timeScaleValue;
-        //Time.fixedDeltaTime = Time.timeScale * _timeScaleValue;
-
         StartCoroutine(ShowSlowMotion());
     }
 
-    void Update()
-    {
-       // Time.timeScale = _timeScaleValue;
-        //Time.fixedDeltaTime = Time.timeScale * _timeScaleValue*2;
-    }
-    
     private IEnumerator ShowSlowMotion()
     {
         float elapsedTime = 0;
