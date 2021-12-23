@@ -1,7 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using DG.Tweening;
+
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,6 +12,7 @@ public abstract class Item : MonoBehaviour
     private BoxCollider _boxCollider;
     private float _speed;
     private Coroutine _goToDownCorutine;
+    private Rigidbody _rigidbody;
 
     public GameObject LegTarget => _legTarget;
     
@@ -25,9 +23,10 @@ public abstract class Item : MonoBehaviour
     {
         _boxCollider = GetComponent<BoxCollider>();
         _notDestroyed = true;
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
-    protected virtual void Break()
+    protected virtual void Break(GameObject legPivot)
     {
         
     }
@@ -54,7 +53,7 @@ public abstract class Item : MonoBehaviour
 
     public void Liquidate(float speed,GameObject legPivot)
     { 
-      Break();
+      Break(legPivot);
       Flatten(speed,legPivot);
 
       /*while (_notDestroyed)
@@ -77,6 +76,25 @@ public abstract class Item : MonoBehaviour
         else
         {
             _vibrations.PlayFastDestroyVibrate();
+        }
+    }
+    
+    protected void Discard()
+    {
+        _rigidbody.AddForce(Vector3.up*70);
+        _rigidbody.AddForce(Vector3.right*70);
+
+        var directionIndex = Random.Range(1, 3);
+        
+        switch (directionIndex)
+        {
+            case 1:
+                _rigidbody.AddForce(Vector3.back*70);
+                break;
+            case 2:
+                _rigidbody.AddForce(Vector3.forward*70);
+                break;
+                    
         }
     }
 }

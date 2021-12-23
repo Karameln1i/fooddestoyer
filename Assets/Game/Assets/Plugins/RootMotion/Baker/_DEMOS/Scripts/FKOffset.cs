@@ -10,7 +10,7 @@ namespace RootMotion.Demos
         [System.Serializable]
         public class Offset
         {
-            [HideInInspector] public string name;
+            [HideInInspector][SerializeField] public string name;
             public HumanBodyBones bone;
             public Vector3 rotationOffset;
 

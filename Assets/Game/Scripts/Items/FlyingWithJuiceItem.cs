@@ -77,7 +77,7 @@ public class FlyingWithJuiceItem : Item
        // StartCoroutine(poc(speed));
     }
 
-    private void Discard()
+  /* private void Discard()
     {
         _rigidbody.AddForce(Vector3.up*70);
         _rigidbody.AddForce(Vector3.right*70);
@@ -94,7 +94,7 @@ public class FlyingWithJuiceItem : Item
                     break;
                     
         }
-    }
+    }*/
     
     private IEnumerator poc(float speed)
     {

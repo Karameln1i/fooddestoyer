@@ -41,7 +41,7 @@ public class FallState : MonoBehaviour
     
     private void OnEnable()
     {
-        _collisionHandler.TouchedFallItem += OnTouchedFallItem;
+        _collisionHandler.TouchedFallItem += OnPlayerClicked;
         
         for (int i = 0; i < _fallItems.Capacity; i++)
         {
@@ -90,6 +90,8 @@ public class FallState : MonoBehaviour
     private void OnPlayerClicked()
     {
         _animator.SetTrigger(PlayerAnimationController.Trigers.SwitchToFall);
+        _animator.applyRootMotion = true;
+        _fullBodyBipedIk.enabled = false;
         Debug.Log("clicked");
     }
 

@@ -15,6 +15,6 @@ public class FoodSplittingIntoSeveralParts : Item
     
     protected override void Break()
     {
-        _rayfireRigid.Initialize();
+       _rayfireRigid.Initialize();
     }
 }

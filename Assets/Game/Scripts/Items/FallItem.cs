@@ -5,11 +5,19 @@ using UnityEngine.Events;
 
 public class FallItem : Item
 {
+    [SerializeField] private GameObject _topPoint;
+    
     public event UnityAction TouchedFallItem;
-    protected override void Break()
+    protected override void Break(GameObject legPivot)
     {
-        Debug.Log("каснулись");
-        TouchedFallItem?.Invoke();
-        Desrtoyed();
+       // Debug.Log("каснулись");
+        //TouchedFallItem?.Invoke();
+        //Desrtoyed();
+        
+        if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
+        {
+            Discard();
+            Debug.Log("отлетел");
+        }
     }
 }

@@ -80,7 +80,6 @@ namespace RootMotion.Demos {
 		private Vector3 moveDirectionVelocity;
 		private float wallRunWeight;
 		private float lastWallRunWeight;
-        private float fixedDeltaTime;
 		private Vector3 fixedDeltaPosition;
 		private Quaternion fixedDeltaRotation = Quaternion.identity;
 		private bool fixedFrame;
@@ -111,8 +110,7 @@ namespace RootMotion.Demos {
 
 		// When the Animator moves
 		public override void Move(Vector3 deltaPosition, Quaternion deltaRotation) {
-            // Accumulate delta position, update in FixedUpdate to maintain consitency
-            fixedDeltaTime += Time.deltaTime;
+			// Accumulate delta position, update in FixedUpdate to maintain consitency
 			fixedDeltaPosition += deltaPosition;
 			fixedDeltaRotation *= deltaRotation;
 		}
@@ -137,8 +135,6 @@ namespace RootMotion.Demos {
 
             // Move
 			MoveFixed(fixedDeltaPosition);
-
-            fixedDeltaTime = 0f;
 			fixedDeltaPosition = Vector3.zero;
 
 			r.MoveRotation(transform.rotation * fixedDeltaRotation);
@@ -218,7 +214,7 @@ namespace RootMotion.Demos {
             // Process horizontal wall-running
             WallRun();
 
-            Vector3 velocity = fixedDeltaTime > 0f? deltaPosition / fixedDeltaTime: Vector3.zero;
+            Vector3 velocity = deltaPosition / Time.deltaTime;
 			
 			// Add velocity of the rigidbody the character is standing on
 			velocity += V3Tools.ExtractHorizontal(platformVelocity, gravity, 1f);

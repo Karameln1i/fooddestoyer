@@ -30,7 +30,8 @@ public class PlayerCollisionHandler : MonoBehaviour
         
         if (collision.TryGetComponent<FallItem>(out FallItem fall))
         {
-            TouchedFallItem?.Invoke();
+           // TouchedFallItem?.Invoke();
+            Debug.Log("падающий предмет");
         }
     }
 }
