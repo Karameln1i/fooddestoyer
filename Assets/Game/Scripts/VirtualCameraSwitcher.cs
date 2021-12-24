@@ -28,7 +28,7 @@ public class VirtualCameraSwitcher : MonoBehaviour
         _cameraForWalking.Priority = _notPriorityValue;
         _cameraForFall.Priority = _priorityValue;
 
-        DisablePlayerInputForAtime();
+        //DisablePlayerInputForAtime();
     }
 
     private void DisablePlayerInputForAtime()

@@ -7,12 +7,16 @@ public abstract class Item : MonoBehaviour
 {
     [SerializeField] private Vibrations _vibrations;
     [SerializeField] private GameObject _legTarget;
-
+    [SerializeField] private GameObject _topPoint;
+    [SerializeField]  private Rigidbody _rigidbody;
+    
     private bool _notDestroyed;
     private BoxCollider _boxCollider;
     private float _speed;
     private Coroutine _goToDownCorutine;
-    private Rigidbody _rigidbody;
+
+
+    protected GameObject TopPoint => _topPoint;
 
     public GameObject LegTarget => _legTarget;
     
@@ -23,7 +27,7 @@ public abstract class Item : MonoBehaviour
     {
         _boxCollider = GetComponent<BoxCollider>();
         _notDestroyed = true;
-        _rigidbody = GetComponent<Rigidbody>();
+        //_rigidbody = GetComponent<Rigidbody>();
     }
 
     protected virtual void Break(GameObject legPivot)
@@ -36,7 +40,7 @@ public abstract class Item : MonoBehaviour
         
     }
 
-    public virtual void Deform(float speed)
+    public virtual void Deform(float speed,GameObject legPivot)
     {
         
        // while (_notDestroyed)

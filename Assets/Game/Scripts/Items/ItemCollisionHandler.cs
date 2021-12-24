@@ -24,7 +24,7 @@ public class ItemCollisionHandler : MonoBehaviour
     {
         if (collision.TryGetComponent<PlayerFoot>(out PlayerFoot playerFoot))
         {
-            _item.Deform(playerFoot.GetSpeedForFlatting());
+            _item.Deform(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot);
         }
     }
     

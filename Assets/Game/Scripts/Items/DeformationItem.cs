@@ -66,20 +66,29 @@ public class DeformationItem : Item
         } 
     }
     
-    public override void Deform(float speed)
+    public override void Deform(float speed,GameObject legPivot)
     {
-        base.Deform(speed);
-
+       //base.Deform(speed);
+        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
+        {
+            Discard();
+            Debug.Log("отлетел");
+        }
+        else
+        {
+            RotateBones();
+            StartCoroutine(Deformate());
+        }
         if (!_effecIsPlayed)
         {
             TryPlayEffects();
             _effecIsPlayed = true;
         }
         
-       RotateBones();
+ 
            //_boneToChangePosition.transform.position=Vector3.MoveTowards(_boneToChangePosition.transform.position,item.LegTarget.transform.position,speed*_speedMultiplayer*Time.deltaTime);
            //_boneToChangePosition.transform.Translate(Vector3.down*_deformateSpeed*Time.deltaTime);
-           StartCoroutine(Deformate());
+           
            //_boneToChangePosition.transform.Translate(Vector3.down*speed*_speedMultiplayer);
     }
 

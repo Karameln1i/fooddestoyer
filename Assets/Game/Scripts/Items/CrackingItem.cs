@@ -6,17 +6,28 @@ public class CrackingItem : Item
 {
     [SerializeField] private List<Rigidbody>  _rigidbodies;
     [SerializeField] private List <ParticleSystem>  _explousions;
+    [SerializeField] private GameObject _topPoint;
     
-    protected override void Break()
+    protected override void Break(GameObject legPivot)
     {
-        PlayEffects();
-        
-        for (int i = 0; i < _rigidbodies.Capacity; i++)
+        if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
         {
-            _rigidbodies[i].useGravity = true;
+            Discard();
+            Debug.Log("отлетел");
         }
+        else
+        {
+            PlayEffects();
+        
+            for (int i = 0; i < _rigidbodies.Capacity; i++)
+            {
+                _rigidbodies[i].useGravity = true;
+            }
 
-        Desrtoyed();
+            Desrtoyed();
+        }
+        
+      
     }
 
     private void PlayEffects()

@@ -10,14 +10,24 @@ public class FoodSplitsInHalf : Item
     [SerializeField] private ParticleSystem _explossion;
     [SerializeField] private ParticleSystem _puddleOfJuici;
     [SerializeField] private RayfireBomb _bomb;
+    [SerializeField] private GameObject _topPoint;
     
-   protected override void Break()
+   protected override void Break(GameObject legPivot)
     {
-        _sliced.SetActive(true);
-        gameObject.SetActive(false);
-        _bomb.Explode(_bombDellay);
-        _explossion.Play();
-        _puddleOfJuici.Play();
-        Desrtoyed();
+        if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
+        {
+            Discard();
+            Debug.Log("отлетел");
+        }
+        else
+        {
+            _sliced.SetActive(true);
+            gameObject.SetActive(false);
+            _bomb.Explode(_bombDellay);
+            _explossion.Play();
+            _puddleOfJuici.Play();
+            Desrtoyed();
+        }
+
     }
 }

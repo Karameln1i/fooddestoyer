@@ -1648,6 +1648,7 @@
             <e p="Level.cs" t="Include" />
             <e p="LoadLastPassedLevel.cs" t="Include" />
             <e p="NextLevel.cs" t="Include" />
+            <e p="PlayChairAnimation.cs" t="Include" />
             <e p="Player" t="Include">
               <e p="Player.cs" t="Include" />
               <e p="PlayerCollisionHandler.cs" t="Include" />

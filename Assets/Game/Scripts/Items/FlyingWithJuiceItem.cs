@@ -24,7 +24,7 @@ public class FlyingWithJuiceItem : Item
     [SerializeField] private int _endurance;
     [SerializeField] private Color _explosionColor;
     [SerializeField] private BoxCollider _boxCollider;
-    [SerializeField] private GameObject _topPoint;
+
     [SerializeField] private GameObject _emoji;
 
     private Coroutine _deformate;
@@ -57,10 +57,10 @@ public class FlyingWithJuiceItem : Item
 
     protected override void Flatten(float speed,GameObject legPivot)
     {
-        Debug.Log("top point "+ _topPoint.transform.localPosition.y);
+        Debug.Log("top point "+ TopPoint.transform.localPosition.y);
         Debug.Log("leg point "+ legPivot.transform.position.y);
         
-         if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
+         if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
         {
             Discard();
             Debug.Log("отлетел");
