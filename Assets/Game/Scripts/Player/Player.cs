@@ -34,4 +34,9 @@ public class Player : MonoBehaviour
  
         Debug.Log("проигрыл");
     }
+
+    public void Lose()
+    {
+        Lost?.Invoke();
+    }
 }

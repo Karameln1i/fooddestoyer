@@ -8,6 +8,9 @@ public class Menu : MonoBehaviour
 {
    [SerializeField] private Player _player;
    [SerializeField] private LevelComplitedPanel _levelComplitedPanel;
+
+   [SerializeField] private GameObject _levelPassedPanel;
+   
    // [SerializeField] private Finish finish;
     [SerializeField] private float _targetImageColor;
     [SerializeField] private float _interpalation;
@@ -16,27 +19,29 @@ public class Menu : MonoBehaviour
     
     private void OnEnable()
     {
-       // _player.Lost+= OnPlayerLose;
+        _player.Lost+= OnPlayerLose;
         //finish.LevelComplited += OnLevelComplited;
         _player.Won += OnPlayerWon;
+        Debug.Log("awake");
     }
 
     private void OnDisable()
     {
-        _player.Won -= OnPlayerWon;
+        
     }
 
-    /*private void OnPlayerLose()
+    private void OnPlayerLose()
     {
-        StartCoroutine(OpenPaneLevelPassedPanel(_levelPassedPanel));
+        StartCoroutine(OpenPanel(_levelPassedPanel));
+        Debug.Log("проигрыл");
         _player.Lost-= OnPlayerLose;
     }
 
-    private void OnLevelComplited()
-    {
-        StartCoroutine(OpenPaneLevelPassedPanel(_levelComplitedPanel));
-        finish.LevelComplited -= OnLevelComplited;
-    }*/
+   // private void OnLevelComplited()
+   // {
+      //  StartCoroutine(OpenPaneLevelPassedPanel(_levelComplitedPanel));
+        //finish.LevelComplited -= OnLevelComplited;
+   // }//
     
     private IEnumerator DarkenScreen(LevelComplitedPanel panel)
     {
@@ -50,12 +55,17 @@ public class Menu : MonoBehaviour
             
         }
     }
-    
-  
+
+    private IEnumerator OpenPanel(GameObject panel)
+    {
+        yield return new WaitForSeconds(dellay);
+        _levelPassedPanel.SetActive(true);
+    }
 
   private void OnPlayerWon()
   {
       _levelComplitedPanel.gameObject.SetActive(true);
       StartCoroutine(DarkenScreen(_levelComplitedPanel));
+      _player.Won -= OnPlayerWon;
   }
 }

@@ -20,24 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aa95556-c4f2-45dd-b04f-a23a60db565f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_Slip.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_Slip.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Player.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Banana Peel.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/Banana Peel.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Belt_Conveyor (1).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/Belt_Conveyor (1).fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplittingIntoSeveralParts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplittingIntoSeveralParts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main Camera Blends.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main Camera Blends.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +70,12 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
       </list>
     </option>
   </component>
@@ -121,6 +119,7 @@
       <workItem from="1640328492476" duration="1530000" />
       <workItem from="1640335607315" duration="782000" />
       <workItem from="1640347706159" duration="2240000" />
+      <workItem from="1640357872568" duration="5135000" />
     </task>
     <servers />
   </component>
@@ -141,6 +140,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="871" y="189" width="1223" height="1027" key="dock-window-1" timestamp="1640361096192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="871" y="189" width="1223" height="1027" key="dock-window-1/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1640361096192" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
