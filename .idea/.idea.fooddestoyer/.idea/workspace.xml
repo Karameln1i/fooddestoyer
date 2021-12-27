@@ -21,19 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4aa95556-c4f2-45dd-b04f-a23a60db565f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation 1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation 1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_Slip.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_Slip.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Chair/Chair.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Chair/Chair.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Belt_Conveyor (1).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/Belt_Conveyor (1).fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +46,6 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Discard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" />
@@ -76,6 +67,7 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +112,8 @@
       <workItem from="1640335607315" duration="782000" />
       <workItem from="1640347706159" duration="2240000" />
       <workItem from="1640357872568" duration="5135000" />
+      <workItem from="1640427523600" duration="592000" />
+      <workItem from="1640512155775" duration="1071000" />
     </task>
     <servers />
   </component>

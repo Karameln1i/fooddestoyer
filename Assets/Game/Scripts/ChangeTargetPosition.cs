@@ -11,7 +11,10 @@ public class ChangeTargetPosition : MonoBehaviour
     [SerializeField] private PlayerInput _playerInput;
     [SerializeField] private ScaleValueChecker _scaleValueChecker;
     [SerializeField] private Vector3 _deltaPosition1;
+    [SerializeField] private Vector3 _deltaRotation;
+    
   //  [SerializeField] private Vector3 _deltaPosition2;
+  [SerializeField] private float _rotationSpeed;
     [SerializeField] private float _legLiftingSpeed;
    // [SerializeField] private float _legLoweringSpead;
     [SerializeField] private float _legLoweringSpedForFlattening;
@@ -20,6 +23,7 @@ public class ChangeTargetPosition : MonoBehaviour
     [SerializeField] private GameObject _legPivot;
     [SerializeField] private PlayerCollisionHandler _playerCollisionHandler;
     [SerializeField] private float _legLiftingDellay;
+    [SerializeField] private float _maxYposition;
 
     [SerializeField] private float _legloweringSpeed;
 
@@ -95,6 +99,7 @@ public class ChangeTargetPosition : MonoBehaviour
         _currentTime = 0;
         
         Vector3 targetPosition = _target.transform.position + _deltaPosition1;
+        //Quaternion targetRotation = _target.transform.rotation + _deltaRotation;
 
         while (_target.transform.position!=targetPosition)
             {
@@ -102,6 +107,8 @@ public class ChangeTargetPosition : MonoBehaviour
                 _currentTime += Time.deltaTime;
 
                 _target.transform.position=Vector3.MoveTowards(_target.transform.position,targetPosition,speed*Time.deltaTime);
+                //_target.transform.rotation=Vector3.MoveTowards(_target.transform.rotation,12,12)
+                //_target.transform.Rotate(_deltaRotation,_rotationSpeed*Time.deltaTime);
             yield return null;
           
         }
@@ -137,16 +144,19 @@ public class ChangeTargetPosition : MonoBehaviour
     
     private void OnClicked()
     {
-        if (MoveTargetIsWorking)
+        if (_target.transform.position.y<_maxYposition)
         {
-           Debug.Log(_clickCount);
-           StopCoroutine(_moveToTergetJob);
-            _moveToTergetJob=StartCoroutine(MoveTarget());
-           _clickCount++;
-        }
-        else
-        {
-            _moveToTergetJob=StartCoroutine(MoveTarget());
+            if (MoveTargetIsWorking)
+            {
+                Debug.Log(_clickCount);
+                StopCoroutine(_moveToTergetJob);
+                _moveToTergetJob=StartCoroutine(MoveTarget());
+                _clickCount++;
+            }
+            else
+            {
+                _moveToTergetJob=StartCoroutine(MoveTarget());
+            }
         }
     }
 

@@ -9,6 +9,7 @@ public abstract class Item : MonoBehaviour
     [SerializeField] private GameObject _legTarget;
     [SerializeField] private GameObject _topPoint;
     [SerializeField]  private Rigidbody _rigidbody;
+    [SerializeField] private BoxCollider _collider;
     
     private bool _notDestroyed;
     private BoxCollider _boxCollider;
@@ -100,5 +101,7 @@ public abstract class Item : MonoBehaviour
                 break;
                     
         }
+
+        _collider.enabled = false;
     }
 }
