@@ -32,7 +32,7 @@ public class DestroyState : MonoBehaviour
         //_animator.SetBool("DestroyStateTurnedOff",false);
        // _animator.SetBool("ReachedControlPoint",true);
        _animator.SetTrigger(PlayerAnimationController.Trigers.SwitchToIdle);
-        EnableComponents(true);
+        //EnableComponents(true);
         Launched?.Invoke();
         StartCoroutine(TurnOnScaleAfterTime());
         StartCoroutine(TurnOnPlayerInputAfterTime());
@@ -42,7 +42,7 @@ public class DestroyState : MonoBehaviour
     {
         //_animator.SetBool("ReachedControlPoint",false);
        // _animator.SetBool("DestroyStateTurnedOff",true);
-        EnableComponents(false);
+       //EnableComponents(false);
         Disabled?.Invoke();
     }
 
@@ -71,7 +71,6 @@ public class DestroyState : MonoBehaviour
     private IEnumerator TurnOnScaleAfterTime()
     {
         yield return new WaitForSeconds(1);
-        _scale.TurnOn();
     }
     
     private IEnumerator TurnOnPlayerInputAfterTime()

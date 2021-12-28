@@ -5,11 +5,11 @@ using UnityEngine.EventSystems;
 
 public class ClickToPlayPanel : MonoBehaviour,IPointerClickHandler
 {
-    //[SerializeField] private StateMachine _stateMachine;
+    [SerializeField] private Conveer _conveer;
 
     public void OnPointerClick(PointerEventData eventData)
     {
-       // _stateMachine.enabled = true;
-        gameObject.SetActive(false);
+       _conveer.enabled = true;
+       gameObject.SetActive(false);
     }
 }

@@ -9,7 +9,7 @@ using UnityEngine.Events;
 public class ChangeTargetPosition : MonoBehaviour
 {
     [SerializeField] private PlayerInput _playerInput;
-    [SerializeField] private ScaleValueChecker _scaleValueChecker;
+   // [SerializeField] private ScaleValueChecker _scaleValueChecker;
     [SerializeField] private Vector3 _deltaPosition1;
     [SerializeField] private Vector3 _deltaRotation;
     
@@ -64,8 +64,8 @@ public class ChangeTargetPosition : MonoBehaviour
      //  _moveState.WayPointReached += OnWayPointReached;
         _levelComplitedPanel.Opened += OnPanelOpened;
         _playerInput.Clicked += OnClicked;
-        _scaleValueChecker.StopedOnGreen += OnStopedOnGreenZone;
-        _scaleValueChecker.StopedYellow += OnStopedOnYellowZone;
+        //_scaleValueChecker.StopedOnGreen += OnStopedOnGreenZone;
+       // _scaleValueChecker.StopedYellow += OnStopedOnYellowZone;
         //_legloweringSpeed = _legLiftingSpeed;
      //   _moveState.ReceivedLegTarget += OnReceivedLegTarget;
         Debug.Log("cahngetargetpositionon");
@@ -76,8 +76,8 @@ public class ChangeTargetPosition : MonoBehaviour
     private void OnDisable()
     {
        _playerCollisionHandler.TouchedFlyingWithJuiceItem -= OnTouchedFlyingWithJuiceItem;
-        _scaleValueChecker.StopedOnGreen -= OnStopedOnGreenZone;
-        _scaleValueChecker.StopedYellow -= OnStopedOnYellowZone;
+           // _scaleValueChecker.StopedOnGreen -= OnStopedOnGreenZone;
+       // _scaleValueChecker.StopedYellow -= OnStopedOnYellowZone;
        // _moveState.ReceivedLegTarget -= OnReceivedLegTarget;
        // _moveState.WayPointReached -= OnWayPointReached;
         StopMoveToTarget();
