@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Menu menu;
+    [SerializeField] private FinishItem _finishItem;
     
     //private Animator _animator;
 
@@ -18,17 +19,17 @@ public class Player : MonoBehaviour
         //_animator = GetComponent<Animator>();
     }
 
-    /*private void OnEnable()
+    private void OnEnable()
     {
-        _finish.LevelComplited += OnLevelComplited;
+        _finishItem.Destoryed += OnFinisItemDestroyed;
     }
 
-  /*  private void OnDisable()
+   private void OnDisable()
     {
-        _finish.LevelComplited -= OnLevelComplited;
-    }*/
+        _finishItem.Destoryed -= OnFinisItemDestroyed;
+    }
 
-    public void Win()
+   private void OnFinisItemDestroyed()
     {
         Won?.Invoke();
  

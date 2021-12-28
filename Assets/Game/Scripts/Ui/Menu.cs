@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
 {
    [SerializeField] private Player _player;
    [SerializeField] private LevelComplitedPanel _levelComplitedPanel;
+   [SerializeField] private FinishItem _finishItem;
 
    [SerializeField] private GameObject _levelPassedPanel;
    

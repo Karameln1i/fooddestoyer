@@ -6,12 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game/Scenes/Food/Level 1.unity
-    guid: 573438742f8a3214c97a09026890b9ab
-  - enabled: 0
-    path: Assets/Game/Scenes/Food/Level 3.unity
-    guid: 12bfc6113850d21408eae7b7d54eb655
-  - enabled: 0
-    path: Assets/Game/Scenes/Food/Level 2.unity
-    guid: 52a24eb8bac15f545aac7516b054e684
+    path: Assets/Game/Scenes/Levels/ConveerTest.unity
+    guid: a3597fe291ec7cd4488e8830e0689952
   m_configObjects: {}

@@ -5,7 +5,7 @@ using RayFire;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody),typeof(Animator))]
 public class FlyingWithJuiceItem : Item
 {
     [SerializeField] private float _bombDellay;
@@ -30,6 +30,7 @@ public class FlyingWithJuiceItem : Item
     private Coroutine _deformate;
     private bool _isDeformated;
     private Rigidbody _rigidbody;
+    private Animator _animator;
 
     public int Endurance => _endurance;
     public event UnityAction Destroyed;
@@ -38,6 +39,7 @@ public class FlyingWithJuiceItem : Item
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
     }
     
     private  void BlowUp()
@@ -47,6 +49,7 @@ public class FlyingWithJuiceItem : Item
         PlayEffects();
        // UseGravity();
         //TurnOnColdiers();
+        _animator.enabled = false;
        _emoji.SetActive(false);
         _wholeMesh.enabled = false;
         _sliced.SetActive(true);
