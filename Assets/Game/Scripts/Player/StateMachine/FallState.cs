@@ -17,6 +17,9 @@ public class FallState : MonoBehaviour
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
     //[SerializeField] private PlayerCollisionHandler _collisionHandler;
     [SerializeField] private RagdollActivator _ragdollActivator;
+    [SerializeField] private GameObject _targetPosition;
+    [SerializeField] private float _speed;
+    [SerializeField] private float _dellay;
 
 
    // private MoveState _moveState;
@@ -99,10 +102,22 @@ public class FallState : MonoBehaviour
         AchievedFallItem?.Invoke();
         Falling?.Invoke();
         _animator.Play("Armature|Armature|mixamo_com|Slip");
-        _animator.applyRootMotion = true;
+            _animator.applyRootMotion = true;
+            // StartCoroutine(MoveDown());
         _fullBodyBipedIk.enabled = false;
         Debug.Log("clicked");
     }
 
+    private IEnumerator MoveDown()
+    {
+        yield return new WaitForSeconds(_dellay);
+        
+        while (_player.transform.position!=_targetPosition.transform.position)
+        { 
+            transform.position = Vector3.MoveTowards(transform.position, _targetPosition.transform.position, _speed);
+            yield return null;
+        }
+       
+    }
 
 }

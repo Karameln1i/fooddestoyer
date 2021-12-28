@@ -9,6 +9,8 @@ public class Conveer : MonoBehaviour
     [SerializeField] private Material _material;
     [SerializeField] private float _mainTextureOffsetSpead;
     [SerializeField] private Animator _animator;
+    [SerializeField] private Player _player;
+    
     
     private Rigidbody _rigidbody;
  
@@ -21,6 +23,14 @@ public class Conveer : MonoBehaviour
     private void OnEnable()
     {
         _animator.enabled = true;
+        _player.Won += OnPlayerWon;
+        _player.Lost += OnPlayerLost;
+    }
+
+    private void OnDisable()
+    {
+        _player.Won -= OnPlayerWon;
+        _player.Lost -= OnPlayerLost;
     }
     
     private void FixedUpdate()
@@ -31,5 +41,14 @@ public class Conveer : MonoBehaviour
         _rigidbody.MovePosition(pos);
     }
 
-  
+
+    private void OnPlayerWon()
+    {
+        enabled = false;
+    }
+
+    private void OnPlayerLost()
+    {
+        enabled = false;
+    }
 }
