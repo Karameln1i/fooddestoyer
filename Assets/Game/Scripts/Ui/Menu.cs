@@ -9,6 +9,7 @@ public class Menu : MonoBehaviour
    [SerializeField] private Player _player;
    [SerializeField] private LevelComplitedPanel _levelComplitedPanel;
    [SerializeField] private FinishItem _finishItem;
+   [SerializeField] private GameObject _progressBar;
 
    [SerializeField] private GameObject _levelPassedPanel;
    
@@ -61,12 +62,14 @@ public class Menu : MonoBehaviour
     {
         yield return new WaitForSeconds(dellay);
         _levelPassedPanel.SetActive(true);
+        _progressBar.SetActive(false);
     }
 
   private void OnPlayerWon()
   {
       _levelComplitedPanel.gameObject.SetActive(true);
       StartCoroutine(DarkenScreen(_levelComplitedPanel));
+      _progressBar.SetActive(false);
       _player.Won -= OnPlayerWon;
   }
 }

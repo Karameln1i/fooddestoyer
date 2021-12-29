@@ -21,12 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4aa95556-c4f2-45dd-b04f-a23a60db565f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_SweepFall 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_SweepFall 1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Player.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +64,14 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/DestroyState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" />
       </list>
     </option>
   </component>
@@ -122,6 +121,7 @@
       <workItem from="1640595217439" duration="4192000" />
       <workItem from="1640684538346" duration="3734000" />
       <workItem from="1640718908243" duration="5245000" />
+      <workItem from="1640769464219" duration="2718000" />
     </task>
     <servers />
   </component>

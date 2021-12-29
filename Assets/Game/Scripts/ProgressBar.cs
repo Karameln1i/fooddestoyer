@@ -8,7 +8,7 @@ public class ProgressBar : MonoBehaviour
 {
     [SerializeField] private FinishItem _finishItem;
     [SerializeField] private Player _player;
-    
+
     private Slider _slider;
     
     private void Awake()
@@ -29,7 +29,6 @@ public class ProgressBar : MonoBehaviour
     
     private void Update()
     {
-        Debug.Log("poc");
         _slider.value =_slider.maxValue- Vector3.Distance(_player.transform.position, _finishItem.transform.position);
     }
 

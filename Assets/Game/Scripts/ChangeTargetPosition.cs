@@ -11,6 +11,7 @@ public class ChangeTargetPosition : MonoBehaviour
     [SerializeField] private PlayerInput _playerInput;
    // [SerializeField] private ScaleValueChecker _scaleValueChecker;
     [SerializeField] private Vector3 _deltaPosition1;
+    [SerializeField] private Vector3 _deltaPosition2;
     [SerializeField] private Vector3 _deltaRotation;
     
   //  [SerializeField] private Vector3 _deltaPosition2;
@@ -27,7 +28,8 @@ public class ChangeTargetPosition : MonoBehaviour
 
     [SerializeField] private float _legloweringSpeed;
 
-    [SerializeField] private AnimationCurve _legLiftingSpead;
+    [SerializeField] private AnimationCurve _legLiftingSpead1;
+    [SerializeField] private AnimationCurve _legLiftingSpead2;
     [SerializeField] private AnimationCurve _legLoweringSpead;
     
     private float _currentTime;
@@ -54,8 +56,7 @@ public class ChangeTargetPosition : MonoBehaviour
     private void Awake()
     {
         _target = GetComponent<Target>();
-        _moveToTergetJob = StartCoroutine(MoveTarget());
-        _totalTime = _legLiftingSpead.keys[_legLiftingSpead.keys.Length - 1].time;
+        _totalTime = _legLiftingSpead1.keys[_legLiftingSpead1.keys.Length - 1].time;
     }
 
     private void OnEnable()
@@ -95,6 +96,8 @@ public class ChangeTargetPosition : MonoBehaviour
     
     private IEnumerator MoveTarget()
     {
+        
+        Debug.Log("MoveTarget");
         MoveTargetIsWorking = true;
         _currentTime = 0;
         
@@ -103,7 +106,7 @@ public class ChangeTargetPosition : MonoBehaviour
 
         while (_target.transform.position!=targetPosition)
             {
-                var speed=_legLiftingSpead.Evaluate(_currentTime);
+                var speed=_legLiftingSpead1.Evaluate(_currentTime);
                 _currentTime += Time.deltaTime;
 
                 _target.transform.position=Vector3.MoveTowards(_target.transform.position,targetPosition,speed*Time.deltaTime);
@@ -112,7 +115,20 @@ public class ChangeTargetPosition : MonoBehaviour
             yield return null;
           
         }
+
+        targetPosition += _deltaPosition2;
         
+        while (_target.transform.position!=targetPosition)
+        {
+            var speed=_legLiftingSpead2.Evaluate(_currentTime);
+            _currentTime += Time.deltaTime;
+
+            _target.transform.position=Vector3.MoveTowards(_target.transform.position,targetPosition,speed*Time.deltaTime);
+            //_target.transform.rotation=Vector3.MoveTowards(_target.transform.rotation,12,12)
+            //_target.transform.Rotate(_deltaRotation,_rotationSpeed*Time.deltaTime);
+            yield return null;
+          
+        }
             yield return new WaitForSeconds(_legLiftingDellay);
             
             _currentTime = 0;
