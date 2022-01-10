@@ -24,8 +24,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +59,19 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/DestroyState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
       </list>
     </option>
   </component>
@@ -122,6 +122,7 @@
       <workItem from="1640684538346" duration="3734000" />
       <workItem from="1640718908243" duration="5245000" />
       <workItem from="1640769464219" duration="2718000" />
+      <workItem from="1641801086989" duration="1649000" />
     </task>
     <servers />
   </component>

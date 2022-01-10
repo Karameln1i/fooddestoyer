@@ -178,7 +178,7 @@ public class ChangeTargetPosition : MonoBehaviour
 
     private void StopMoveToTarget()
     {
-        StopCoroutine(_moveToTergetJob);
+       // StopCoroutine(_moveToTergetJob);
         _target.ResetPosition();
     }
 
