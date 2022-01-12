@@ -17,6 +17,8 @@ public class ItemCollisionHandler : MonoBehaviour
         if (collision.TryGetComponent<PlayerFoot>(out PlayerFoot playerFoot))
         {
             _item.Liquidate(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot);
+            _item.Deform(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot);
+            
         }
     }
     
@@ -24,7 +26,7 @@ public class ItemCollisionHandler : MonoBehaviour
     {
         if (collision.TryGetComponent<PlayerFoot>(out PlayerFoot playerFoot))
         {
-            _item.Deform(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot);
+          //  _item.Deform(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot); раньше вызывался когда стоим но была проблема с вращением кости перенёс в ентер
         }
     }
     

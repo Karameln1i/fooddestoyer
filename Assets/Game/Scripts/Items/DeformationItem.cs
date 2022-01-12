@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class DeformationItem : Item
@@ -15,8 +16,11 @@ public class DeformationItem : Item
     [SerializeField] private bool _playEffects;
     [SerializeField] private float _speedMultiplayer;
     [SerializeField] private float _deformateSpeed;
+    [SerializeField] private Vector3 _RightBonerotationTarget;
+    [SerializeField] private Vector3 _LeftBonerotationTarget;
     [SerializeField] private Transform _boneTarget;
 
+    private bool _rotated;
     private bool _effecIsPlayed;
     private Item item;
 
@@ -58,12 +62,23 @@ public class DeformationItem : Item
 
     private void RotateBones()
     {
-        _rightBoneToChangeRotation.transform.Rotate(Vector3.right,_rotationSpeed*Time.deltaTime);
-
-        if (_turningTheSecondBone)
+        if (!_rotated)
         {
-            _leftBoneToChangeRotation.transform.Rotate(Vector3.left,_rotationSpeed*Time.deltaTime);
-        } 
+            _rightBoneToChangeRotation.transform.DOLocalRotate(_RightBonerotationTarget, _rotationSpeed);
+
+            if (_turningTheSecondBone)
+            {
+                _leftBoneToChangeRotation.transform.DOLocalRotate(_LeftBonerotationTarget, _rotationSpeed);
+            } 
+Debug.Log("вращается");
+            _rotated = true;
+        }
+        
+     
+       
+      
+
+       
     }
     
     public override void Deform(float speed,GameObject legPivot)
@@ -103,5 +118,6 @@ public class DeformationItem : Item
         }
     }
 
-
+  
+    
 }

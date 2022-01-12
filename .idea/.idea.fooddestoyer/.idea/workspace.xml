@@ -23,9 +23,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +54,6 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplittingIntoSeveralParts.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
@@ -72,6 +69,8 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +122,8 @@
       <workItem from="1640718908243" duration="5245000" />
       <workItem from="1640769464219" duration="2718000" />
       <workItem from="1641801086989" duration="1649000" />
+      <workItem from="1641936339352" duration="4412000" />
+      <workItem from="1641980963922" duration="1568000" />
     </task>
     <servers />
   </component>
