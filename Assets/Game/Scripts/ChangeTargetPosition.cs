@@ -36,7 +36,7 @@ public class ChangeTargetPosition : MonoBehaviour
     private float _totalTime;
     
 
-    //private float _legSpeed;
+    private float _legSpeed;
     private float _legLoweringSpeedAfterTouching;
     private Target _target;
     private GameObject _endPoint;
@@ -49,6 +49,7 @@ public class ChangeTargetPosition : MonoBehaviour
     private const float LegLoweringSpeed=1f;
     private Coroutine MoveTargetInJob;
     private bool MoveTargetIsWorking;
+    private bool _touchedFlyingWithJuiceItem;
     
 
     public event UnityAction TargetAchived;
@@ -96,8 +97,6 @@ public class ChangeTargetPosition : MonoBehaviour
     
     private IEnumerator MoveTarget()
     {
-        
-        Debug.Log("MoveTarget");
         MoveTargetIsWorking = true;
         _currentTime = 0;
         
@@ -137,18 +136,25 @@ public class ChangeTargetPosition : MonoBehaviour
             {
                 var speed=_legLoweringSpead.Evaluate(_currentTime);
                 _currentTime += Time.deltaTime;
+
+                if (!_touchedFlyingWithJuiceItem)
+                {
+                    _target.transform.localPosition=Vector3.MoveTowards(_target.transform.localPosition,_target.StartPosition,speed*Time.deltaTime);
+                }
+                else
+                {
+                    _target.transform.localPosition=Vector3.MoveTowards(_target.transform.localPosition,_target.StartPosition,_legSpeed*Time.deltaTime);
+                }
                 
-                _target.transform.localPosition=Vector3.MoveTowards(_target.transform.localPosition,_target.StartPosition,speed*Time.deltaTime);
                 yield return null;
                
             }
         
-
+            _currentTime = 0;
             //_clickCount = 0;
       
         TargetAchived?.Invoke();
         //_target.ResetPosition();
-        Debug.Log("всё");
         MoveTargetIsWorking = false;
     }
 
@@ -185,7 +191,10 @@ public class ChangeTargetPosition : MonoBehaviour
     private void OnTouchedFlyingWithJuiceItem(FlyingWithJuiceItem flyingWithJuiceItem)
     {
         flyingWithJuiceItem.Destroyed += OnflyingWithJuiceItemDestroyed;
-        _legloweringSpeed = _legLoweringSpedForFlattening;
+        _legSpeed = _legLoweringSpedForFlattening;
+        _touchedFlyingWithJuiceItem = true;
+        Debug.Log("OnTouchedFlyingWithJuiceItem "+flyingWithJuiceItem.gameObject.name);
+
     }
     
     private void OnWayPointReached(/*FlyingWithJuiceItem flyingWithJuiceItem,*/int endurance)
@@ -202,9 +211,10 @@ public class ChangeTargetPosition : MonoBehaviour
     
     private void OnflyingWithJuiceItemDestroyed()
     {
-        _legLoweringSpedForFlattening =LegSpedForFlattening;
+        //_legLoweringSpedForFlattening =LegSpedForFlattening;
             Debug.Log("destroyed");
-      _legloweringSpeed = LegLoweringSpeed;
+     // _legloweringSpeed = LegLoweringSpeed;
+     _touchedFlyingWithJuiceItem = false;
     }
     
     private void OnStopedOnGreenZone()

@@ -34,8 +34,7 @@ public class ItemCollisionHandler : MonoBehaviour
     {
         if (collision.TryGetComponent<PlayerFoot>(out PlayerFoot playerFoot))
         {
-           _item.Desrtoyed();
-            Debug.Log("destroyed");
+            //_item.Desrtoyed();
         }
     }
 }

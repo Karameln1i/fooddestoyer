@@ -83,17 +83,25 @@ Debug.Log("вращается");
     
     public override void Deform(float speed,GameObject legPivot)
     {
+        Debug.Log("TopPoint " +TopPoint.transform.localPosition.y);
+        Debug.Log("legpivot " +legPivot.transform.position.y);
+        
        //base.Deform(speed);
-        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
+       /* if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
         {
             Discard();
             Debug.Log("отлетел");
         }
-        else
+        else if (legPivot.transform.position.y>TopPoint.transform.localPosition.y)
         {
+            Debug.Log("смялся");
             RotateBones();
             StartCoroutine(Deformate());
-        }
+        }*/
+       
+       StartCoroutine(Deformate());
+       RotateBones();
+       
         if (!_effecIsPlayed)
         {
             TryPlayEffects();
