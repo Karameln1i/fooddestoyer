@@ -14,11 +14,13 @@ public class DeformationItem : Item
     [SerializeField] private bool _replaceModel;
     [SerializeField] private bool _turningTheSecondBone;
     [SerializeField] private bool _playEffects;
+    [SerializeField] private bool _deformateBone;
     [SerializeField] private float _speedMultiplayer;
     [SerializeField] private float _deformateSpeed;
     [SerializeField] private Vector3 _RightBonerotationTarget;
     [SerializeField] private Vector3 _LeftBonerotationTarget;
     [SerializeField] private Transform _boneTarget;
+    [SerializeField] private float _minBoneScale;
 
     private bool _rotated;
     private bool _effecIsPlayed;
@@ -85,9 +87,9 @@ Debug.Log("вращается");
     {
         Debug.Log("TopPoint " +TopPoint.transform.localPosition.y);
         Debug.Log("legpivot " +legPivot.transform.position.y);
-        
-       //base.Deform(speed);
-       /* if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
+
+        //base.Deform(speed);
+        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
         {
             Discard();
             Debug.Log("отлетел");
@@ -97,16 +99,23 @@ Debug.Log("вращается");
             Debug.Log("смялся");
             RotateBones();
             StartCoroutine(Deformate());
-        }*/
+            
+            if (_deformateBone)
+            {
+                _boneToChangePosition.transform.DOScaleZ(_minBoneScale, _deformateSpeed);
+            }
        
-       StartCoroutine(Deformate());
-       RotateBones();
-       
-        if (!_effecIsPlayed)
-        {
-            TryPlayEffects();
-            _effecIsPlayed = true;
+            if (!_effecIsPlayed)
+            {
+                TryPlayEffects();
+                _effecIsPlayed = true;
+            }
         }
+       
+      // StartCoroutine(Deformate());
+       //RotateBones();
+
+       
         
  
            //_boneToChangePosition.transform.position=Vector3.MoveTowards(_boneToChangePosition.transform.position,item.LegTarget.transform.position,speed*_speedMultiplayer*Time.deltaTime);

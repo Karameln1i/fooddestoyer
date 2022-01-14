@@ -23,7 +23,6 @@ public class FlyingWithJuiceItem : Item
     [SerializeField] private float _scaleZDeformateSpead;
     [SerializeField] private int _endurance;
     [SerializeField] private Color _explosionColor;
-    [SerializeField] private BoxCollider _boxCollider;
     [SerializeField] private float _deformateSpeed;
     [SerializeField] private List<BoxCollider> _boxCodiers;
 
@@ -34,8 +33,12 @@ public class FlyingWithJuiceItem : Item
     private bool _isDeformated;
     private Rigidbody _rigidbody;
     private Animator _animator;
+    private GameObject _TopPoint;
+    private bool _discarded;
 
+    public bool Disacarded => _discarded;
     public int Endurance => _endurance;
+   // public GameObject TopPoint => _TopPoint;
     public event UnityAction Destroyed;
     public event UnityAction<FlyingWithJuiceItem> Exploaded;
 
@@ -43,7 +46,8 @@ public class FlyingWithJuiceItem : Item
     {
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
-       // _firstWaveEffectsScale =new Vector3(0.5,0.5,0.5); //_firstWaveEffects[1].transform.localScale;
+        _TopPoint = TopPoint;
+        // _firstWaveEffectsScale =new Vector3(0.5,0.5,0.5); //_firstWaveEffects[1].transform.localScale;
     }
     
     private  void BlowUp()
@@ -59,6 +63,7 @@ public class FlyingWithJuiceItem : Item
         _sliced.SetActive(true);
         Destroyed?.Invoke();
         Exploaded?.Invoke(this);
+        _rigidbody.useGravity = false;
 
         for (int i = 0; i < _boxCodiers.Capacity; i++)
         {
@@ -69,26 +74,32 @@ public class FlyingWithJuiceItem : Item
     protected override void Flatten(float speed,GameObject legPivot)
     {
 
-        
-        /* if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
+        Debug.Log(TopPoint);
+        Debug.Log(legPivot);
+        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
         {
             Discard();
+            for (int i = 0; i < _boxCodiers.Capacity; i++)
+            {
+                _boxCodiers[i].enabled = false;
+            }
+            _discarded = true;
             Debug.Log("отлетел");
         }
         else
         {
             // BlowUp();
-            StartCoroutine(Deformate(1));
+            StartCoroutine(Deformate(speed));
             Debug.Log("взорвался");
-        }*/
-        StartCoroutine(Deformate(speed));
+        }
+       
   
         //base.Deform(speed);
 
        // StartCoroutine(poc(speed));
     }
 
-  /* private void Discard()
+  private void Discard()
     {
         _rigidbody.AddForce(Vector3.up*70);
         _rigidbody.AddForce(Vector3.right*70);
@@ -105,7 +116,7 @@ public class FlyingWithJuiceItem : Item
                     break;
                     
         }
-    }*/
+    }
     
     private IEnumerator poc(float speed)
     {

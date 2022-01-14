@@ -9,7 +9,7 @@ public abstract class Item : MonoBehaviour
     [SerializeField] private GameObject _legTarget;
     [SerializeField] private GameObject _topPoint;
     [SerializeField]  private Rigidbody _rigidbody;
-    [SerializeField] private BoxCollider _collider;
+    [SerializeField] private BoxCollider _NotTrigerCollider;
     
     private bool _notDestroyed;
     private BoxCollider _boxCollider;
@@ -86,22 +86,23 @@ public abstract class Item : MonoBehaviour
     
     protected void Discard()
     {
-        _rigidbody.AddForce(Vector3.up*70);
-        _rigidbody.AddForce(Vector3.right*70);
-
+        _rigidbody.AddForce(Vector3.up*70,ForceMode.Impulse);
+        _rigidbody.AddForce(Vector3.right*70,ForceMode.Impulse);
+        _NotTrigerCollider.enabled = false;
+        Debug.Log("DISCARDEDD");
         var directionIndex = Random.Range(1, 3);
         
         switch (directionIndex)
         {
             case 1:
-                _rigidbody.AddForce(Vector3.back*70);
+                _rigidbody.AddForce(Vector3.back*70,ForceMode.Impulse);
                 break;
             case 2:
-                _rigidbody.AddForce(Vector3.forward*70);
+                _rigidbody.AddForce(Vector3.forward*70,ForceMode.Impulse);
                 break;
                     
         }
 
-        _collider.enabled = false;
+       
     }
 }

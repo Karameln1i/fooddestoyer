@@ -7,6 +7,7 @@ public class TurnConveyor : MonoBehaviour
 {
     [SerializeField] private PlayerCollisionHandler _playerCollisionHandler;
     [SerializeField] private Conveer _conveer;
+   // [SerializeField] private SlowDownTime _slowDownTime;
 
     private bool _touchedFlyingWithJuiceItem;
 
@@ -20,28 +21,47 @@ public class TurnConveyor : MonoBehaviour
     private void OnEnable()
     {
         _playerCollisionHandler.TouchedFlyingWithJuiceItem += OnTouchedFlyingWithJuiceItem;
+       // _slowDownTime.Slowed += OnTimeSlowed;
+       // _slowDownTime.Resumed += OnTimeResumed;
     }
 
     private void OnDisable()
     {
         _playerCollisionHandler.TouchedFlyingWithJuiceItem -= OnTouchedFlyingWithJuiceItem;
+       // _slowDownTime.Slowed -= OnTimeSlowed;
+       // _slowDownTime.Resumed -= OnTimeResumed;
     }
     
     private void OnTouchedFlyingWithJuiceItem(FlyingWithJuiceItem Item)
     {
-        if (!_touchedFlyingWithJuiceItem)
+        if (!Item.Disacarded)
         {
-            _conveer.enabled = false;
-            Item.Exploaded+=OnItemExploaded;
+            if (!_touchedFlyingWithJuiceItem)
+            {
+                _conveer.enabled = false;
+                Item.Exploaded += OnItemExploaded;
 
-            _touchedFlyingWithJuiceItem = true;
+                _touchedFlyingWithJuiceItem = true;
+            }
         }
-      
+
     }
 
     private void OnItemExploaded(FlyingWithJuiceItem Item)
     {
         _conveer.enabled = true;
+        
         _touchedFlyingWithJuiceItem = false;
     }
+
+   /* private void OnTimeSlowed()
+    {
+        _conveer.enabled = false;
+    }
+
+    private void OnTimeResumed()
+    {
+        _conveer.enabled = true;
+        Debug.Log("_conveer slowed");
+    }*/
 }

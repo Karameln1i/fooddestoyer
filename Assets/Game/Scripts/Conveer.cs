@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
@@ -40,11 +41,13 @@ public class Conveer : MonoBehaviour
         _player.Won -= OnPlayerWon;
         _player.Lost -= OnPlayerLost;
        // _playerCollisionHandler.TouchedFlyingWithJuiceItem -= OnTouchedFlyingWithJuiceItem;
+       _material.mainTextureOffset = new Vector2(0,0);
     }
     
     private void FixedUpdate()
     {
-        _material.mainTextureOffset=new Vector2(0f,-Time.time*_mainTextureOffsetSpead*Time.deltaTime);
+      // _material.mainTextureOffset=new Vector2(0f,-Time.deltaTime*_mainTextureOffsetSpead*Time.deltaTime);
+       _material.DOOffset(new Vector2(0, -300), 2400);
         Vector3 pos = _rigidbody.position;
         _rigidbody.position += Vector3.right * _speed * Time.fixedDeltaTime;
         _rigidbody.MovePosition(pos);

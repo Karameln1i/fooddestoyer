@@ -170,7 +170,7 @@ public class ChangeTargetPosition : MonoBehaviour
         {
             if (MoveTargetIsWorking)
             {
-                Debug.Log(_clickCount);
+              
                 StopCoroutine(_moveToTergetJob);
                 _moveToTergetJob=StartCoroutine(MoveTarget());
                 _clickCount++;
@@ -190,11 +190,13 @@ public class ChangeTargetPosition : MonoBehaviour
 
     private void OnTouchedFlyingWithJuiceItem(FlyingWithJuiceItem flyingWithJuiceItem)
     {
-        flyingWithJuiceItem.Destroyed += OnflyingWithJuiceItemDestroyed;
-        _legSpeed = _legLoweringSpedForFlattening;
-        _touchedFlyingWithJuiceItem = true;
-        Debug.Log("OnTouchedFlyingWithJuiceItem "+flyingWithJuiceItem.gameObject.name);
-
+        if (!flyingWithJuiceItem.Disacarded)
+        {
+            flyingWithJuiceItem.Destroyed += OnflyingWithJuiceItemDestroyed;
+            _legSpeed = _legLoweringSpedForFlattening;
+            _touchedFlyingWithJuiceItem = true;
+            Debug.Log("OnTouchedFlyingWithJuiceItem "+flyingWithJuiceItem.gameObject.name);
+        }
     }
     
     private void OnWayPointReached(/*FlyingWithJuiceItem flyingWithJuiceItem,*/int endurance)
