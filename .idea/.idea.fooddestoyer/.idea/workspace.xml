@@ -21,17 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4aa95556-c4f2-45dd-b04f-a23a60db565f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodDripping2D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodDripping2D.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Chair/Shaiking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Chair/Shaiking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Ui/Floating.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Ui/Floating.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/Belt_Conveyor (1).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/Belt_Conveyor (1).fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +71,11 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +132,7 @@
       <workItem from="1642017647530" duration="591000" />
       <workItem from="1642074538309" duration="8128000" />
       <workItem from="1642150851273" duration="13858000" />
+      <workItem from="1642504325991" duration="1305000" />
     </task>
     <servers />
   </component>

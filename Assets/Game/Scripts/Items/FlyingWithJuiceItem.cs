@@ -74,8 +74,8 @@ public class FlyingWithJuiceItem : Item
     protected override void Flatten(float speed,GameObject legPivot)
     {
 
-        Debug.Log(TopPoint);
-        Debug.Log(legPivot);
+        Debug.Log("TopPoint "+ TopPoint.transform.localPosition.y);
+        Debug.Log("legPivot"+ legPivot.transform.position.y);
         if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
         {
             Discard();
