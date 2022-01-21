@@ -21,6 +21,9 @@ public class DeformationItem : Item
     [SerializeField] private Vector3 _LeftBonerotationTarget;
     [SerializeField] private Transform _boneTarget;
     [SerializeField] private float _minBoneScale;
+    [SerializeField] private SkinnedMeshRenderer _whole;
+    [SerializeField] private GameObject _emoji;
+    
 
     private bool _rotated;
     private bool _effecIsPlayed;
@@ -110,6 +113,14 @@ Debug.Log("вращается");
                 TryPlayEffects();
                 _effecIsPlayed = true;
             }
+        }
+        
+        if (_replaceModel)
+        {
+            _replacedModel.SetActive(true);
+            _emoji.SetActive(false);
+            _whole.enabled = false;
+            //gameObject.SetActive(false);
         }
        
       // StartCoroutine(Deformate());
