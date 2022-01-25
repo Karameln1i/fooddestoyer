@@ -15,7 +15,7 @@ public class FinishItem : Item
 
     public event UnityAction Destoryed;
     
-    protected override void Flatten(float speed, GameObject legPivot)
+    protected override void Flatten(float speed, GameObject legPivot,bool IsGoDown)
     {
         _sliced.SetActive(true);
             _whole.enabled = false;

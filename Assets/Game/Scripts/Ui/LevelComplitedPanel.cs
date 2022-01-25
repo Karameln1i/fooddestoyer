@@ -6,7 +6,6 @@ using UnityEngine.Events;
 public class LevelComplitedPanel : MonoBehaviour
 {
    [SerializeField] private ParticleSystem _confetie;
-
    public event UnityAction Opened;
    
    private void OnEnable()

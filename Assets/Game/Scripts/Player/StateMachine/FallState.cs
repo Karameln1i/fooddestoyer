@@ -105,7 +105,6 @@ public class FallState : MonoBehaviour
             _animator.applyRootMotion = true;
             // StartCoroutine(MoveDown());
         _fullBodyBipedIk.enabled = false;
-        Debug.Log("clicked");
     }
 
     private IEnumerator MoveDown()

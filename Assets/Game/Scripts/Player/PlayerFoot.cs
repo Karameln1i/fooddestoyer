@@ -26,6 +26,11 @@ public class PlayerFoot : MonoBehaviour
         return _changeTargetPosition.LegloweringSpeed;
     }
 
+    public bool GetСondition()
+    {
+        return _changeTargetPosition.IsGoDown;
+    }
+
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.TryGetComponent<ControllPoint>(out ControllPoint controllPoint))

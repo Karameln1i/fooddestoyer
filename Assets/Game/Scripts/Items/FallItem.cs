@@ -10,8 +10,7 @@ public class FallItem : Item
     public event UnityAction TouchedFallItem;
     protected override void Break(GameObject legPivot)
     {
-       Debug.Log("каснулись");
-        
+
         //Desrtoyed();
         
         TouchedFallItem?.Invoke();

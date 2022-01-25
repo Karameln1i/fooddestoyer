@@ -6,6 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game/Scenes/Levels/ConveerTest.unity
+    path: Assets/Game/Scenes/Levels/BootScene.unity
+    guid: 4a1ad706774b0294d8f39bd8bde2c00b
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 1.unity
+    guid: 20ed477fe65fb4542a52bfa0c3a56fc2
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 2.unity
+    guid: 43ba098310e757948b210d5aa76f5476
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 3.unity
+    guid: 9bb57f0d1bf9de242a9b1c279a630a3a
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 4.unity
+    guid: 2e965898415bba540b32ca5f132e8387
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 5.unity
+    guid: fe65e39f9ffe6f84d9c9e6eabcd9a1ba
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 6.unity
+    guid: 2fa25c57e8612d5448dfe0d7e4aa8f00
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 7.unity
+    guid: 6ca1b1c378437be4abbef6be1ee9254a
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 8.unity
+    guid: 71b3b4263c6e7cf469a11ca4d1236794
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 9.unity
+    guid: 2e2006bfb2497b64599009065f63d934
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level 10.unity
     guid: a3597fe291ec7cd4488e8830e0689952
   m_configObjects: {}

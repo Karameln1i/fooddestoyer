@@ -20,10 +20,838 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aa95556-c4f2-45dd-b04f-a23a60db565f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl (10).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl (10).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl (12).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl (12).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl (14).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl (14).fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation (3).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/AnimeGirl_Animation (3).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_SweepFall 1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_SweepFall 1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_SweepFall.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Armature_Armature_mixamo.com_SweepFall.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Chair/Shaiking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Chair/Shaiking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Baker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Baker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Baker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Baker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/GenericBaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/GenericBaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/GenericBaker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/GenericBaker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers/AvatarUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers/AvatarUtility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers/AvatarUtility.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers/AvatarUtility.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers/BakerUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers/BakerUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers/BakerUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/Helpers/BakerUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/HumanoidBaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/HumanoidBaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/HumanoidBaker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/Scripts/HumanoidBaker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Baked Clips.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Baked Clips.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Baked Clips/Clip 1_Baked.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Baked Clips/Clip 1_Baked.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Baked Clips/Clip 1_Baked.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Baked Clips/Clip 1_Baked.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Humanoid Baker Clip Sampler.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Humanoid Baker Clip Sampler.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Humanoid Baker Clip Sampler.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Humanoid Baker Clip Sampler.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Humanoid Baker.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Humanoid Baker.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Humanoid Baker.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Humanoid Baker.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Scripts/FKOffset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Scripts/FKOffset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Scripts/FKOffset.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Baker/_DEMOS/Scripts/FKOffset.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/BakerInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/BakerInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/BakerInspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/BakerInspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/GenericBakerInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/GenericBakerInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/GenericBakerInspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/GenericBakerInspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers/AnimationUtilityExtended.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers/AnimationUtilityExtended.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers/AnimationUtilityExtended.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers/AnimationUtilityExtended.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers/SaveClipFolderPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers/SaveClipFolderPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers/SaveClipFolderPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/Helpers/SaveClipFolderPanel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/HumanoidBakerInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/HumanoidBakerInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/HumanoidBakerInspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Baker/HumanoidBakerInspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/BehaviourPuppetMasterPropsDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/BehaviourPuppetMasterPropsDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/PropMuscleInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/PropMuscleInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/PuppetMasterHumanoidConfigInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/PuppetMasterHumanoidConfigInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/PuppetMasterInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/PuppetMasterInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/PuppetMasterPropInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/PuppetMasterPropInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/WeightDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/WeightDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/_DEMOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/_DEMOS/CharacterMeleeDemoInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/_DEMOS/CharacterMeleeDemoInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/_DEMOS/CharacterPuppetInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/PuppetMaster/_DEMOS/CharacterPuppetInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/BipedRagdollCreatorInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/BipedRagdollCreatorInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/CharacterJointInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/CharacterJointInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/ColliderTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/ColliderTools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/ConfigurableJointInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/ConfigurableJointInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/ConvertToConfigurableJoints.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/ConvertToConfigurableJoints.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/JointInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/JointInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/JointTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/JointTools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/RagdollEditorInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/RagdollEditorInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/SymmetryTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/RagdollManager/SymmetryTools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Demo Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Demo Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Demo Scripts/CameraControllerInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Demo Scripts/CameraControllerInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Demo Scripts/CameraControllerInspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Demo Scripts/CameraControllerInspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/BipedReferencesInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/BipedReferencesInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/BipedReferencesInspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/BipedReferencesInspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/CommentsInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/CommentsInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/CommentsInspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/CommentsInspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/Inspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/Inspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/Inspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/Inspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/InspectorCommentDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/InspectorCommentDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/InspectorCommentDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/InspectorCommentDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/LargeHeaderDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/LargeHeaderDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/LargeHeaderDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/LargeHeaderDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/SerializedContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/SerializedContent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/SerializedContent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Editor/Shared Scripts/SerializedContent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/FinalIK/Tools/AimController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/FinalIK/Tools/AimController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/New Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/New Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/DoxygenManualPuppetMaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/DoxygenManualPuppetMaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Gizmos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Gizmos/BehaviourFall Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Gizmos/BehaviourFall Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Gizmos/BehaviourPuppet Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Gizmos/BehaviourPuppet Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Gizmos/PuppetMaster Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Gizmos/PuppetMaster Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials/CharacterController.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials/CharacterController.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials/Feet.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials/Feet.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials/Puppet.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials/Puppet.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials/Unpinned.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PhysicMaterials/Unpinned.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Prefabs/Behaviours.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Prefabs/Behaviours/Fall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Prefabs/Behaviours/Fall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Prefabs/Behaviours/Puppet (with Fall).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Prefabs/Behaviours/Puppet (with Fall).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Prefabs/Behaviours/Puppet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Prefabs/Behaviours/Puppet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PuppetMaster Change Log.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PuppetMaster Change Log.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PuppetMaster ReadMe.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PuppetMaster ReadMe.rtf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PuppetMaster User Manual.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/PuppetMaster User Manual.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/AnimationBlocker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/AnimationBlocker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourFall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourFall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetBoosting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetBoosting.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetDamage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetDamage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetStateSwitching.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourPuppetStateSwitching.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/BehaviourTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours/SubBehaviourBalancer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours/SubBehaviourBalancer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours/SubBehaviourBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours/SubBehaviourBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours/SubBehaviourCOM.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Behaviours/SubBehaviours/SubBehaviourCOM.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Booster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Booster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/JointBreakBroadcaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/JointBreakBroadcaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Muscle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Muscle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/MuscleCollisionBroadcaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/MuscleCollisionBroadcaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PhysXTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PhysXTools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PressureSensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PressureSensor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Prop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Prop.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PropMuscle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PropMuscle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PropRoot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PropRoot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PropTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PropTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterHierarchyAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterHierarchyAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterHumanoidConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterHumanoidConfig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterModes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterModes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterMuscleAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterMuscleAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterProp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterProp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterSetup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterSetup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterStates.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterStates.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterTargetMappedState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterTargetMappedState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterTools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterValidation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMasterValidation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Weight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Weight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyAnimationTarget.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyAnimationTarget.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyPuppet.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyPuppet.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Materials/PalletteSkeletons.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Materials/PalletteSkeletons.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Materials/PalletteSkeletonsGhost.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Materials/PalletteSkeletonsGhost.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Materials/PalletteZombies.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Materials/PalletteZombies.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Textures/PalletteSkeletons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Textures/PalletteSkeletons.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Textures/PalletteZombies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/Textures/PalletteZombies.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood Particles 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood Particles 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood Particles 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Blood/Blood Particles 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Bone Splinters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Bone Splinters/Bone Splinters 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Bone Splinters/Bone Splinters 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Bone Splinters/Bone Splinters 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Bone Splinters/Bone Splinters 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Bone Splinters/Bone Splinters.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/FX/Bone Splinters/Bone Splinters.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Die Backwards Blocked.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Die Backwards Blocked.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Die Backwards Fall.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Die Backwards Fall.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Embryotic.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Embryotic.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Kick Low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Kick Low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/PuppetMaster.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/PuppetMaster.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Reviving.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Reviving.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Wave Hands.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Wave Hands.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Configs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Configs/Default Humanoid Puppet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Configs/Default Humanoid Puppet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid Falling.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid Falling.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid NavMeshAgent Puppet.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid NavMeshAgent Puppet.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid Puppet.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid Puppet.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid Skeleton.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid Skeleton.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid Third Person Puppet.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Controllers/Humanoid Third Person Puppet.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Ball.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Ball.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Bot Puppet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Bot Puppet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Dummy Root.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Dummy Root.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Ground.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Ground.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Pilot Root.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Pilot Root.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Prop M4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Prop M4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Prop Melee.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Prefabs/Prop Melee.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/AnimatorIKDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/AnimatorIKDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/BallShooter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/BallShooter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/BoardController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/BoardController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterAnimationMeleeDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterAnimationMeleeDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterMeleeDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterMeleeDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterPuppet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CharacterPuppet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CreatePuppetInRuntime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CreatePuppetInRuntime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CreateRagdollInRuntime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/CreateRagdollInRuntime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/DeathBaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/DeathBaker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Destructor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Destructor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Dying.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Dying.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/FXCollisionBlood.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/FXCollisionBlood.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Grab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Grab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/InitialVelocity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/InitialVelocity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Killing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Killing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/LayerSetup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/LayerSetup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/NavMeshPuppet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/NavMeshPuppet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Planet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Planet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PlanetaryGravity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PlanetaryGravity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropMelee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropMelee.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropPickUpTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropPickUpTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PuppetBoard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PuppetBoard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PuppetMasterPropMelee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PuppetMasterPropMelee.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PuppetScaling.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PuppetScaling.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/RaycastShooter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/RaycastShooter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Respawning.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Respawning.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/RotateShoulderToTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/RotateShoulderToTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Skeleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/Skeleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/SkeletonDisconnector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/SkeletonDisconnector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/SkeletonShooter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/SkeletonShooter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/UserControlAIMelee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/UserControlAIMelee.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/UserControlMelee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/UserControlMelee.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Terrains.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Terrains/Slope.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Terrains/Slope.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Basic.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Basic.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Creating Puppets In Runtime.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Creating Puppets In Runtime.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Creating Ragdolls In Runtime.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Creating Ragdolls In Runtime.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Death Baker (Fall).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Death Baker (Fall).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Death Baker.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Death Baker.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Death Procedures.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Death Procedures.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Disconnecting Muscles.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Disconnecting Muscles.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Falling.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Falling.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Hanging.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Hanging.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Humanoid Config.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Humanoid Config.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/IK Before Physics (Animator IK).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/IK Before Physics (Animator IK).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Killing.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Killing.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Melee Grab.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Melee Grab.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Melee Spherical.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Melee Spherical.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Melee.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Melee.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMesh.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMesh.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMesh/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMesh/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMeshAgent.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMeshAgent.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMeshAgent.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMeshAgent/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/NavMeshAgent/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Partial Pinning.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Partial Pinning.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Prop.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Prop.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Punching.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Punching.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Puppet Extended.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Puppet Extended.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Puppet Raycast Hit.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Puppet Raycast Hit.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Puppet Respawning.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Puppet Respawning.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Puppet.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Puppet.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Removing Muscles (Deprecated).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Removing Muscles (Deprecated).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Scaling.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Scaling.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/X-Boarding.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/X-Boarding.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_Integration/Standard Assets Third Person Controller.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/PuppetMaster/_Integration/Standard Assets Third Person Controller.rtf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Gizmos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Gizmos/BipedRagdollCreator Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Gizmos/BipedRagdollCreator Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Gizmos/RagdollEditor Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Gizmos/RagdollEditor Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/BipedRagdollCreator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/BipedRagdollCreator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/BipedRagdollReferences.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/BipedRagdollReferences.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/JointConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/JointConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/RagdollCreator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/RagdollCreator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/RagdollEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/RagdollManager/Scripts/RagdollEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers/Mech Bot.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers/Mech Bot.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers/Mech Bot.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers/Mech Bot.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers/Mine Bot.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers/Mine Bot.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers/Mine Bot.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Animator Controllers/Mine Bot.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials/Mech Bot.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials/Mech Bot.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials/Mech Bot.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials/Mech Bot.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials/Mine Bot.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials/Mine Bot.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials/Mine Bot.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Materials/Mine Bot.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Idle.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Idle.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Walk Forward.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Walk Forward.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mine Bot Idle.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mine Bot Idle.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mine Bot Walk Forward.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mine Bot Walk Forward.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Textures/MechPatrolbot.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Textures/MechPatrolbot.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Textures/Minebot.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Textures/Minebot.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Dummy.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Dummy.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks/Dummy Bust.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks/Dummy Bust.mask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks/Dummy Bust.mask.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks/Dummy Bust.mask.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks/Dummy Upper-body.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks/Dummy Upper-body.mask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks/Dummy Upper-body.mask.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Masks/Dummy Upper-body.mask.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy Ghost.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy Ghost.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy Ghost.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy Ghost.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy0000.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy0000.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy0000.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy0000.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs/Dummy Ragdoll (Character Joints).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs/Dummy Ragdoll (Character Joints).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs/Dummy Ragdoll (Character Joints).prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs/Dummy Ragdoll (Character Joints).prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs/Dummy Ragdoll (Configurable Joints).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs/Dummy Ragdoll (Configurable Joints).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs/Dummy Ragdoll (Configurable Joints).prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Prefabs/Dummy Ragdoll (Configurable Joints).prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Textures/Dummy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Textures/Dummy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Masks.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Masks.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Masks/Pilot Upperbody.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Masks/Pilot Upperbody.mask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Masks/Pilot Upperbody.mask.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Masks/Pilot Upperbody.mask.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Body Ghost.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Body Ghost.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Body Ghost.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Body Ghost.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Body.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Body.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Head Ghost.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Head Ghost.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Head Ghost.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Head Ghost.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Head.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Head.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Materials/Pilot Head.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Pilot.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Pilot.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Textures/Pilot Body.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Textures/Pilot Body.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Textures/Pilot Head.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Pilot/Textures/Pilot Head.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials/Teddy_DIF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials/Teddy_DIF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials/Teddy_DIF.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials/Teddy_DIF.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials/Teddy_Eye.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials/Teddy_Eye.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials/Teddy_Eye.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Materials/Teddy_Eye.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Teddy.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Teddy.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Textures/Teddy_DIF.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Textures/Teddy_DIF.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Textures/Teddy_Eye.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Textures/Teddy_Eye.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Textures/Teddy_NM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Teddy/Textures/Teddy_NM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials/Viking Shield and Axe.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials/Viking Shield and Axe.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials/Viking Shield and Axe.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials/Viking Shield and Axe.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials/Viking.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials/Viking.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials/Viking.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Materials/Viking.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Textures/Viking Shield and Axe.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Textures/Viking Shield and Axe.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Textures/Viking.TGA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Textures/Viking.TGA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Humanoid.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Humanoid.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Idle.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Idle.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Run.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Run.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Walk.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Walk.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Animator Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Animator Controllers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Animator Controllers/Wolf.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Animator Controllers/Wolf.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Animator Controllers/Wolf.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Animator Controllers/Wolf.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Wolf.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Wolf.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Back.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Back.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Breathe.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Breathe.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Down.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Down.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Front.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Front.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Idle.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Idle.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Left.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Left.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Right.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Right.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Up.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Up.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Boxing.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Boxing.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Crouch.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Crouch.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Die Backwards.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Die Backwards.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Idles.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Idles.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/body_color_map.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/body_color_map.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/body_color_map.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/body_color_map.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/eyes_color_map.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/eyes_color_map.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/eyes_color_map.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/eyes_color_map.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/face_color_map.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/face_color_map.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/face_color_map.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/face_color_map.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air 2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air 2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air 3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air 3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run Turn Sharp.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run Turn Sharp.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run Turn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run Turn.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Soccer Kick.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Soccer Kick.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Soccer Kick.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Soccer Kick.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Stand Turn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Stand Turn.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Strafing.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Strafing.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Swing Right Loop.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Swing Right Loop.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Upperbody Swing Prop.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Upperbody Swing Prop.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk 2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk 2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk Backwards.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk Backwards.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk Turn Sharp.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk Turn Sharp.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk Turn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk Turn.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk and Run In Place.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk and Run In Place.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Aiming System.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Aiming System.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Aiming System.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Aiming System.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Boxing.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Boxing.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Boxing.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Boxing.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Dying 2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Dying 2.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Dying 2.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Dying 2.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Dying.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Dying.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Dying.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Dying.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Idle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Idle.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Idle.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Idle.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Simple Locomotion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Simple Locomotion.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Simple Locomotion.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Simple Locomotion.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Soccer Kick.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Soccer Kick.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Soccer Kick.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Soccer Kick.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Strafing and Aiming (Baker).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Strafing and Aiming (Baker).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Strafing and Aiming (Baker).controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Strafing and Aiming (Baker).controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Strafing and Aiming.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Strafing and Aiming.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Strafing and Aiming.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Strafing and Aiming.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Swing Prop (Event).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Swing Prop (Event).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Swing Prop (Event).controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Swing Prop (Event).controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Swing Prop.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Swing Prop.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Swing Prop.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Swing Prop.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Test Sequence.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Test Sequence.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Test Sequence.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Test Sequence.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Third Person.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Third Person.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Third Person.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Third Person.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Viking.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Viking.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Viking.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Viking.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Walking.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Walking.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Walking.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animator Controllers/Humanoid Walking.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Low Friction.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Low Friction.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Low Friction.physicMaterial.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Low Friction.physicMaterial.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Normal.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Normal.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Normal.physicMaterial.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Normal.physicMaterial.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Zero Friction.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Zero Friction.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Zero Friction.physicMaterial.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Physics Materials/Zero Friction.physicMaterial.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/M4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/M4.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Materials/M4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Materials/M4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Materials/M4.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Materials/M4.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Textures/M4 Diffuse.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Textures/M4 Diffuse.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Textures/M4 Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/M4/Textures/M4 Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/MP-40.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/MP-40.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/Materials/MP-40.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/Materials/MP-40.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/Materials/MP-40.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/Materials/MP-40.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs/M4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs/M4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs/M4.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs/M4.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs/MP-40.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs/MP-40.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs/MP-40.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Props/Prefabs/MP-40.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Laser.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Laser.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Laser.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Laser.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Black Grid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Black Grid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Black Grid.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Black Grid.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Black Smooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Black Smooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Black Smooth.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Black Smooth.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Blue Grid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Blue Grid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Blue Grid.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Blue Grid.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Blue Smooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Blue Smooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Blue Smooth.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Blue Smooth.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Green Grid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Green Grid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Green Grid.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Green Grid.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Green Smooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Green Smooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Green Smooth.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Green Smooth.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Red Smooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Red Smooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Red Smooth.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Prototype Red Smooth.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Sand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Sand.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Sand.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Sand.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Smoke.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Smoke.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Smoke.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Smoke.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Target.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Target.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Target.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Materials/Target.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Models.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Models/Sphere128.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Models/Sphere128.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Textures/Prototype Black.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Textures/Prototype Black.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Textures/Prototype Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Textures/Prototype Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Textures/Prototype Green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Prototyping/Textures/Prototype Green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraControllerFPS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraControllerFPS.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraControllerFPS.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Camera Controllers/CameraControllerFPS.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationSimple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationSimple.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationSimple.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationSimple.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationThirdPerson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationThirdPerson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationThirdPerson.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterAnimationThirdPerson.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterThirdPerson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterThirdPerson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterThirdPerson.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/CharacterThirdPerson.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/SimpleLocomotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/SimpleLocomotion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/SimpleLocomotion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/SimpleLocomotion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlAI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlAI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlThirdPerson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlThirdPerson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlThirdPerson.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Character Controllers/UserControlThirdPerson.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/ApplicationQuit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/ApplicationQuit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/ApplicationQuit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/ApplicationQuit.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/SlowMo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/SlowMo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/SlowMo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/Scripts/Misc/SlowMo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/_TerrainAutoUpgrade.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/_TerrainAutoUpgrade/layer_Prototype Black3d3aba195e4d26ee.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Demo Assets/_TerrainAutoUpgrade/layer_Prototype Black3d3aba195e4d26ee.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/AxisTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/AxisTools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/AxisTools.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/AxisTools.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedLimbOrientations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedLimbOrientations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedLimbOrientations.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedLimbOrientations.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedNaming.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedNaming.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedNaming.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedNaming.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedReferences.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedReferences.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedReferences.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/BipedReferences.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Comments.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Comments.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Comments.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Comments.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/DemoGUIMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/DemoGUIMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/DemoGUIMessage.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/DemoGUIMessage.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Hierarchy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Hierarchy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Hierarchy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Hierarchy.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/InspectorComment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/InspectorComment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/InspectorComment.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/InspectorComment.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Interp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Interp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Interp.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Interp.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/LargeHeader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/LargeHeader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/LargeHeader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/LargeHeader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/LayerMaskExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/LayerMaskExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/LayerMaskExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/LayerMaskExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Navigator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Navigator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Navigator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Navigator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/QuaTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/QuaTools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/QuaTools.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/QuaTools.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Singleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Singleton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Singleton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/SolverManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/SolverManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/SolverManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/SolverManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/TriggerEventBroadcaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/TriggerEventBroadcaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/TriggerEventBroadcaster.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/TriggerEventBroadcaster.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/V3Tools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/V3Tools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/V3Tools.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/V3Tools.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Warning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Warning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Warning.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Assets/Plugins/RootMotion/Shared Scripts/Warning.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 5.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/texturesneakers.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/texturesneakers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Beer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Beer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cocount.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cocount.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cola.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cola.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/HotDog.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/HotDog.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstBurger 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstBurger 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstBurger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstBurger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstGorchitsa.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstGorchitsa.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstKetchup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstKetchup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstKiwi.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstKiwi.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstMelon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstMelon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstPear 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstPear 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstPear.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstPear.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstPineApple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstPineApple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstSausage 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstSausage 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstSausage.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstSausage.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstTomatto.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstTomatto.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Soda.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Soda.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Tomato2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Tomato2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/WatterMelon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/WatterMelon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Apple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Apple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Banan.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Banan.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Burger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Burger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Champangue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Champangue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Cocount.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Cocount.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Cola.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Cola.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Fish.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Fish.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Ghorchitsa.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Ghorchitsa.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/HotDog.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/HotDog.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/JarstSausage 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/JarstSausage 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Ketchup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Ketchup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/LemonWatter.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/LemonWatter.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Limon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Limon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Orange.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Orange.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Pumpkin.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Pumpkin.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Tomato.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/Tomato.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/WatterMelon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/WatterMelon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/jarst_orange3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NewFood/jarst_orange3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Ui/ClickToPlayPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Ui/ClickToPlayPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Ui/LevelComplited.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Ui/LevelComplited.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Ui/LevelPassed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Ui/LevelPassed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/BootScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/BootScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Level 10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Level 10.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Analityc/AmplitudeAnalytics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Analityc/AmplitudeAnalytics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelComplitedPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelComplitedPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelPassedPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelPassedPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main Camera Blends.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main Camera Blends.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +864,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RagDollActivator1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/SwitchOff.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -45,7 +876,6 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Discard.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Target.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/RagDollActivator1.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/RagdollActivator.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" />
@@ -53,26 +883,39 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/DestroyState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/DirtyTheScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelPassedPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelComplitedPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Analityc/AmplitudeAnalytics.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SwitchOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SetPlayerValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/LevelIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DeletePlayerPrefs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
       </list>
     </option>
   </component>
@@ -131,6 +974,13 @@
       <workItem from="1642150851273" duration="13858000" />
       <workItem from="1642504325991" duration="1900000" />
       <workItem from="1642618304277" duration="1874000" />
+      <workItem from="1642850320163" duration="2981000" />
+      <workItem from="1642868757786" duration="4845000" />
+      <workItem from="1642935889991" duration="4107000" />
+      <workItem from="1642950848127" duration="1656000" />
+      <workItem from="1643014448692" duration="5371000" />
+      <workItem from="1643037088131" duration="2993000" />
+      <workItem from="1643049608603" duration="3603000" />
     </task>
     <servers />
   </component>
@@ -153,6 +1003,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1643039199873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1600.-189.1600.860@0.0.1920.1040" timestamp="1643039199873" />
     <state x="871" y="189" width="1223" height="1027" key="dock-window-1" timestamp="1640361096192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

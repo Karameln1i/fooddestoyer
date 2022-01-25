@@ -10,6 +10,7 @@ public abstract class Item : MonoBehaviour
     [SerializeField] private GameObject _topPoint;
     [SerializeField]  private Rigidbody _rigidbody;
     [SerializeField] private BoxCollider _NotTrigerCollider;
+    [SerializeField] private bool _isPot;
     
     private bool _notDestroyed;
     private BoxCollider _boxCollider;
@@ -36,12 +37,12 @@ public abstract class Item : MonoBehaviour
         
     }
 
-    protected virtual void Flatten(float speed,GameObject legPivot)
+    protected virtual void Flatten(float speed,GameObject legPivot,bool IsGoDown)
     {
         
     }
 
-    public virtual void Deform(float speed,GameObject legPivot)
+    public virtual void Deform(float speed,GameObject legPivot,bool IsGoDown)
     {
         
        // while (_notDestroyed)
@@ -56,10 +57,10 @@ public abstract class Item : MonoBehaviour
          _notDestroyed = false;
      }
 
-    public void Liquidate(float speed,GameObject legPivot)
+    public void Liquidate(float speed,GameObject legPivot,bool IsGoDown)
     { 
       Break(legPivot);
-      Flatten(speed,legPivot);
+      Flatten(speed,legPivot,IsGoDown);
 
       /*while (_notDestroyed)
       { 
@@ -86,23 +87,36 @@ public abstract class Item : MonoBehaviour
     
     protected void Discard()
     {
-        _rigidbody.AddForce(Vector3.up*70,ForceMode.Impulse);
-        _rigidbody.AddForce(Vector3.right*70,ForceMode.Impulse);
-        _NotTrigerCollider.enabled = false;
-        Debug.Log("DISCARDEDD");
-        var directionIndex = Random.Range(1, 3);
+        _rigidbody.AddForce(Vector3.up*90,ForceMode.Impulse);
+
+        if (_isPot)
+        {
+            _rigidbody.AddForce(Vector3.right*70,ForceMode.Impulse);
+            //_rigidbody.AddForce(Vector3.back*70,ForceMode.Impulse);
+                // _rigidbody.AddForce(Vector3.up*70,ForceMode.Impulse);
+        }
+        else
+        {
+            _rigidbody.AddForce(Vector3.right*70,ForceMode.Impulse);
+            
+             var directionIndex = Random.Range(1, 3);
         
         switch (directionIndex)
         {
             case 1:
-                _rigidbody.AddForce(Vector3.back*70,ForceMode.Impulse);
+                _rigidbody.AddForce(Vector3.forward*70,ForceMode.Impulse);
                 break;
             case 2:
-                _rigidbody.AddForce(Vector3.forward*70,ForceMode.Impulse);
+                _rigidbody.AddForce(Vector3.back*70,ForceMode.Impulse);
                 break;
                     
         }
 
        
-    }
+        }
+        _NotTrigerCollider.enabled = false;
+        }
+      
+       
+       
 }

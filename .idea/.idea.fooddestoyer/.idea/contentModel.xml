@@ -1190,28 +1190,49 @@
                     </e>
                     <e p="HumanoidBakerInspector.cs" t="Include" />
                   </e>
-                  <e p="PuppetMaster" t="Include">
+                  <e p="FinalIK" t="Include">
                     <e p="_DEMOS" t="Include">
-                      <e p="CharacterMeleeDemoInspector.cs" t="Include" />
-                      <e p="CharacterPuppetInspector.cs" t="Include" />
+                      <e p="BendGoalInspector.cs" t="Include" />
                     </e>
-                    <e p="BehaviourPuppetMasterPropsDrawer.cs" t="Include" />
-                    <e p="PropMuscleInspector.cs" t="Include" />
-                    <e p="PuppetMasterHumanoidConfigInspector.cs" t="Include" />
-                    <e p="PuppetMasterInspector.cs" t="Include" />
-                    <e p="PuppetMasterPropInspector.cs" t="Include" />
-                    <e p="WeightDrawer.cs" t="Include" />
-                  </e>
-                  <e p="RagdollManager" t="Include">
-                    <e p="BipedRagdollCreatorInspector.cs" t="Include" />
-                    <e p="CharacterJointInspector.cs" t="Include" />
-                    <e p="ColliderTools.cs" t="Include" />
-                    <e p="ConfigurableJointInspector.cs" t="Include" />
-                    <e p="ConvertToConfigurableJoints.cs" t="Include" />
-                    <e p="JointInspector.cs" t="Include" />
-                    <e p="JointTools.cs" t="Include" />
-                    <e p="RagdollEditorInspector.cs" t="Include" />
-                    <e p="SymmetryTools.cs" t="Include" />
+                    <e p="AimIKInspector.cs" t="Include" />
+                    <e p="AimPoserInspector.cs" t="Include" />
+                    <e p="ArmIKInspector.cs" t="Include" />
+                    <e p="BipedIKInspector.cs" t="Include" />
+                    <e p="BipedIKSolversInspector.cs" t="Include" />
+                    <e p="CCDIKInspector.cs" t="Include" />
+                    <e p="ConstraintsInspector.cs" t="Include" />
+                    <e p="EditorIKInspector.cs" t="Include" />
+                    <e p="FABRIKInspector.cs" t="Include" />
+                    <e p="FABRIKRootInspector.cs" t="Include" />
+                    <e p="FingerRigInspector.cs" t="Include" />
+                    <e p="FullBodyBipedIKInspector.cs" t="Include" />
+                    <e p="GroundingInspector.cs" t="Include" />
+                    <e p="IKEffectorInspector.cs" t="Include" />
+                    <e p="IKExecutionOrderInspector.cs" t="Include" />
+                    <e p="IKInspector.cs" t="Include" />
+                    <e p="IKSolverAimInspector.cs" t="Include" />
+                    <e p="IKSolverArmInspector.cs" t="Include" />
+                    <e p="IKSolverFABRIKRootInspector.cs" t="Include" />
+                    <e p="IKSolverFullBodyBipedInspector.cs" t="Include" />
+                    <e p="IKSolverFullBodyInspector.cs" t="Include" />
+                    <e p="IKSolverHeuristicInspector.cs" t="Include" />
+                    <e p="IKSolverInspector.cs" t="Include" />
+                    <e p="IKSolverLegInspector.cs" t="Include" />
+                    <e p="IKSolverLimbInspector.cs" t="Include" />
+                    <e p="IKSolverLookAtInspector.cs" t="Include" />
+                    <e p="IKSolverTrigonometricInspector.cs" t="Include" />
+                    <e p="InteractionTargetInspector.cs" t="Include" />
+                    <e p="InteractionTriggerInspector.cs" t="Include" />
+                    <e p="LegIKInspector.cs" t="Include" />
+                    <e p="LimbIKInspector.cs" t="Include" />
+                    <e p="LookAtIKInspector.cs" t="Include" />
+                    <e p="RotationLimitAngleInspector.cs" t="Include" />
+                    <e p="RotationLimitHingeInspector.cs" t="Include" />
+                    <e p="RotationLimitInspector.cs" t="Include" />
+                    <e p="RotationLimitPolygonalInspector.cs" t="Include" />
+                    <e p="RotationLimitSplineInspector.cs" t="Include" />
+                    <e p="TrigonometricIKInspector.cs" t="Include" />
+                    <e p="VRIKInspector.cs" t="Include" />
                   </e>
                   <e p="Shared Demo Scripts" t="Include">
                     <e p="CameraControllerInspector.cs" t="Include" />
@@ -1436,98 +1457,6 @@
                     <e p="VRIKRootController.cs" t="Include" />
                   </e>
                 </e>
-                <e p="PuppetMaster" t="Include">
-                  <e p="_DEMOS" t="Include">
-                    <e p="Assets" t="Include">
-                      <e p="Scripts" t="Include">
-                        <e p="AnimatorIKDemo.cs" t="Include" />
-                        <e p="BallShooter.cs" t="Include" />
-                        <e p="BoardController.cs" t="Include" />
-                        <e p="CharacterAnimationMeleeDemo.cs" t="Include" />
-                        <e p="CharacterMeleeDemo.cs" t="Include" />
-                        <e p="CharacterPuppet.cs" t="Include" />
-                        <e p="CreatePuppetInRuntime.cs" t="Include" />
-                        <e p="CreateRagdollInRuntime.cs" t="Include" />
-                        <e p="DeathBaker.cs" t="Include" />
-                        <e p="Destructor.cs" t="Include" />
-                        <e p="Dying.cs" t="Include" />
-                        <e p="FXCollisionBlood.cs" t="Include" />
-                        <e p="Grab.cs" t="Include" />
-                        <e p="InitialVelocity.cs" t="Include" />
-                        <e p="Killing.cs" t="Include" />
-                        <e p="LayerSetup.cs" t="Include" />
-                        <e p="NavMeshPuppet.cs" t="Include" />
-                        <e p="Planet.cs" t="Include" />
-                        <e p="PlanetaryGravity.cs" t="Include" />
-                        <e p="PropDemo.cs" t="Include" />
-                        <e p="PropMelee.cs" t="Include" />
-                        <e p="PropPickUpTrigger.cs" t="Include" />
-                        <e p="PuppetBoard.cs" t="Include" />
-                        <e p="PuppetMasterPropMelee.cs" t="Include" />
-                        <e p="PuppetScaling.cs" t="Include" />
-                        <e p="RaycastShooter.cs" t="Include" />
-                        <e p="Respawning.cs" t="Include" />
-                        <e p="RotateShoulderToTarget.cs" t="Include" />
-                        <e p="Skeleton.cs" t="Include" />
-                        <e p="SkeletonDisconnector.cs" t="Include" />
-                        <e p="SkeletonShooter.cs" t="Include" />
-                        <e p="UserControlAIMelee.cs" t="Include" />
-                        <e p="UserControlMelee.cs" t="Include" />
-                      </e>
-                    </e>
-                  </e>
-                  <e p="DoxygenManualPuppetMaster.cs" t="Include" />
-                  <e p="Scripts" t="Include">
-                    <e p="AnimationBlocker.cs" t="Include" />
-                    <e p="Behaviours" t="Include">
-                      <e p="BehaviourBase.cs" t="Include" />
-                      <e p="BehaviourFall.cs" t="Include" />
-                      <e p="BehaviourPuppet.cs" t="Include" />
-                      <e p="BehaviourPuppetBoosting.cs" t="Include" />
-                      <e p="BehaviourPuppetDamage.cs" t="Include" />
-                      <e p="BehaviourPuppetHelpers.cs" t="Include" />
-                      <e p="BehaviourPuppetStateSwitching.cs" t="Include" />
-                      <e p="BehaviourTemplate.cs" t="Include" />
-                      <e p="SubBehaviours" t="Include">
-                        <e p="SubBehaviourBalancer.cs" t="Include" />
-                        <e p="SubBehaviourBase.cs" t="Include" />
-                        <e p="SubBehaviourCOM.cs" t="Include" />
-                      </e>
-                    </e>
-                    <e p="Booster.cs" t="Include" />
-                    <e p="JointBreakBroadcaster.cs" t="Include" />
-                    <e p="Muscle.cs" t="Include" />
-                    <e p="MuscleCollisionBroadcaster.cs" t="Include" />
-                    <e p="PhysXTools.cs" t="Include" />
-                    <e p="PressureSensor.cs" t="Include" />
-                    <e p="Prop.cs" t="Include" />
-                    <e p="PropMuscle.cs" t="Include" />
-                    <e p="PropRoot.cs" t="Include" />
-                    <e p="PropTemplate.cs" t="Include" />
-                    <e p="PuppetMaster.cs" t="Include" />
-                    <e p="PuppetMasterHierarchyAPI.cs" t="Include" />
-                    <e p="PuppetMasterHumanoidConfig.cs" t="Include" />
-                    <e p="PuppetMasterModes.cs" t="Include" />
-                    <e p="PuppetMasterMuscleAPI.cs" t="Include" />
-                    <e p="PuppetMasterProp.cs" t="Include" />
-                    <e p="PuppetMasterSettings.cs" t="Include" />
-                    <e p="PuppetMasterSetup.cs" t="Include" />
-                    <e p="PuppetMasterStates.cs" t="Include" />
-                    <e p="PuppetMasterTargetMappedState.cs" t="Include" />
-                    <e p="PuppetMasterTools.cs" t="Include" />
-                    <e p="PuppetMasterValidation.cs" t="Include" />
-                    <e p="Weight.cs" t="Include" />
-                  </e>
-                </e>
-                <e p="RagdollManager" t="Include">
-                  <e p="Scripts" t="Include">
-                    <e p="BipedRagdollCreator.cs" t="Include" />
-                    <e p="BipedRagdollReferences.cs" t="Include" />
-                    <e p="JointConverter.cs" t="Include" />
-                    <e p="RagdollCreator.cs" t="Include" />
-                    <e p="RagdollEditor.cs" t="Include" />
-                  </e>
-                </e>
                 <e p="Shared Demo Assets" t="Include">
                   <e p="Scripts" t="Include">
                     <e p="Camera Controllers" t="Include">
@@ -1567,6 +1496,7 @@
                   <e p="Singleton.cs" t="Include" />
                   <e p="SolverManager.cs" t="Include" />
                   <e p="TriggerEventBroadcaster.cs" t="Include" />
+                  <e p="V2Tools.cs" t="Include" />
                   <e p="V3Tools.cs" t="Include" />
                   <e p="Warning.cs" t="Include" />
                 </e>
@@ -1604,11 +1534,13 @@
             <e p="ControllPoint.cs" t="Include" />
             <e p="Conveer.cs" t="Include" />
             <e p="Coviert.cs" t="Include" />
+            <e p="DeletePlayerPrefs.cs" t="Include" />
             <e p="DESTROYER.cs" t="Include" />
             <e p="DirtyTheScreen.cs" t="Include" />
             <e p="EffectCreator.cs" t="Include" />
             <e p="Finish.cs" t="Include" />
             <e p="FinishItem.cs" t="Include" />
+            <e p="FinishZone.cs" t="Include" />
             <e p="Items" t="Include">
               <e p="CrackingItem.cs" t="Include" />
               <e p="DeformationItem.cs" t="Include" />
@@ -1622,6 +1554,7 @@
               <e p="ItemCollisionHandler.cs" t="Include" />
             </e>
             <e p="Level.cs" t="Include" />
+            <e p="LevelIndex.cs" t="Include" />
             <e p="LoadLastPassedLevel.cs" t="Include" />
             <e p="NextLevel.cs" t="Include" />
             <e p="PlayChairAnimation.cs" t="Include" />
@@ -1647,7 +1580,9 @@
             <e p="RagdollActivator.cs" t="Include" />
             <e p="RagDollActivator1.cs" t="Include" />
             <e p="RememberLevel.cs" t="Include" />
+            <e p="SetLevelIndex.cs" t="Include" />
             <e p="SlowDownTime.cs" t="Include" />
+            <e p="SwitchOff.cs" t="Include" />
             <e p="Target.cs" t="Include" />
             <e p="TurnConveyor.cs" t="Include" />
             <e p="Ui" t="Include">

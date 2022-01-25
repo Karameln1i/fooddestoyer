@@ -194,17 +194,17 @@ namespace RootMotion.FinalIK {
                 // SmoothDamp
                 if (smoothDampTime > 0f)
                 {
-                    //float yaw = V3Tools.GetYaw(dir);
-                   // float targetYaw = V3Tools.GetYaw(targetDir);
-                    //float y = Mathf.SmoothDampAngle(yaw, targetYaw, ref yawV, smoothDampTime);
+                    float yaw = V3Tools.GetYaw(dir);
+                    float targetYaw = V3Tools.GetYaw(targetDir);
+                    float y = Mathf.SmoothDampAngle(yaw, targetYaw, ref yawV, smoothDampTime);
 
-                    //float pitch = V3Tools.GetPitch(dir);
-                    ///float targetPitch = V3Tools.GetPitch(targetDir);
-                    //float p = Mathf.SmoothDampAngle(pitch, targetPitch, ref pitchV, smoothDampTime);
+                    float pitch = V3Tools.GetPitch(dir);
+                    float targetPitch = V3Tools.GetPitch(targetDir);
+                    float p = Mathf.SmoothDampAngle(pitch, targetPitch, ref pitchV, smoothDampTime);
 
                     float dirMag = Mathf.SmoothDamp(dir.magnitude, targetDir.magnitude, ref dirMagV, smoothDampTime);
 
-                   // dir = Quaternion.Euler(p, y, 0f) * Vector3.forward * dirMag;
+                    dir = Quaternion.Euler(p, y, 0f) * Vector3.forward * dirMag;
                 }
 
                 ik.solver.IKPosition = pivot + dir;

@@ -24,7 +24,6 @@ public class Menu : MonoBehaviour
         _player.Lost+= OnPlayerLose;
         //finish.LevelComplited += OnLevelComplited;
         _player.Won += OnPlayerWon;
-        Debug.Log("awake");
     }
 
     private void OnDisable()
@@ -35,7 +34,6 @@ public class Menu : MonoBehaviour
     private void OnPlayerLose()
     {
         StartCoroutine(OpenPanel(_levelPassedPanel));
-        Debug.Log("проигрыл");
         _player.Lost-= OnPlayerLose;
     }
 

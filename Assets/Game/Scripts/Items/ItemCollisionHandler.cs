@@ -16,8 +16,8 @@ public class ItemCollisionHandler : MonoBehaviour
     {
         if (collision.TryGetComponent<PlayerFoot>(out PlayerFoot playerFoot))
         {
-            _item.Liquidate(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot);
-            _item.Deform(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot);
+            _item.Liquidate(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot,playerFoot.GetСondition());
+            _item.Deform(playerFoot.GetSpeedForFlatting(),playerFoot.LegPivot,playerFoot.GetСondition());
             
         }
     }

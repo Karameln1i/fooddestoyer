@@ -26,7 +26,6 @@ public class PlayChairAnimation : MonoBehaviour
    private void OnFalling()
    {
       _animator.Play("Shaiking");
-      Debug.Log("падаю");
    }
    
 }

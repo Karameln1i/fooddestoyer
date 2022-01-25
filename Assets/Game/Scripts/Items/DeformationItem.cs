@@ -86,18 +86,18 @@ Debug.Log("вращается");
        
     }
     
-    public override void Deform(float speed,GameObject legPivot)
+    public override void Deform(float speed,GameObject legPivot,bool IsGoDown)
     {
         Debug.Log("TopPoint " +TopPoint.transform.localPosition.y);
         Debug.Log("legpivot " +legPivot.transform.position.y);
 
         //base.Deform(speed);
-        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
+        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y&&!IsGoDown)
         {
             Discard();
             Debug.Log("отлетел");
         }
-        else if (legPivot.transform.position.y>TopPoint.transform.localPosition.y)
+        else if (legPivot.transform.position.y>TopPoint.transform.localPosition.y && IsGoDown)
         {
             Debug.Log("смялся");
             RotateBones();

@@ -34,8 +34,9 @@ public class ChangeTargetPosition : MonoBehaviour
     
     private float _currentTime;
     private float _totalTime;
-    
 
+
+    private bool _isGoDown;
     private float _legSpeed;
     private float _legLoweringSpeedAfterTouching;
     private Target _target;
@@ -44,6 +45,7 @@ public class ChangeTargetPosition : MonoBehaviour
     private int _clickCount;
     
     public float LegloweringSpeedForFlattening => _legLoweringSpedForFlattening;
+    public bool IsGoDown => _isGoDown;
     public float LegloweringSpeed => _legloweringSpeed;
     private const float LegSpedForFlattening=0.1f;
     private const float LegLoweringSpeed=1f;
@@ -70,7 +72,6 @@ public class ChangeTargetPosition : MonoBehaviour
        // _scaleValueChecker.StopedYellow += OnStopedOnYellowZone;
         //_legloweringSpeed = _legLiftingSpeed;
      //   _moveState.ReceivedLegTarget += OnReceivedLegTarget;
-        Debug.Log("cahngetargetpositionon");
     }
 
     
@@ -131,6 +132,8 @@ public class ChangeTargetPosition : MonoBehaviour
             yield return new WaitForSeconds(_legLiftingDellay);
             
             _currentTime = 0;
+
+            _isGoDown = true;
             
             while (_target.transform.localPosition!=_target.StartPosition)
             {
@@ -156,6 +159,7 @@ public class ChangeTargetPosition : MonoBehaviour
         TargetAchived?.Invoke();
         //_target.ResetPosition();
         MoveTargetIsWorking = false;
+        _isGoDown = false;
     }
 
     private void OnReceivedLegTarget(GameObject legtarget)

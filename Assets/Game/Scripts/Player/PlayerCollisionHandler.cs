@@ -37,7 +37,6 @@ public class PlayerCollisionHandler : MonoBehaviour
         if (collision.TryGetComponent<FallItem>(out FallItem fall))
         {
            // TouchedFallItem?.Invoke();
-            Debug.Log("падающий предмет");
         }
     }
 }

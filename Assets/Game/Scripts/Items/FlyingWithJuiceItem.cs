@@ -35,6 +35,7 @@ public class FlyingWithJuiceItem : Item
     private Animator _animator;
     private GameObject _TopPoint;
     private bool _discarded;
+    private const float dellay = 2f;
 
     public bool Disacarded => _discarded;
     public int Endurance => _endurance;
@@ -64,6 +65,7 @@ public class FlyingWithJuiceItem : Item
         Destroyed?.Invoke();
         Exploaded?.Invoke(this);
         _rigidbody.useGravity = false;
+       StartCoroutine( Dellay());
 
         for (int i = 0; i < _boxCodiers.Capacity; i++)
         {
@@ -71,12 +73,12 @@ public class FlyingWithJuiceItem : Item
         }
     }
 
-    protected override void Flatten(float speed,GameObject legPivot)
+    protected override void Flatten(float speed,GameObject legPivot,bool IsGoDown)
     {
 
         Debug.Log("TopPoint "+ TopPoint.transform.localPosition.y);
         Debug.Log("legPivot"+ legPivot.transform.position.y);
-        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
+        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y&& !IsGoDown)
         {
             Discard();
             for (int i = 0; i < _boxCodiers.Capacity; i++)
@@ -198,6 +200,20 @@ public class FlyingWithJuiceItem : Item
         {
             _rigidbodies[i].useGravity = true;
             _rigidbodies[i].isKinematic = false;
+        }
+    }
+
+    private IEnumerator Dellay()
+    {
+        yield return new WaitForSeconds(dellay);
+        SetTrigerOnColdiers();
+    }
+
+    private void SetTrigerOnColdiers()
+    {
+        for (int i = 0; i < _meshColliders.Capacity; i++)
+        {
+            _meshColliders[i].isTrigger = true;
         }
     }
 }

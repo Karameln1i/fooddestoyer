@@ -5,7 +5,22 @@ using UnityEngine.Events;
 
 public class PlayerInput : MonoBehaviour
 {
+    [SerializeField] private Player _player;
+
+
+    
     public event UnityAction Clicked;
+
+
+    private void OnEnable()
+    {
+        _player.Won += OnPlayerWon;
+    }
+
+    private void OnDisable()
+    {
+        _player.Won -= OnPlayerWon;
+    }
 
     private void Update()
     {
@@ -13,5 +28,10 @@ public class PlayerInput : MonoBehaviour
         {
             Clicked?.Invoke();
         }
+    }
+
+    private void OnPlayerWon()
+    {
+        enabled = false;
     }
 }

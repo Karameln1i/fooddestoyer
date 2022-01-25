@@ -32,10 +32,14 @@ public class Player : MonoBehaviour
    private void OnFinisItemDestroyed()
     {
         Won?.Invoke();
- 
-        Debug.Log("проигрыл");
+
     }
 
+   public void Win()
+   {
+       Won?.Invoke();
+   }
+   
     public void Lose()
     {
         Lost?.Invoke();
