@@ -199,7 +199,6 @@ public class ChangeTargetPosition : MonoBehaviour
             flyingWithJuiceItem.Destroyed += OnflyingWithJuiceItemDestroyed;
             _legSpeed = _legLoweringSpedForFlattening;
             _touchedFlyingWithJuiceItem = true;
-            Debug.Log("OnTouchedFlyingWithJuiceItem "+flyingWithJuiceItem.gameObject.name);
         }
     }
     
@@ -218,8 +217,7 @@ public class ChangeTargetPosition : MonoBehaviour
     private void OnflyingWithJuiceItemDestroyed()
     {
         //_legLoweringSpedForFlattening =LegSpedForFlattening;
-            Debug.Log("destroyed");
-     // _legloweringSpeed = LegLoweringSpeed;
+        // _legloweringSpeed = LegLoweringSpeed;
      _touchedFlyingWithJuiceItem = false;
     }
     

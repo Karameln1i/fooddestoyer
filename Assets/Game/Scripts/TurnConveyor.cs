@@ -64,4 +64,14 @@ public class TurnConveyor : MonoBehaviour
         _conveer.enabled = true;
         Debug.Log("_conveer slowed");
     }*/
+
+   public void TurnOfConveer()
+   {
+       _conveer.enabled = false;
+   }
+   
+   public void TurnOnConveer()
+   {
+       _conveer.enabled = true;
+   }
 }

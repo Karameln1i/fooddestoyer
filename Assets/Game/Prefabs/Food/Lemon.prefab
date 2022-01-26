@@ -836,8 +836,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.076845646, y: 0.17220774, z: 0.13424063}
-  m_Center: {x: -0.0076753497, y: 0.13615833, z: 0.006955862}
+  m_Size: {x: 0.090614855, y: 0.17220774, z: 0.13424063}
+  m_Center: {x: -0.014559954, y: 0.13615833, z: 0.006955862}
 --- !u!95 &5312875777708500273
 Animator:
   serializedVersion: 3
@@ -1549,10 +1549,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeType: 0
   fadeType: 1
-  range: 0.03
-  strength: 0.3
-  variation: 1
-  chaos: 2
+  range: 0.05
+  strength: 0.7
+  variation: 2
+  chaos: 3
   forceByMass: 1
   affectKinematic: 0
   heightOffset: 0
@@ -11136,7 +11136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8131214506355188742}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0037002563, y: 0.18, z: 0.0262}
+  m_LocalPosition: {x: -0.0037002563, y: 0.1687, z: 0.0262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4823620124708175757}

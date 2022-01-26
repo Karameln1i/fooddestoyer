@@ -12,6 +12,7 @@ public class Level : MonoBehaviour
     [SerializeField] private LevelIndex _levelIndex;
     [SerializeField] private Player _player;
     [SerializeField] private FallItem _fallItem;
+    [SerializeField] private bool _isBootScene;
 
     [SerializeField] private LevelPassedPanel _levelPassedPanel;
     //[SerializeField] private Button _restartButton;
@@ -19,7 +20,8 @@ public class Level : MonoBehaviour
     private int _slevelIndex;
     
     private const string LastComplitedLevel = nameof(LastComplitedLevel);
-    
+
+    public bool IsBootScene => _isBootScene;
     public int LevelIndex => _slevelIndex;
 
     public event UnityAction <int> LevelStarted;

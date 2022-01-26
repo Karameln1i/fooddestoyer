@@ -6,6 +6,8 @@ using UnityEngine.Events;
 public class PlayerCollisionHandler : MonoBehaviour
 {
     [SerializeField] private ChangeTargetPosition _changeTargetPosition;
+
+    [SerializeField] private TurnPlayerInput _turnPlayerInput;
    // [SerializeField] private PlayerFoot _playerFoot;
 
     public event UnityAction<GameObject> TouchedControlPoint;
@@ -19,15 +21,23 @@ public class PlayerCollisionHandler : MonoBehaviour
         {
             //TouchedControlPoint?.Invoke(controllPoint.GetLegTarget());
             //controllPoint.TurnOf();
-
-            
-            
+        }
+        
+        if (collision.TryGetComponent<Item>(out Item item))
+        {
+            Debug.Log("itemmmm");
+            if (item.IsDestroyed)
+            {
+                _turnPlayerInput.ApplyItem(item);
+            }
         }
         
         if (collision.TryGetComponent<FlyingWithJuiceItem>(out FlyingWithJuiceItem flyingWithJuiceItem))
         {
             TouchedFlyingWithJuiceItem?.Invoke(flyingWithJuiceItem);
 
+          
+            
                 //if (_playerFoot.LegPivot.transform.position.y<flyingWithJuiceItem.TopPoint.transform.localPosition.y)
             //{
            //     Debug.Log("НАЧАЛ УНЕЧТОЖАТЬ");

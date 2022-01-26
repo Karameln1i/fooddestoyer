@@ -348,6 +348,7 @@ MonoBehaviour:
   _levelIndex: {fileID: 2006759217}
   _player: {fileID: 0}
   _fallItem: {fileID: 0}
+  _isBootScene: 1
   _levelPassedPanel: {fileID: 0}
 --- !u!1 &1006411524
 GameObject:
@@ -743,7 +744,7 @@ MonoBehaviour:
   _isFirstLaunch: 1
   _sceneReference:
     sceneAsset: {fileID: 102900000, guid: 20ed477fe65fb4542a52bfa0c3a56fc2, type: 3}
-    scenePath: Assets/Game/Scenes/Levels/Level 1.unity
+    scenePath: Assets/Game/Scenes/Levels/TrainingLevel.unity
   _level:
     _nextLevel:
       sceneAsset: {fileID: 0}

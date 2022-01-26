@@ -65,6 +65,7 @@ public class FlyingWithJuiceItem : Item
         Destroyed?.Invoke();
         Exploaded?.Invoke(this);
         _rigidbody.useGravity = false;
+        Desrtoyed();
        StartCoroutine( Dellay());
 
         for (int i = 0; i < _boxCodiers.Capacity; i++)
@@ -75,10 +76,19 @@ public class FlyingWithJuiceItem : Item
 
     protected override void Flatten(float speed,GameObject legPivot,bool IsGoDown)
     {
-
+       
+        Debug.Log(IsGoDown);
         Debug.Log("TopPoint "+ TopPoint.transform.localPosition.y);
         Debug.Log("legPivot"+ legPivot.transform.position.y);
-        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y&& !IsGoDown)
+       
+        if (legPivot.transform.position.y>TopPoint.transform.localPosition.y&& IsGoDown)
+        {
+            // BlowUp();
+            _isDestroyed = true;
+            StartCoroutine(Deformate(speed));
+        }
+       
+        else // if (legPivot.transform.position.y<TopPoint.transform.localPosition.y & !IsGoDown)
         {
             Discard();
             for (int i = 0; i < _boxCodiers.Capacity; i++)
@@ -86,15 +96,7 @@ public class FlyingWithJuiceItem : Item
                 _boxCodiers[i].enabled = false;
             }
             _discarded = true;
-            Debug.Log("отлетел");
         }
-        else
-        {
-            // BlowUp();
-            StartCoroutine(Deformate(speed));
-            Debug.Log("взорвался");
-        }
-       
   
         //base.Deform(speed);
 
@@ -119,14 +121,8 @@ public class FlyingWithJuiceItem : Item
                     
         }
     }
-    
-    private IEnumerator poc(float speed)
-    {
-        yield return new WaitForSeconds(0.1f);
-        _deformate=StartCoroutine(Deformate(speed));
-    }
-    
-    private IEnumerator Deformate(float speed)
+
+  private IEnumerator Deformate(float speed)
     {
 
         for (int i = 0; i < _firstWaveEffects.Capacity; i++)

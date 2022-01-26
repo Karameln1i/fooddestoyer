@@ -23,6 +23,7 @@ public class DeformationItem : Item
     [SerializeField] private float _minBoneScale;
     [SerializeField] private SkinnedMeshRenderer _whole;
     [SerializeField] private GameObject _emoji;
+    [SerializeField] private BoxCollider _boxColdier;
     
 
     private bool _rotated;
@@ -78,30 +79,21 @@ public class DeformationItem : Item
 Debug.Log("вращается");
             _rotated = true;
         }
-        
-     
-       
-      
-
-       
     }
     
     public override void Deform(float speed,GameObject legPivot,bool IsGoDown)
     {
         Debug.Log("TopPoint " +TopPoint.transform.localPosition.y);
         Debug.Log("legpivot " +legPivot.transform.position.y);
+        Debug.Log(IsGoDown);
 
-        //base.Deform(speed);
-        if (legPivot.transform.position.y<TopPoint.transform.localPosition.y&&!IsGoDown)
-        {
-            Discard();
-            Debug.Log("отлетел");
-        }
-        else if (legPivot.transform.position.y>TopPoint.transform.localPosition.y && IsGoDown)
+        if (legPivot.transform.position.y>TopPoint.transform.localPosition.y && IsGoDown)
         {
             Debug.Log("смялся");
             RotateBones();
             StartCoroutine(Deformate());
+            _isDestroyed = true;
+            StartCoroutine(DestroyedAfterTime());
             
             if (_deformateBone)
             {
@@ -113,6 +105,14 @@ Debug.Log("вращается");
                 TryPlayEffects();
                 _effecIsPlayed = true;
             }
+            
+           
+        }
+
+        else
+        {
+            Discard();
+            Debug.Log("отлетел");
         }
         
         if (_replaceModel)
@@ -137,6 +137,7 @@ Debug.Log("вращается");
 
     private IEnumerator Deformate()
     {
+
         while (_boneToChangePosition.transform.position != _boneTarget.transform.position)
         {
             _boneToChangePosition.transform.position = Vector3.MoveTowards(_boneToChangePosition.transform.position,
@@ -146,6 +147,14 @@ Debug.Log("вращается");
         }
     }
 
-  
+    private IEnumerator DestroyedAfterTime()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Desrtoyed();
+        gameObject.SetActive(true);
+        BoxCollider.enabled = false;
+        Rigidbody.useGravity = false;
+
+    }
     
 }

@@ -14,6 +14,7 @@ public class FallItem : Item
         //Desrtoyed();
         
         TouchedFallItem?.Invoke();
+          _touchEffect.Play();
         
        /* if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
         {
@@ -23,7 +24,7 @@ public class FallItem : Item
         else
         {
             TouchedFallItem?.Invoke();
-            _touchEffect.Play();
+          
             Debug.Log("также упал");
         }*/
     }

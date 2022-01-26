@@ -1582,9 +1582,13 @@
             <e p="RememberLevel.cs" t="Include" />
             <e p="SetLevelIndex.cs" t="Include" />
             <e p="SlowDownTime.cs" t="Include" />
+            <e p="StopTimeWayPoint.cs" t="Include" />
             <e p="SwitchOff.cs" t="Include" />
             <e p="Target.cs" t="Include" />
+            <e p="Training.cs" t="Include" />
+            <e p="TrainingTextAnimation.cs" t="Include" />
             <e p="TurnConveyor.cs" t="Include" />
+            <e p="TurnPlayerInput.cs" t="Include" />
             <e p="Ui" t="Include">
               <e p="ClickToPlayPanel.cs" t="Include" />
               <e p="LevelComplitedPanel.cs" t="Include" />

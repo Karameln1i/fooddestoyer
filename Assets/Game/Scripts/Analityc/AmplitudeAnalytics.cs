@@ -66,7 +66,7 @@ public class AmplitudeAnalytics : MonoBehaviour
     
     private void GameStart()
     {
-        if (_level.LevelIndex == 0)
+        if (_level.IsBootScene)
         {
             if (_sessionID==0)
             {

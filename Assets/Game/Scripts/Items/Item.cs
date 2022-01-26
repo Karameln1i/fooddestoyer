@@ -16,14 +16,17 @@ public abstract class Item : MonoBehaviour
     private BoxCollider _boxCollider;
     private float _speed;
     private Coroutine _goToDownCorutine;
+    protected bool _isDestroyed;
 
-
+    protected Rigidbody Rigidbody => _rigidbody;
+    protected BoxCollider BoxCollider => _NotTrigerCollider;
     protected GameObject TopPoint => _topPoint;
 
     public GameObject LegTarget => _legTarget;
     
     public event UnityAction<Item> Destroyed;
 
+    public bool IsDestroyed => _isDestroyed;
 
     private void Awake()
     {
@@ -39,7 +42,7 @@ public abstract class Item : MonoBehaviour
 
     protected virtual void Flatten(float speed,GameObject legPivot,bool IsGoDown)
     {
-        
+       // _destroyed = true;
     }
 
     public virtual void Deform(float speed,GameObject legPivot,bool IsGoDown)
@@ -49,6 +52,7 @@ public abstract class Item : MonoBehaviour
        // { 
         //    Vibrate();
        // }
+       //_destroyed = true;
     }
 
     public void Desrtoyed()
@@ -66,6 +70,7 @@ public abstract class Item : MonoBehaviour
       { 
         Vibrate();
       }*/
+    //  _destroyed = true;
     }
 
     public void TurnOnColdier()
@@ -91,7 +96,7 @@ public abstract class Item : MonoBehaviour
 
         if (_isPot)
         {
-            _rigidbody.AddForce(Vector3.right*70,ForceMode.Impulse);
+            _rigidbody.AddForce(Vector3.forward*50,ForceMode.Impulse);
             //_rigidbody.AddForce(Vector3.back*70,ForceMode.Impulse);
                 // _rigidbody.AddForce(Vector3.up*70,ForceMode.Impulse);
         }
