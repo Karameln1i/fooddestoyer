@@ -25,10 +25,8 @@ public class FlyingWithJuiceItem : Item
     [SerializeField] private Color _explosionColor;
     [SerializeField] private float _deformateSpeed;
     [SerializeField] private List<BoxCollider> _boxCodiers;
-
     [SerializeField] private GameObject _emoji;
-
-  // [SerializeField] private Vector3 _firstWaveEffectsScale;
+    
     private Coroutine _deformate;
     private bool _isDeformated;
     private Rigidbody _rigidbody;
@@ -39,7 +37,6 @@ public class FlyingWithJuiceItem : Item
 
     public bool Disacarded => _discarded;
     public int Endurance => _endurance;
-   // public GameObject TopPoint => _TopPoint;
     public event UnityAction Destroyed;
     public event UnityAction<FlyingWithJuiceItem> Exploaded;
 
@@ -48,16 +45,12 @@ public class FlyingWithJuiceItem : Item
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
         _TopPoint = TopPoint;
-        // _firstWaveEffectsScale =new Vector3(0.5,0.5,0.5); //_firstWaveEffects[1].transform.localScale;
     }
     
     private  void BlowUp()
     {
-     // _boxCollider.enabled = false;
-            _bomb.Explode(_bombDellay);
+        _bomb.Explode(_bombDellay);
         PlayEffects();
-       // UseGravity();
-        //TurnOnColdiers();
         _animator.enabled = false;
        _emoji.SetActive(false);
         _wholeMesh.enabled = false;
@@ -76,19 +69,13 @@ public class FlyingWithJuiceItem : Item
 
     protected override void Flatten(float speed,GameObject legPivot,bool IsGoDown)
     {
-       
-        Debug.Log(IsGoDown);
-        Debug.Log("TopPoint "+ TopPoint.transform.localPosition.y);
-        Debug.Log("legPivot"+ legPivot.transform.position.y);
-       
         if (legPivot.transform.position.y>TopPoint.transform.localPosition.y&& IsGoDown)
         {
-            // BlowUp();
             _isDestroyed = true;
             StartCoroutine(Deformate(speed));
         }
        
-        else // if (legPivot.transform.position.y<TopPoint.transform.localPosition.y & !IsGoDown)
+        else
         {
             Discard();
             for (int i = 0; i < _boxCodiers.Capacity; i++)
@@ -97,10 +84,6 @@ public class FlyingWithJuiceItem : Item
             }
             _discarded = true;
         }
-  
-        //base.Deform(speed);
-
-       // StartCoroutine(poc(speed));
     }
 
   private void Discard()
@@ -128,50 +111,22 @@ public class FlyingWithJuiceItem : Item
         for (int i = 0; i < _firstWaveEffects.Capacity; i++)
         {
             _firstWaveEffects[i].Play();
-           // _firstWaveEffects[i].transform.localScale = _firstWaveEffectsScale;
         }
 
         var deformateSpeed = _speedMultiplier * speed;
-        
-        /*if (_isGorizontalItem)
-        {
-            var scaleY = transform.localScale.y;
-            var positionY = transform.position.y;
- 
-        
-            Debug.Log("spead "+deformateSpeed);
-        
-            while (transform.localScale.y>_minScale)
-            {
-                scaleY = Mathf.MoveTowards(scaleY, _minScale, deformateSpeed * Time.deltaTime);
-                //0,095
-               // positionY = Mathf.MoveTowards(positionY, 0.095f,deformateSpeed * Time.deltaTime);
-                transform.localScale=new Vector3(transform.localScale.x,scaleY,transform.localScale.y);
-               // transform.position=new Vector3(transform.position.x,positionY,transform.position.z);
-                yield return null;
-            }
-        }
-        else
-        {*/
-            var scaleY = transform.localScale.y;
+        var scaleY = transform.localScale.y;
 
             while (transform.localScale.y>_minScale)
             {
                 scaleY = Mathf.MoveTowards(scaleY, _minScale, deformateSpeed * Time.deltaTime);
-               // scaleY = ;
-               //transform.DOScale(_deformated, deformateSpeed);
-                  // Vector3.Lerp(transform.localScale, _deformated, deformateSpeed);
                 transform.localScale=new Vector3(transform.localScale.x,scaleY,transform.localScale.z);
                 yield return null;
             }
-       // }
-        // StopCoroutine(_deformate);
-        for (int i = 0; i < _firstWaveEffects.Capacity; i++)
+            for (int i = 0; i < _firstWaveEffects.Capacity; i++)
         {
             _firstWaveEffects[i].Stop();
         }
-        //_isDeformated = true;
-      BlowUp();
+            BlowUp();
     }
     
     private void PlayEffects()

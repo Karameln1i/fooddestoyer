@@ -10,22 +10,8 @@ public class FallItem : Item
     public event UnityAction TouchedFallItem;
     protected override void Break(GameObject legPivot)
     {
-
-        //Desrtoyed();
-        
         TouchedFallItem?.Invoke();
           _touchEffect.Play();
         
-       /* if (legPivot.transform.position.y<TopPoint.transform.localPosition.y)
-        {
-            Discard();
-            Debug.Log("отлетел");
-       }
-        else
-        {
-            TouchedFallItem?.Invoke();
-          
-            Debug.Log("также упал");
-        }*/
     }
 }

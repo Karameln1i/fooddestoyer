@@ -9,15 +9,11 @@ using UnityEngine.Events;
 public class ChangeTargetPosition : MonoBehaviour
 {
     [SerializeField] private PlayerInput _playerInput;
-   // [SerializeField] private ScaleValueChecker _scaleValueChecker;
     [SerializeField] private Vector3 _deltaPosition1;
     [SerializeField] private Vector3 _deltaPosition2;
     [SerializeField] private Vector3 _deltaRotation;
-    
-  //  [SerializeField] private Vector3 _deltaPosition2;
-  [SerializeField] private float _rotationSpeed;
+    [SerializeField] private float _rotationSpeed;
     [SerializeField] private float _legLiftingSpeed;
-   // [SerializeField] private float _legLoweringSpead;
     [SerializeField] private float _legLoweringSpedForFlattening;
     [SerializeField] private LevelComplitedPanel _levelComplitedPanel;
     [SerializeField] private MoveState _moveState;
@@ -65,13 +61,8 @@ public class ChangeTargetPosition : MonoBehaviour
     private void OnEnable()
     {
        _playerCollisionHandler.TouchedFlyingWithJuiceItem += OnTouchedFlyingWithJuiceItem;
-     //  _moveState.WayPointReached += OnWayPointReached;
-        _levelComplitedPanel.Opened += OnPanelOpened;
+       _levelComplitedPanel.Opened += OnPanelOpened;
         _playerInput.Clicked += OnClicked;
-        //_scaleValueChecker.StopedOnGreen += OnStopedOnGreenZone;
-       // _scaleValueChecker.StopedYellow += OnStopedOnYellowZone;
-        //_legloweringSpeed = _legLiftingSpeed;
-     //   _moveState.ReceivedLegTarget += OnReceivedLegTarget;
     }
 
     
@@ -79,11 +70,7 @@ public class ChangeTargetPosition : MonoBehaviour
     private void OnDisable()
     {
        _playerCollisionHandler.TouchedFlyingWithJuiceItem -= OnTouchedFlyingWithJuiceItem;
-           // _scaleValueChecker.StopedOnGreen -= OnStopedOnGreenZone;
-       // _scaleValueChecker.StopedYellow -= OnStopedOnYellowZone;
-       // _moveState.ReceivedLegTarget -= OnReceivedLegTarget;
-       // _moveState.WayPointReached -= OnWayPointReached;
-        StopMoveToTarget();
+       StopMoveToTarget();
     }
 
     private void OnPanelOpened()
@@ -102,7 +89,6 @@ public class ChangeTargetPosition : MonoBehaviour
         _currentTime = 0;
         
         Vector3 targetPosition = _target.transform.position + _deltaPosition1;
-        //Quaternion targetRotation = _target.transform.rotation + _deltaRotation;
 
         while (_target.transform.position!=targetPosition)
             {
@@ -110,9 +96,7 @@ public class ChangeTargetPosition : MonoBehaviour
                 _currentTime += Time.deltaTime;
 
                 _target.transform.position=Vector3.MoveTowards(_target.transform.position,targetPosition,speed*Time.deltaTime);
-                //_target.transform.rotation=Vector3.MoveTowards(_target.transform.rotation,12,12)
-                //_target.transform.Rotate(_deltaRotation,_rotationSpeed*Time.deltaTime);
-            yield return null;
+                yield return null;
           
         }
 
@@ -124,8 +108,7 @@ public class ChangeTargetPosition : MonoBehaviour
             _currentTime += Time.deltaTime;
 
             _target.transform.position=Vector3.MoveTowards(_target.transform.position,targetPosition,speed*Time.deltaTime);
-            //_target.transform.rotation=Vector3.MoveTowards(_target.transform.rotation,12,12)
-            //_target.transform.Rotate(_deltaRotation,_rotationSpeed*Time.deltaTime);
+            
             yield return null;
           
         }
@@ -154,18 +137,12 @@ public class ChangeTargetPosition : MonoBehaviour
             }
         
             _currentTime = 0;
-            //_clickCount = 0;
-      
-        TargetAchived?.Invoke();
-        //_target.ResetPosition();
+
+            TargetAchived?.Invoke();
         MoveTargetIsWorking = false;
         _isGoDown = false;
     }
-
-    private void OnReceivedLegTarget(GameObject legtarget)
-    {
-        _endPoint = legtarget;
-    }
+    
         
     
     private void OnClicked()
@@ -188,7 +165,6 @@ public class ChangeTargetPosition : MonoBehaviour
 
     private void StopMoveToTarget()
     {
-       // StopCoroutine(_moveToTergetJob);
         _target.ResetPosition();
     }
 
@@ -201,35 +177,9 @@ public class ChangeTargetPosition : MonoBehaviour
             _touchedFlyingWithJuiceItem = true;
         }
     }
-    
-    private void OnWayPointReached(/*FlyingWithJuiceItem flyingWithJuiceItem,*/int endurance)
-    {
 
-       СalculateSpead(endurance);
-    }
-
-    private void СalculateSpead(int endurancce)
-    {
-        _legLoweringSpedForFlattening -= _legLoweringSpedForFlattening / 100 * endurancce;
-        Debug.Log(_legLoweringSpedForFlattening);
-    }
-    
     private void OnflyingWithJuiceItemDestroyed()
     {
-        //_legLoweringSpedForFlattening =LegSpedForFlattening;
-        // _legloweringSpeed = LegLoweringSpeed;
-     _touchedFlyingWithJuiceItem = false;
-    }
-    
-    private void OnStopedOnGreenZone()
-    {
-        //legloweringSpeed = _legLoweringSpeedForGreenZone;
-      
-    }
-    
-    private void OnStopedOnYellowZone()
-    {
-        //_legloweringSpeed= _legLoweringSpeedForYllowZone;
-       
+        _touchedFlyingWithJuiceItem = false;
     }
 }

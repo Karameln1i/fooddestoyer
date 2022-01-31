@@ -15,7 +15,6 @@ public class ExplodingItem : Item
     private void Awake()
     {
         _rayfireRigid = GetComponent<RayfireRigid>();
-        
     }
     
     protected override void Break(GameObject legPivot)
@@ -23,7 +22,6 @@ public class ExplodingItem : Item
         if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
         {
             Discard();
-            Debug.Log("отлетел");
         }
         else
         {

@@ -6,8 +6,6 @@ using UnityEngine.Events;
 public class PlayerInput : MonoBehaviour
 {
     [SerializeField] private Player _player;
-
-
     
     public event UnityAction Clicked;
 

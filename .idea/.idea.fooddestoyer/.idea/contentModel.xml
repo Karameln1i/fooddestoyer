@@ -1528,14 +1528,11 @@
             <e p="Animation" t="Include">
               <e p="PlayerAnimationController.cs" t="Include" />
             </e>
-            <e p="CameraFollowing.cs" t="Include" />
-            <e p="CameraMove.cs" t="Include" />
             <e p="ChangeTargetPosition.cs" t="Include" />
             <e p="ControllPoint.cs" t="Include" />
             <e p="Conveer.cs" t="Include" />
             <e p="Coviert.cs" t="Include" />
             <e p="DeletePlayerPrefs.cs" t="Include" />
-            <e p="DESTROYER.cs" t="Include" />
             <e p="DirtyTheScreen.cs" t="Include" />
             <e p="EffectCreator.cs" t="Include" />
             <e p="Finish.cs" t="Include" />

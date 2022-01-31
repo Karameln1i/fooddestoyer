@@ -32,28 +32,16 @@ public abstract class Item : MonoBehaviour
     {
         _boxCollider = GetComponent<BoxCollider>();
         _notDestroyed = true;
-        //_rigidbody = GetComponent<Rigidbody>();
     }
 
     protected virtual void Break(GameObject legPivot)
-    {
-        
-    }
+    { }
 
     protected virtual void Flatten(float speed,GameObject legPivot,bool IsGoDown)
-    {
-       // _destroyed = true;
-    }
+    { }
 
     public virtual void Deform(float speed,GameObject legPivot,bool IsGoDown)
-    {
-        
-       // while (_notDestroyed)
-       // { 
-        //    Vibrate();
-       // }
-       //_destroyed = true;
-    }
+    { }
 
     public void Desrtoyed()
      {
@@ -65,12 +53,6 @@ public abstract class Item : MonoBehaviour
     { 
       Break(legPivot);
       Flatten(speed,legPivot,IsGoDown);
-
-      /*while (_notDestroyed)
-      { 
-        Vibrate();
-      }*/
-    //  _destroyed = true;
     }
 
     public void TurnOnColdier()
@@ -97,8 +79,6 @@ public abstract class Item : MonoBehaviour
         if (_isPot)
         {
             _rigidbody.AddForce(Vector3.forward*50,ForceMode.Impulse);
-            //_rigidbody.AddForce(Vector3.back*70,ForceMode.Impulse);
-                // _rigidbody.AddForce(Vector3.up*70,ForceMode.Impulse);
         }
         else
         {
@@ -116,8 +96,7 @@ public abstract class Item : MonoBehaviour
                 break;
                     
         }
-
-       
+        
         }
         _NotTrigerCollider.enabled = false;
         }

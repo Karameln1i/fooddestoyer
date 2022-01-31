@@ -39,6 +39,7 @@ public class Training : MonoBehaviour
         {
             yield return null;
         }
+        
         Time.timeScale = 1;
         _text.text = null;
       _stopTimeWayPoint.gameObject.SetActive(false);

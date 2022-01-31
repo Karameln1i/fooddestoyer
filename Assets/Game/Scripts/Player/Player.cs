@@ -8,16 +8,9 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private Menu menu;
     [SerializeField] private FinishItem _finishItem;
-    
-    //private Animator _animator;
 
     public event UnityAction Won;
     public event UnityAction Lost;
-    
-    private void Awake()
-    {
-        //_animator = GetComponent<Animator>();
-    }
 
     private void OnEnable()
     {

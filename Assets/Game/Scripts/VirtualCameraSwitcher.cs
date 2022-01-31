@@ -27,19 +27,5 @@ public class VirtualCameraSwitcher : MonoBehaviour
     {
         _cameraForWalking.Priority = _notPriorityValue;
         _cameraForFall.Priority = _priorityValue;
-
-        //DisablePlayerInputForAtime();
-    }
-
-    private void DisablePlayerInputForAtime()
-    {
-        StartCoroutine(DisableInputForWhile());
-    }
-    
-    private IEnumerator DisableInputForWhile()
-    {
-        _playerInput.enabled = false;
-        yield return new WaitForSeconds(_playerInputDisabledTime);
-        _playerInput.enabled = true;
     }
 }

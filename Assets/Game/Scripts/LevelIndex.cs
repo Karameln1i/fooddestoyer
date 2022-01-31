@@ -19,13 +19,11 @@ public class LevelIndex : MonoBehaviour
     private void OnEnable()
     {
         _nextLevelButton.onClick.AddListener(OnPlayerClickedToButton);
-        //PlayerPrefs.DeleteAll();
     }
 
     private void OnDisable()
     {
         _nextLevelButton.onClick.RemoveListener(OnPlayerClickedToButton);
-        //_player.Won -= OnPlayerClickedToButton;
     }
 
     private void OnPlayerClickedToButton()

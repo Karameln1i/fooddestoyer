@@ -10,7 +10,6 @@ public class RagdollActivator : MonoBehaviour
     [SerializeField] private List<BoxCollider> _boxColliders;
     [SerializeField] private List<Rigidbody> _rigidbodies;
     
-
     private Animator _animator;
     private FullBodyBipedIK _fullBodyBipedIk;
 
@@ -42,8 +41,6 @@ public class RagdollActivator : MonoBehaviour
     {
         _animator.enabled = false;
         _fullBodyBipedIk.enabled = false;
-        
-       
         
         for (int i = 0; i < _rigidbodies.Count; i++)
         {

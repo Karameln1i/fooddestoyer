@@ -33,21 +33,18 @@ public class Conveer : MonoBehaviour
         _animator.enabled = true;
         _player.Won += OnPlayerWon;
         _player.Lost += OnPlayerLost;
-        //_playerCollisionHandler.TouchedFlyingWithJuiceItem += OnTouchedFlyingWithJuiceItem;
     }
 
     private void OnDisable()
     {
         _player.Won -= OnPlayerWon;
         _player.Lost -= OnPlayerLost;
-       // _playerCollisionHandler.TouchedFlyingWithJuiceItem -= OnTouchedFlyingWithJuiceItem;
-       _material.mainTextureOffset = new Vector2(0,0);
+        _material.mainTextureOffset = new Vector2(0,0);
     }
     
     private void FixedUpdate()
     {
-      // _material.mainTextureOffset=new Vector2(0f,-Time.deltaTime*_mainTextureOffsetSpead*Time.deltaTime);
-       _material.DOOffset(new Vector2(0, -300), 2400);
+        _material.DOOffset(new Vector2(0, -300), 2400);
         Vector3 pos = _rigidbody.position;
         _rigidbody.position += Vector3.right * _speed * Time.fixedDeltaTime;
         _rigidbody.MovePosition(pos);
@@ -62,22 +59,5 @@ public class Conveer : MonoBehaviour
     private void OnPlayerLost()
     {
         enabled = false;
-    }
-
-    private void OnTouchedFlyingWithJuiceItem(FlyingWithJuiceItem Item)
-    {
-        _speed = SpeedAfterTouching;
-        Item.Exploaded+=OnItemExploaded;
-        Debug.Log("conveywr touched");
-    }
-
-    private void OnItemExploaded(FlyingWithJuiceItem Item)
-    {
-        Debug.Log("вызвалось");
-   
-        //_speed = _speedAfterTheDestruction;
-  
-        Debug.Log("вызвалось2");
-       // Item.Exploaded-=OnItemExploaded;
     }
 }

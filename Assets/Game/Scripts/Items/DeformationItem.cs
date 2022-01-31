@@ -75,21 +75,17 @@ public class DeformationItem : Item
             if (_turningTheSecondBone)
             {
                 _leftBoneToChangeRotation.transform.DOLocalRotate(_LeftBonerotationTarget, _rotationSpeed);
-            } 
-Debug.Log("вращается");
+            }
             _rotated = true;
         }
     }
     
     public override void Deform(float speed,GameObject legPivot,bool IsGoDown)
     {
-        Debug.Log("TopPoint " +TopPoint.transform.localPosition.y);
-        Debug.Log("legpivot " +legPivot.transform.position.y);
         Debug.Log(IsGoDown);
 
         if (legPivot.transform.position.y>TopPoint.transform.localPosition.y && IsGoDown)
         {
-            Debug.Log("смялся");
             RotateBones();
             StartCoroutine(Deformate());
             _isDestroyed = true;
@@ -105,14 +101,11 @@ Debug.Log("вращается");
                 TryPlayEffects();
                 _effecIsPlayed = true;
             }
-            
-           
         }
 
         else
         {
             Discard();
-            Debug.Log("отлетел");
         }
         
         if (_replaceModel)
@@ -120,19 +113,7 @@ Debug.Log("вращается");
             _replacedModel.SetActive(true);
             _emoji.SetActive(false);
             _whole.enabled = false;
-            //gameObject.SetActive(false);
         }
-       
-      // StartCoroutine(Deformate());
-       //RotateBones();
-
-       
-        
- 
-           //_boneToChangePosition.transform.position=Vector3.MoveTowards(_boneToChangePosition.transform.position,item.LegTarget.transform.position,speed*_speedMultiplayer*Time.deltaTime);
-           //_boneToChangePosition.transform.Translate(Vector3.down*_deformateSpeed*Time.deltaTime);
-           
-           //_boneToChangePosition.transform.Translate(Vector3.down*speed*_speedMultiplayer);
     }
 
     private IEnumerator Deformate()
@@ -156,5 +137,4 @@ Debug.Log("вращается");
         Rigidbody.useGravity = false;
 
     }
-    
 }

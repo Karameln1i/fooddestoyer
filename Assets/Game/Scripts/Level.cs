@@ -13,10 +13,8 @@ public class Level : MonoBehaviour
     [SerializeField] private Player _player;
     [SerializeField] private FallItem _fallItem;
     [SerializeField] private bool _isBootScene;
-
     [SerializeField] private LevelPassedPanel _levelPassedPanel;
-    //[SerializeField] private Button _restartButton;
-  
+
     private int _slevelIndex;
     
     private const string LastComplitedLevel = nameof(LastComplitedLevel);
@@ -28,8 +26,7 @@ public class Level : MonoBehaviour
     public event UnityAction<int> LevelCompleted; 
     public event UnityAction <int> LevelRestartetd;
    public event UnityAction<int> LevelFailed;
-
-
+   
    private void Awake()
    {
        _slevelIndex = _levelIndex.GetValue();

@@ -26,13 +26,4 @@ public class FinishItem : Item
 
     public event UnityAction LevelComplited;
 
-   
-
-  
-    
-    private void OnItemDestroyed(Item item)
-    {
-        LevelComplited?.Invoke();
-    }
-
 }

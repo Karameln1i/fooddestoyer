@@ -10,11 +10,8 @@ public class Menu : MonoBehaviour
    [SerializeField] private LevelComplitedPanel _levelComplitedPanel;
    [SerializeField] private FinishItem _finishItem;
    [SerializeField] private GameObject _progressBar;
-
    [SerializeField] private GameObject _levelPassedPanel;
-   
-   // [SerializeField] private Finish finish;
-    [SerializeField] private float _targetImageColor;
+   [SerializeField] private float _targetImageColor;
     [SerializeField] private float _interpalation;
 
     private const float dellay = 1f;
@@ -22,27 +19,9 @@ public class Menu : MonoBehaviour
     private void OnEnable()
     {
         _player.Lost+= OnPlayerLose;
-        //finish.LevelComplited += OnLevelComplited;
         _player.Won += OnPlayerWon;
     }
 
-    private void OnDisable()
-    {
-        
-    }
-
-    private void OnPlayerLose()
-    {
-        StartCoroutine(OpenPanel(_levelPassedPanel));
-        _player.Lost-= OnPlayerLose;
-    }
-
-   // private void OnLevelComplited()
-   // {
-      //  StartCoroutine(OpenPaneLevelPassedPanel(_levelComplitedPanel));
-        //finish.LevelComplited -= OnLevelComplited;
-   // }//
-    
     private IEnumerator DarkenScreen(LevelComplitedPanel panel)
     {
         var color = panel.GetComponent<Image>().color;
@@ -69,5 +48,11 @@ public class Menu : MonoBehaviour
       StartCoroutine(DarkenScreen(_levelComplitedPanel));
       _progressBar.SetActive(false);
       _player.Won -= OnPlayerWon;
+  }
+  
+  private void OnPlayerLose()
+  {
+      StartCoroutine(OpenPanel(_levelPassedPanel));
+      _player.Lost-= OnPlayerLose;
   }
 }

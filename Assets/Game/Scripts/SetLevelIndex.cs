@@ -10,7 +10,6 @@ public class SetLevelIndex : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _text;
     [SerializeField] private LevelIndex _levelIndex;
     [SerializeField] private bool _isLevelNumber;
-   // [SerializeField] private bool _isProgersBarLevelNumber;
 
     private void Awake()
     {

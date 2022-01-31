@@ -12,15 +12,7 @@ public class SlowDownTime : MonoBehaviour
     [SerializeField] private AnimationCurve _slowMotionCurve;
     [SerializeField] private  float FixedDeltaTimeMultiplier;
 
-   // public event UnityAction Slowed;
-   // public event UnityAction Resumed;
-
     private Time _startFixedDeltaTime;
-
-    private void Awake()
-    {
-       // _startFixedDeltaTime = Time.fixedDeltaTime.;
-    }
     
     private void OnEnable()
     {
@@ -45,7 +37,6 @@ public class SlowDownTime : MonoBehaviour
 
     private IEnumerator ShowSlowMotion()
     {
-       // Slowed?.Invoke();
         float elapsedTime = 0;
 
         while (elapsedTime < _slowMotionDuration)
@@ -56,8 +47,5 @@ public class SlowDownTime : MonoBehaviour
             yield return null;
         }
       Time.timeScale = 1;
-      //Resumed?.Invoke();
-      Debug.Log("resumed");
-      //Time.fixedDeltaTime = 1;
     }
 }

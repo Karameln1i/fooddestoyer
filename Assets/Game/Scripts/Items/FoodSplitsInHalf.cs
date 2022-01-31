@@ -17,7 +17,6 @@ public class FoodSplitsInHalf : Item
         if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
         {
             Discard();
-            Debug.Log("отлетел");
         }
         else
         {

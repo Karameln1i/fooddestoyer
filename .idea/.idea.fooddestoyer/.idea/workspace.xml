@@ -22,49 +22,54 @@
     <list default="true" id="4aa95556-c4f2-45dd-b04f-a23a60db565f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeBurstDark.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeBurstDark.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeBurstWhite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeBurstWhite.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeExplosionWhite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeExplosionWhite.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Chair/Shaiking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Chair/Shaiking.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/Ui/Floating.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/Ui/Floating.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Apple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Apple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cocount.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cocount.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cola (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cola (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cola.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Cola.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstSausage 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/JarstSausage 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Lemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Lemon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/NOVELO_SEAURCHIN.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/NOVELO_SEAURCHIN.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Orange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Orange.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Plita.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Plita.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Pumpkin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Pumpkin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Soda.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Soda.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Tomato.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/Tomato.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/WatterMelon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Food/WatterMelon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Ui/LevelComplited.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Ui/LevelComplited.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/BootScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/BootScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 1.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Level 9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Analityc/AmplitudeAnalytics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Analityc/AmplitudeAnalytics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/TrainingLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/TrainingLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CameraFollowing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CameraFollowing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CameraMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CameraMove.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/DeletePlayerPrefs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/DeletePlayerPrefs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Destroyer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Destroyer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/LevelIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/LevelIndex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/RagdollActivator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/RagdollActivator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Training.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Training.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/TrainingTextAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/TrainingTextAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Panel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Panel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/RestartLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/RestartLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Scale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Scale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ScaleValueChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ScaleValueChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-common-11.3.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-common-11.3.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-core-11.3.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-core-11.3.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,55 +94,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Discard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Target.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/RagDollActivator1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/RagdollActivator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplittingIntoSeveralParts.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/DestroyState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/DirtyTheScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelPassedPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelComplitedPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Analityc/AmplitudeAnalytics.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/SwitchOff.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/SetPlayerValue.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/LevelIndex.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DeletePlayerPrefs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/StopTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/FreezeTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/StopTimeWayPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TrainingTextAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Training.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnPlayerInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ControllPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DeletePlayerPrefs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/LevelIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/RagdollActivator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Training.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TrainingTextAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Panel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/RestartLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Scale.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ScaleValueChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -206,6 +213,9 @@
       <workItem from="1643125820853" duration="2747000" />
       <workItem from="1643187886255" duration="1385000" />
       <workItem from="1643196575442" duration="11967000" />
+      <workItem from="1643288349971" duration="1788000" />
+      <workItem from="1643291574128" duration="69000" />
+      <workItem from="1643291664668" duration="1538000" />
     </task>
     <servers />
   </component>
