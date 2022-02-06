@@ -22,17 +22,54 @@
     <list default="true" id="4aa95556-c4f2-45dd-b04f-a23a60db565f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fooddestoyer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animation/ConveyorWorking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animation/ConveyorWorking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Materials/Plathorm Material 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Models/jarst_lemon_Sub.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Models/jarst_lemon_Sub.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/ConveerTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/TrainingLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Levels/TrainingLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CameraFollowing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CameraFollowing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CameraMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/CameraMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/DeletePlayerPrefs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/DeletePlayerPrefs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Destroyer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Destroyer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/LevelIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/LevelIndex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/RagdollActivator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/RagdollActivator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Training.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Training.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/TrainingTextAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/TrainingTextAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Panel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Panel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/RestartLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/RestartLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Scale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Scale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ScaleValueChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ScaleValueChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-common-11.3.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-common-11.3.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-core-11.3.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-core-11.3.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,27 +81,70 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RagDollActivator1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/StopTimeWayPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TrainingTextAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/SwitchOff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TurnPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/DestroyState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ClickToPlayPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Discard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Target.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/RagDollActivator1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DirtyTheScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelPassedPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LevelComplitedPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayChairAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ProgressBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Analityc/AmplitudeAnalytics.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SwitchOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SetPlayerValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/StopTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FreezeTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/StopTimeWayPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnPlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ChangeTargetPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ControllPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Conveer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Coviert.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DeletePlayerPrefs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/FinishZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/LevelIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/RagdollActivator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SetLevelIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/SlowDownTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Training.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TrainingTextAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnConveyor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Vibrations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/VirtualCameraSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/LoadSceneButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Panel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/RestartLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/Scale.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Ui/ScaleValueChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerCollisionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Player/PlayerFoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/CrackingItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/DeformationItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ExplodingItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FallItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FlyingWithJuiceItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/FoodSplitsInHalf.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Items/ItemCollisionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -104,6 +184,38 @@
       <workItem from="1640201129089" duration="326000" />
       <workItem from="1640253299377" duration="4790000" />
       <workItem from="1640268611700" duration="2413000" />
+      <workItem from="1640282966546" duration="2048000" />
+      <workItem from="1640328492476" duration="1530000" />
+      <workItem from="1640335607315" duration="782000" />
+      <workItem from="1640347706159" duration="2240000" />
+      <workItem from="1640357872568" duration="5135000" />
+      <workItem from="1640427523600" duration="592000" />
+      <workItem from="1640512155775" duration="1071000" />
+      <workItem from="1640595217439" duration="4192000" />
+      <workItem from="1640684538346" duration="3734000" />
+      <workItem from="1640718908243" duration="5245000" />
+      <workItem from="1640769464219" duration="2718000" />
+      <workItem from="1641801086989" duration="1649000" />
+      <workItem from="1641936339352" duration="4412000" />
+      <workItem from="1641980963922" duration="12132000" />
+      <workItem from="1642017647530" duration="591000" />
+      <workItem from="1642074538309" duration="8128000" />
+      <workItem from="1642150851273" duration="13858000" />
+      <workItem from="1642504325991" duration="1900000" />
+      <workItem from="1642618304277" duration="1874000" />
+      <workItem from="1642850320163" duration="2981000" />
+      <workItem from="1642868757786" duration="4845000" />
+      <workItem from="1642935889991" duration="4107000" />
+      <workItem from="1642950848127" duration="1656000" />
+      <workItem from="1643014448692" duration="5371000" />
+      <workItem from="1643037088131" duration="2993000" />
+      <workItem from="1643049608603" duration="3603000" />
+      <workItem from="1643125820853" duration="2747000" />
+      <workItem from="1643187886255" duration="1385000" />
+      <workItem from="1643196575442" duration="11967000" />
+      <workItem from="1643288349971" duration="1788000" />
+      <workItem from="1643291574128" duration="69000" />
+      <workItem from="1643291664668" duration="1538000" />
     </task>
     <servers />
   </component>
@@ -125,18 +237,28 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1643039199873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1600.-189.1600.860@0.0.1920.1040" timestamp="1643039199873" />
+    <state x="871" y="189" width="1223" height="1027" key="dock-window-1" timestamp="1640361096192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="871" y="189" width="1223" height="1027" key="dock-window-1/0.0.1920.1040/-1600.59.1600.860@0.0.1920.1040" timestamp="1640361096192" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Game/Scripts/Player/StateMachine/FallState.cs</url>
-          <line>59</line>
+          <line>63</line>
           <properties documentPath="D:\GitHubRepository\fooddestoyer\Assets\Game\Scripts\Player\StateMachine\FallState.cs" initialLine="55">
             <startOffsets>
-              <option value="1829" />
+              <option value="2019" />
             </startOffsets>
             <endOffsets>
-              <option value="1830" />
+              <option value="2020" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

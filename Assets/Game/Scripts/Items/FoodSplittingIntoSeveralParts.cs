@@ -13,8 +13,8 @@ public class FoodSplittingIntoSeveralParts : Item
         _rayfireRigid = GetComponent<RayfireRigid>();
     }
     
-    protected override void Break()
+    protected override void Break(GameObject LegPivot)
     {
-        _rayfireRigid.Initialize();
+       _rayfireRigid.Initialize();
     }
 }

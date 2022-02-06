@@ -60,8 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02eeaea702d96d549880cd37b36ebcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stateMachine: {fileID: 0}
-  _cameraMove: {fileID: 0}
+  _conveer: {fileID: 0}
+  _progressBar: {fileID: 0}
 --- !u!114 &6440194786224181960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,10 +125,10 @@ RectTransform:
   m_Father: {fileID: 6440194786224181963}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.22337037, y: 0.061416663}
-  m_AnchorMax: {x: 0.80662966, y: 0.14183334}
-  m_AnchoredPosition: {x: -3, y: 48}
-  m_SizeDelta: {x: -428, y: -145}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 61, y: -102}
+  m_SizeDelta: {x: -880, y: 29}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &6440194786294622623
 CanvasRenderer:
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 150
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -212.82785, y: -97.062744, z: -379.09058, w: -48.912323}
+  m_margin: {x: -503.36813, y: -97.062744, z: -377.6183, w: -48.912323}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -279,10 +279,10 @@ RectTransform:
   m_Father: {fileID: 6440194786224181963}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -0.118, y: 0, z: 0}
-  m_AnchorMin: {x: 0.333, y: 0.85700005}
-  m_AnchorMax: {x: 0.762, y: 0.9356667}
-  m_AnchoredPosition: {x: 84, y: 729}
-  m_SizeDelta: {x: -263, y: -139}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 81.5, y: -98}
+  m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &6440194786414711429
 CanvasRenderer:
@@ -312,7 +312,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level 1
+  m_text: 'Level 10
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 605433b68313d491a8ab88bc03a41651, type: 2}
   m_sharedMaterial: {fileID: 2830636965969884548, guid: 605433b68313d491a8ab88bc03a41651, type: 2}
@@ -339,7 +341,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
+  m_fontSize: 133.65
   m_fontSizeBase: 125
   m_fontWeight: 400
   m_enableAutoSizing: 1

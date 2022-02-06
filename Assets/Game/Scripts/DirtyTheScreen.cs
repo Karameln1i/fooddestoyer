@@ -12,7 +12,7 @@ public class DirtyTheScreen : MonoBehaviour
     {
         for (int i = 0; i < _flyingWithJuiceItems.Capacity; i++)
         {
-            _flyingWithJuiceItems[i].Exploaded += OnExploaded;
+            //_flyingWithJuiceItems[i].Exploaded += OnExploaded;
         }   
     }
 
@@ -20,7 +20,7 @@ public class DirtyTheScreen : MonoBehaviour
     {
         for (int i = 0; i < _flyingWithJuiceItems.Capacity; i++)
         {
-            _flyingWithJuiceItems[i].Exploaded -= OnExploaded;
+            //_flyingWithJuiceItems[i].Exploaded -= OnExploaded;
         }   
     }
 

@@ -51,11 +51,6 @@ public class Scale:MonoBehaviour
         return _slider.value;
     }
 
-    public void TurnOn()
-    {
-       // gameObject.SetActive(true);
-    }
-
     public void TurnOf()
     {
        // gameObject.SetActive(false);

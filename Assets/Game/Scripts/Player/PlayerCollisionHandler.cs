@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class PlayerCollisionHandler : MonoBehaviour
 {
     [SerializeField] private ChangeTargetPosition _changeTargetPosition;
+    [SerializeField] private TurnPlayerInput _turnPlayerInput;
 
     public event UnityAction<GameObject> TouchedControlPoint;
     public event UnityAction<FlyingWithJuiceItem> TouchedFlyingWithJuiceItem;
@@ -14,23 +15,18 @@ public class PlayerCollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.TryGetComponent<ControllPoint>(out ControllPoint controllPoint))
+        if (collision.TryGetComponent<Item>(out Item item))
         {
-            //TouchedControlPoint?.Invoke(controllPoint.GetLegTarget());
-            //controllPoint.TurnOf();
-
-            
-            
+            Debug.Log("itemmmm");
+            if (item.IsDestroyed)
+            {
+                _turnPlayerInput.ApplyItem(item);
+            }
         }
         
         if (collision.TryGetComponent<FlyingWithJuiceItem>(out FlyingWithJuiceItem flyingWithJuiceItem))
         {
             TouchedFlyingWithJuiceItem?.Invoke(flyingWithJuiceItem);
-        }
-        
-        if (collision.TryGetComponent<FallItem>(out FallItem fall))
-        {
-            TouchedFallItem?.Invoke();
         }
     }
 }

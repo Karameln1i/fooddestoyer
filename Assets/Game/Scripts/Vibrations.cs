@@ -5,22 +5,6 @@ using UnityEngine;
 
 public class Vibrations : MonoBehaviour
 {
-   [SerializeField] private ScaleValueChecker _scaleValue;
-
-   private void OnEnable()
-   {
-      _scaleValue.StopedOnRed += OnStoppedOnRed;
-   }
-
-   private void OnDisable()
-   {
-      _scaleValue.StopedOnRed -= OnStoppedOnRed;
-   }
-
-   private void OnStoppedOnRed()
-   {
-      PlayFallVibrate();
-   }
 
    private  void PlayFallVibrate()
    {

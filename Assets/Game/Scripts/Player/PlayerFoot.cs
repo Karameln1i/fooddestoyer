@@ -16,7 +16,6 @@ public class PlayerFoot : MonoBehaviour
 
     public float GetSpeedForFlatting()
     {
-       // Debug.Log("legspeed "+ _changeTargetPosition.LegloweringSpeed);
         return _changeTargetPosition.LegloweringSpeedForFlattening;
    
     }
@@ -26,18 +25,16 @@ public class PlayerFoot : MonoBehaviour
         return _changeTargetPosition.LegloweringSpeed;
     }
 
+    public bool GetСondition()
+    {
+        return _changeTargetPosition.IsGoDown;
+    }
+
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.TryGetComponent<ControllPoint>(out ControllPoint controllPoint))
         {
-           // TouchedControlPoint?.Invoke(controllPoint.GetLegTarget());
             controllPoint.TurnOf();
-            Debug.Log("controll point");
-        }
-
-        if (collision.TryGetComponent<Item>(out Item item))
-        {
-            //TouchedItem?.Invoke();
         }
     }
 }

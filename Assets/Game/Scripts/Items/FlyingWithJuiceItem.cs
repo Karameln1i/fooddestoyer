@@ -5,7 +5,7 @@ using RayFire;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody),typeof(Animator))]
 public class FlyingWithJuiceItem : Item
 {
     [SerializeField] private float _bombDellay;
@@ -23,61 +23,70 @@ public class FlyingWithJuiceItem : Item
     [SerializeField] private float _scaleZDeformateSpead;
     [SerializeField] private int _endurance;
     [SerializeField] private Color _explosionColor;
-    [SerializeField] private BoxCollider _boxCollider;
-    [SerializeField] private GameObject _topPoint;
+    [SerializeField] private float _deformateSpeed;
+    [SerializeField] private List<BoxCollider> _boxCodiers;
     [SerializeField] private GameObject _emoji;
-
+    
     private Coroutine _deformate;
     private bool _isDeformated;
     private Rigidbody _rigidbody;
+    private Animator _animator;
+    private GameObject _TopPoint;
+    private bool _discarded;
+    private const float dellay = 2f;
 
+    public bool Disacarded => _discarded;
     public int Endurance => _endurance;
     public event UnityAction Destroyed;
-    public event UnityAction<Color> Exploaded;
+    public event UnityAction<FlyingWithJuiceItem> Exploaded;
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
+        _TopPoint = TopPoint;
     }
     
     private  void BlowUp()
     {
-     // _boxCollider.enabled = false;
-     //       _bomb.Explode(_bombDellay);
+        _bomb.Explode(_bombDellay);
         PlayEffects();
-       // UseGravity();
-        //TurnOnColdiers();
+        _animator.enabled = false;
        _emoji.SetActive(false);
         _wholeMesh.enabled = false;
         _sliced.SetActive(true);
-        Desrtoyed();
         Destroyed?.Invoke();
-        Exploaded?.Invoke(_explosionColor);
+        Exploaded?.Invoke(this);
+        _rigidbody.useGravity = false;
+        Desrtoyed();
+       StartCoroutine( Dellay());
+
+        for (int i = 0; i < _boxCodiers.Capacity; i++)
+        {
+            _boxCodiers[i].enabled = false;
+        }
     }
 
-    protected override void Flatten(float speed,GameObject legPivot)
+    protected override void Flatten(float speed,GameObject legPivot,bool IsGoDown)
     {
-        Debug.Log("top point "+ _topPoint.transform.localPosition.y);
-        Debug.Log("leg point "+ legPivot.transform.position.y);
-        
-         if (legPivot.transform.position.y<_topPoint.transform.localPosition.y)
+        if (legPivot.transform.position.y>TopPoint.transform.localPosition.y&& IsGoDown)
         {
-            Discard();
-            Debug.Log("отлетел");
+            _isDestroyed = true;
+            StartCoroutine(Deformate(speed));
         }
+       
         else
         {
-            BlowUp();
-            Debug.Log("взорвался");
+            Discard();
+            for (int i = 0; i < _boxCodiers.Capacity; i++)
+            {
+                _boxCodiers[i].enabled = false;
+            }
+            _discarded = true;
         }
-
-  
-        //base.Deform(speed);
-
-       // StartCoroutine(poc(speed));
     }
 
-    private void Discard()
+  private void Discard()
     {
         _rigidbody.AddForce(Vector3.up*70);
         _rigidbody.AddForce(Vector3.right*70);
@@ -95,14 +104,8 @@ public class FlyingWithJuiceItem : Item
                     
         }
     }
-    
-    private IEnumerator poc(float speed)
-    {
-        yield return new WaitForSeconds(0.1f);
-        _deformate=StartCoroutine(Deformate(speed));
-    }
-    
-    private IEnumerator Deformate(float speed)
+
+  private IEnumerator Deformate(float speed)
     {
 
         for (int i = 0; i < _firstWaveEffects.Capacity; i++)
@@ -111,51 +114,19 @@ public class FlyingWithJuiceItem : Item
         }
 
         var deformateSpeed = _speedMultiplier * speed;
-        
-        if (_isGorizontalItem)
-        {
-            var scaleZ = transform.localScale.z;
-            var positionY = transform.position.y;
- 
-        
-            Debug.Log("spead "+deformateSpeed);
-        
-            while (transform.localScale.z>_minScale)
-            {
-                scaleZ = Mathf.MoveTowards(scaleZ, _minScale, deformateSpeed * Time.deltaTime);
-                //0,095
-                positionY = Mathf.MoveTowards(positionY, 0.095f,deformateSpeed * Time.deltaTime);
-                transform.localScale=new Vector3(transform.localScale.x,transform.localScale.y,scaleZ);
-                transform.position=new Vector3(transform.position.x,positionY,transform.position.z);
-                yield return null;
-            }
-        }
-        else
-        {
-            var scaleY = transform.localScale.y;
- 
-        Debug.Log("Пришедшая скорость "+speed);
-            Debug.Log("deformateSpeed "+deformateSpeed);
-        
+        var scaleY = transform.localScale.y;
+
             while (transform.localScale.y>_minScale)
             {
                 scaleY = Mathf.MoveTowards(scaleY, _minScale, deformateSpeed * Time.deltaTime);
-               // scaleY = ;
-               //transform.DOScale(_deformated, deformateSpeed);
-                  // Vector3.Lerp(transform.localScale, _deformated, deformateSpeed);
                 transform.localScale=new Vector3(transform.localScale.x,scaleY,transform.localScale.z);
                 yield return null;
             }
-        }
-        // StopCoroutine(_deformate);
-        for (int i = 0; i < _firstWaveEffects.Capacity; i++)
+            for (int i = 0; i < _firstWaveEffects.Capacity; i++)
         {
             _firstWaveEffects[i].Stop();
         }
-        //_isDeformated = true;
-      BlowUp();
-      Desrtoyed();
-    
+            BlowUp();
     }
     
     private void PlayEffects()
@@ -180,6 +151,20 @@ public class FlyingWithJuiceItem : Item
         {
             _rigidbodies[i].useGravity = true;
             _rigidbodies[i].isKinematic = false;
+        }
+    }
+
+    private IEnumerator Dellay()
+    {
+        yield return new WaitForSeconds(dellay);
+        SetTrigerOnColdiers();
+    }
+
+    private void SetTrigerOnColdiers()
+    {
+        for (int i = 0; i < _meshColliders.Capacity; i++)
+        {
+            _meshColliders[i].isTrigger = true;
         }
     }
 }

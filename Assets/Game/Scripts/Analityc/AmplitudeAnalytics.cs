@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class AmplitudeAnalytics : MonoBehaviour
 {
+   
+    
+    [SerializeField] private Level _level;
+    [SerializeField] private bool _isLaunched=false;
+    [SerializeField] private PlayerInput _playerInput;
+
     private const string SAVED_REG_DAY = "RegDay";
     private const string SAVED_REG_DAY_FULL = "RegDayFull";
     private const string SAVED_SESSION_ID = "SessionID";
     private const string IsLaunchedKey = nameof(IsLaunchedKey);
     
     private float _spentTime;
-    
-    [SerializeField] private Level _level;
-    [SerializeField] private bool _isLaunched=false;
     private string _regDay
     {
         get { return PlayerPrefs.GetString(SAVED_REG_DAY, DateTime.Today.ToString("dd/MM/yy")); }
@@ -41,18 +44,19 @@ public class AmplitudeAnalytics : MonoBehaviour
     
     private void OnEnable()
     {
+        _playerInput.Clicked += OnPlayerFirstGroveClicked;
         _level.LevelStarted += OnLevelStarted;
         _level.LevelCompleted += OnLevelCompleted;
-       // _level.LevelFailed += OnLevelFailed;
-       // _level.LevelRestartetd += OnlevelRestarted;
+        _level.LevelFailed += OnLevelFailed;
+        _level.LevelRestartetd += OnlevelRestarted;
     }
 
     private void OnDisable()
     {
         _level.LevelStarted -= OnLevelStarted;
         _level.LevelCompleted -= OnLevelCompleted;
-        //_level.LevelFailed -= OnLevelFailed;
-       // _level.LevelRestartetd -= OnlevelRestarted;
+        _level.LevelFailed -= OnLevelFailed;
+        _level.LevelRestartetd -= OnlevelRestarted;
     }
 
     private void Update()
@@ -62,7 +66,7 @@ public class AmplitudeAnalytics : MonoBehaviour
     
     private void GameStart()
     {
-        if (_level.LevelIndex == 0)
+        if (_level.IsBootScene)
         {
             if (_sessionID==0)
             {
@@ -87,9 +91,9 @@ public class AmplitudeAnalytics : MonoBehaviour
 
     private void OnLevelStarted(int LevelIndex) => FireEvent("level_start",LevelIndex);
 
-    private void OnLevelCompleted(int LevelIndex) => FireEvent("level_complite",LevelIndex,Convert.ToInt32(_spentTime));
+    private void OnLevelCompleted(int LevelIndex) => FireEvent("level_complited",LevelIndex,Convert.ToInt32(_spentTime));
 
-    private void OnLevelFailed(int LevelIndex) => FireEvent("level_fail",LevelIndex,Convert.ToInt32(_spentTime));
+    private void OnLevelFailed(int LevelIndex) => FireEvent("fail",LevelIndex,Convert.ToInt32(_spentTime));
     
     private void OnlevelRestarted(int LevelIndex) => FireEvent("restart",LevelIndex);
 
@@ -113,15 +117,13 @@ public class AmplitudeAnalytics : MonoBehaviour
 
     private void SettingUserProperties()
     {
-        Debug.Log("regday: "+_regDay);
-        
         int lastLevel = _level.lastComplitedLevel;
         
         Amplitude.Instance.setUserProperty("level_last", lastLevel);
         
         Amplitude.Instance.setUserProperty("session_count", _sessionID);
         
-        //Amplitude.Instance.setUserProperty("reg_day", _regDay);
+        Amplitude.Instance.setUserProperty("reg_day", _regDay);
         
         var parsedDate = DateTime.Parse(_regDay);
         var days_in_game = DateTime.Today.Subtract(parsedDate).Days;
@@ -131,5 +133,11 @@ public class AmplitudeAnalytics : MonoBehaviour
         
         
         //Amplitude.Instance.setUserProperty("days_game", Convert.ToDateTime(_regDay));
+    }
+
+    private void OnPlayerFirstGroveClicked()
+    {
+        _spentTime = 0;
+        _playerInput.Clicked -= OnPlayerFirstGroveClicked;
     }
 }

@@ -16,9 +16,7 @@ public class ScaleValueChecker : MonoBehaviour
     public event UnityAction StopedOnGreen;
     public event UnityAction StopedYellow;
     public event UnityAction StopedOnRed;
-    
-   
-    
+
     private void CheckValue()
     {
         if (_value<FirstRedZoneDiapozon[1]|_value>SecondRedZoneDiapozon[0])

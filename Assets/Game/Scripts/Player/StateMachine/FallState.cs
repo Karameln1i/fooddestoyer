@@ -15,8 +15,11 @@ public class FallState : MonoBehaviour
     [SerializeField] private List<FallItem> _fallItems;
     [SerializeField] private PlayerInput _playerInput;
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
-    [SerializeField] private PlayerCollisionHandler _collisionHandler;
+    //[SerializeField] private PlayerCollisionHandler _collisionHandler;
     [SerializeField] private RagdollActivator _ragdollActivator;
+    [SerializeField] private GameObject _targetPosition;
+    [SerializeField] private float _speed;
+    [SerializeField] private float _dellay;
 
 
    // private MoveState _moveState;
@@ -26,6 +29,7 @@ public class FallState : MonoBehaviour
     private Player _player;
 
     public event UnityAction AchievedFallItem;
+    public event UnityAction Falling;
     
     private void Awake()
     {
@@ -41,11 +45,11 @@ public class FallState : MonoBehaviour
     
     private void OnEnable()
     {
-        _collisionHandler.TouchedFallItem += OnTouchedFallItem;
+     //   _collisionHandler.TouchedFallItem += OnPlayerClicked;
         
         for (int i = 0; i < _fallItems.Capacity; i++)
         {
-            _fallItems[i].TouchedFallItem += OnFallItemReached;
+            _fallItems[i].TouchedFallItem += OnTouchedFallItem;
         }
         
         
@@ -54,18 +58,24 @@ public class FallState : MonoBehaviour
     private void OnDisable()
     {
 
-        _collisionHandler.TouchedFallItem -= OnTouchedFallItem;
+        //_collisionHandler.TouchedFallItem -= OnTouchedFallItem;
         
-        for (int i = 0; i < _fallItems.Capacity; i++)
-        {
-            _fallItems[i].TouchedFallItem -= OnFallItemReached; 
-        }
+        //for (int i = 0; i < _fallItems.Capacity; i++)
+       // {
+          //  _fallItems[i].TouchedFallItem -= OnFallItemReached; 
+       // }
+       
+       for (int i = 0; i < _fallItems.Capacity; i++)
+       {
+           _fallItems[i].TouchedFallItem += OnTouchedFallItem;
+       }
+       
     }
 
-    private void OnTouchedFallItem()
-    {
-        _ragdollActivator.ActivateRagDoll();
-    }
+   // private void OnTouchedFallItem()
+    ////{
+        //_ragdollActivator.ActivateRagDoll();
+    //}
 
     private void OnFallItemReached()
     {
@@ -78,7 +88,7 @@ public class FallState : MonoBehaviour
        _stateMachine.Off();
       Debug.Log("OnFallItemReached");
       _playerInput.enabled = true;
-      _playerInput.Clicked += OnPlayerClicked;
+      //_playerInput.Clicked += OnPlayerClicked;
       // TurnOffColdiers();
       AchievedFallItem?.Invoke();
 
@@ -87,11 +97,26 @@ public class FallState : MonoBehaviour
 
     }
 
-    private void OnPlayerClicked()
+    private void OnTouchedFallItem()
     {
-        _animator.SetTrigger(PlayerAnimationController.Trigers.SwitchToFall);
-        Debug.Log("clicked");
+        AchievedFallItem?.Invoke();
+        Falling?.Invoke();
+        _animator.Play("Armature|Armature|mixamo_com|Slip");
+            _animator.applyRootMotion = true;
+            // StartCoroutine(MoveDown());
+        _fullBodyBipedIk.enabled = false;
     }
 
+    private IEnumerator MoveDown()
+    {
+        yield return new WaitForSeconds(_dellay);
+        
+        while (_player.transform.position!=_targetPosition.transform.position)
+        { 
+            transform.position = Vector3.MoveTowards(transform.position, _targetPosition.transform.position, _speed);
+            yield return null;
+        }
+       
+    }
 
 }

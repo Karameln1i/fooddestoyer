@@ -7,31 +7,34 @@ using UnityEngine.Events;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Menu menu;
-    
-    //private Animator _animator;
+    [SerializeField] private FinishItem _finishItem;
 
     public event UnityAction Won;
     public event UnityAction Lost;
-    
-    private void Awake()
+
+    private void OnEnable()
     {
-        //_animator = GetComponent<Animator>();
+        _finishItem.Destoryed += OnFinisItemDestroyed;
     }
 
-    /*private void OnEnable()
+   private void OnDisable()
     {
-        _finish.LevelComplited += OnLevelComplited;
+        _finishItem.Destoryed -= OnFinisItemDestroyed;
     }
 
-  /*  private void OnDisable()
-    {
-        _finish.LevelComplited -= OnLevelComplited;
-    }*/
-
-    public void Win()
+   private void OnFinisItemDestroyed()
     {
         Won?.Invoke();
- 
-        Debug.Log("проигрыл");
+
+    }
+
+   public void Win()
+   {
+       Won?.Invoke();
+   }
+   
+    public void Lose()
+    {
+        Lost?.Invoke();
     }
 }

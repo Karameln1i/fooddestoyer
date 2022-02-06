@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class DeformationItem : Item
@@ -13,10 +14,19 @@ public class DeformationItem : Item
     [SerializeField] private bool _replaceModel;
     [SerializeField] private bool _turningTheSecondBone;
     [SerializeField] private bool _playEffects;
+    [SerializeField] private bool _deformateBone;
     [SerializeField] private float _speedMultiplayer;
     [SerializeField] private float _deformateSpeed;
+    [SerializeField] private Vector3 _RightBonerotationTarget;
+    [SerializeField] private Vector3 _LeftBonerotationTarget;
     [SerializeField] private Transform _boneTarget;
+    [SerializeField] private float _minBoneScale;
+    [SerializeField] private SkinnedMeshRenderer _whole;
+    [SerializeField] private GameObject _emoji;
+    [SerializeField] private BoxCollider _boxColdier;
+    
 
+    private bool _rotated;
     private bool _effecIsPlayed;
     private Item item;
 
@@ -58,33 +68,57 @@ public class DeformationItem : Item
 
     private void RotateBones()
     {
-        _rightBoneToChangeRotation.transform.Rotate(Vector3.right,_rotationSpeed*Time.deltaTime);
-
-        if (_turningTheSecondBone)
+        if (!_rotated)
         {
-            _leftBoneToChangeRotation.transform.Rotate(Vector3.left,_rotationSpeed*Time.deltaTime);
-        } 
+            _rightBoneToChangeRotation.transform.DOLocalRotate(_RightBonerotationTarget, _rotationSpeed);
+
+            if (_turningTheSecondBone)
+            {
+                _leftBoneToChangeRotation.transform.DOLocalRotate(_LeftBonerotationTarget, _rotationSpeed);
+            }
+            _rotated = true;
+        }
     }
     
-    public override void Deform(float speed)
+    public override void Deform(float speed,GameObject legPivot,bool IsGoDown)
     {
-        base.Deform(speed);
+        Debug.Log(IsGoDown);
 
-        if (!_effecIsPlayed)
+        if (legPivot.transform.position.y>TopPoint.transform.localPosition.y && IsGoDown)
         {
-            TryPlayEffects();
-            _effecIsPlayed = true;
+            RotateBones();
+            StartCoroutine(Deformate());
+            _isDestroyed = true;
+            StartCoroutine(DestroyedAfterTime());
+            
+            if (_deformateBone)
+            {
+                _boneToChangePosition.transform.DOScaleZ(_minBoneScale, _deformateSpeed);
+            }
+       
+            if (!_effecIsPlayed)
+            {
+                TryPlayEffects();
+                _effecIsPlayed = true;
+            }
+        }
+
+        else
+        {
+            Discard();
         }
         
-       RotateBones();
-           //_boneToChangePosition.transform.position=Vector3.MoveTowards(_boneToChangePosition.transform.position,item.LegTarget.transform.position,speed*_speedMultiplayer*Time.deltaTime);
-           //_boneToChangePosition.transform.Translate(Vector3.down*_deformateSpeed*Time.deltaTime);
-           StartCoroutine(Deformate());
-           //_boneToChangePosition.transform.Translate(Vector3.down*speed*_speedMultiplayer);
+        if (_replaceModel)
+        {
+            _replacedModel.SetActive(true);
+            _emoji.SetActive(false);
+            _whole.enabled = false;
+        }
     }
 
     private IEnumerator Deformate()
     {
+
         while (_boneToChangePosition.transform.position != _boneTarget.transform.position)
         {
             _boneToChangePosition.transform.position = Vector3.MoveTowards(_boneToChangePosition.transform.position,
@@ -94,5 +128,13 @@ public class DeformationItem : Item
         }
     }
 
+    private IEnumerator DestroyedAfterTime()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Desrtoyed();
+        gameObject.SetActive(true);
+        BoxCollider.enabled = false;
+        Rigidbody.useGravity = false;
 
+    }
 }

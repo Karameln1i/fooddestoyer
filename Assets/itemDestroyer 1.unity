@@ -386,7 +386,7 @@ RectTransform:
   - {fileID: 109842213}
   - {fileID: 770684844}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -574,7 +574,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &181802653
 PrefabInstance:
@@ -881,9 +881,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 1544206696}
-  _levelPassedPanel: {fileID: 0}
   _levelComplitedPanel: {fileID: 0}
-  finish: {fileID: 0}
+  _finishItem: {fileID: 0}
+  _levelPassedPanel: {fileID: 0}
   _targetImageColor: 0
   _interpalation: 0
 --- !u!4 &278083566
@@ -1201,7 +1201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cae20c8b6f1dd418d9fb62738f52d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeTargetPosition: {fileID: 0}
 --- !u!65 &370143618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1632,7 +1631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cae20c8b6f1dd418d9fb62738f52d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeTargetPosition: {fileID: 0}
 --- !u!65 &539541989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2437,7 +2435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cae20c8b6f1dd418d9fb62738f52d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeTargetPosition: {fileID: 0}
 --- !u!65 &825500078
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2811,7 +2808,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cae20c8b6f1dd418d9fb62738f52d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeTargetPosition: {fileID: 0}
 --- !u!65 &892686746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3115,7 +3111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cae20c8b6f1dd418d9fb62738f52d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeTargetPosition: {fileID: 0}
 --- !u!65 &1064923109
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3750,7 +3745,7 @@ Transform:
   m_LocalScale: {x: 16.744625, y: 0.3082, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1379341747
 GameObject:
@@ -3786,7 +3781,7 @@ Transform:
   - {fileID: 557105813}
   - {fileID: 1804320173}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395041427
 GameObject:
@@ -7044,7 +7039,7 @@ Transform:
   m_Children:
   - {fileID: 787594958}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1489904299
 GameObject:
@@ -9746,6 +9741,7 @@ MonoBehaviour:
   _targetState: {fileID: 1544206694}
   NeedTransit: 0
   _distanceTransition: {fileID: 1544206693}
+  _changeTargetPosition: {fileID: 0}
   _items:
   - {fileID: 0}
   - {fileID: 0}
@@ -9765,12 +9761,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98f53f107748b6842a2e3ee11254439e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transitions:
-  - {fileID: 1544206691}
   _playerInput: {fileID: 1670675245}
   _changeTargetPosition: {fileID: 2054813004}
   _scale: {fileID: 1316003284}
-  _cameraMove: {fileID: 1670675244}
   _cameraSwitcher: {fileID: 0}
 --- !u!114 &1544206693
 MonoBehaviour:
@@ -9784,7 +9777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9dd83d21b3a16146bd38d1c8692c3a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _targetState: {fileID: 1544206692}
+  _targetState: {fileID: 0}
   NeedTransit: 0
   _moveState: {fileID: 1544206694}
   _destroyTransition: {fileID: 1544206691}
@@ -9818,6 +9811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _firstState: {fileID: 1544206694}
+  _allStates: []
 --- !u!114 &1544206696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9830,7 +9824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f70d5f756ef7d64888bd42eb7a10c2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _finish: {fileID: 0}
+  menu: {fileID: 0}
+  _finishItem: {fileID: 0}
 --- !u!54 &1544206697
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10117,7 +10112,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1670675244
 MonoBehaviour:
@@ -10243,7 +10238,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1745150117
 GameObject:
@@ -10813,7 +10808,7 @@ Transform:
   m_Children:
   - {fileID: 379010893}
   - {fileID: 577729900}
-  - {fileID: 1838793904}
+  - {fileID: 1838793911}
   - {fileID: 297919312}
   m_Father: {fileID: 1379341748}
   m_RootOrder: 5
@@ -10963,7 +10958,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cae20c8b6f1dd418d9fb62738f52d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeTargetPosition: {fileID: 0}
+--- !u!4 &1838793911 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1838793903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1838793913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10976,7 +10975,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7159bf14e120f5848bb63b98b729120b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 0}
+  _vibrations: {fileID: 0}
+  _legTarget: {fileID: 0}
+  _topPoint: {fileID: 0}
+  _rigidbody: {fileID: 0}
+  _collider: {fileID: 0}
+  _rigidbodies: []
+  _colliders: []
+  _sliced: {fileID: 0}
+  _whole: {fileID: 0}
 --- !u!224 &1842692523 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2082264635702603874, guid: cf40fdbdf06c8491aa33f7d6edc813fb, type: 3}
@@ -11043,7 +11050,7 @@ Transform:
   - {fileID: 2052127325}
   - {fileID: 338679118}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2001661700
 GameObject:
@@ -11165,16 +11172,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerInput: {fileID: 1670675245}
-  _playerCollisionHandler: {fileID: 5636092678131307757}
   _scaleValueChecker: {fileID: 1316003285}
   _deltaPosition1: {x: 0, y: 0, z: 0}
-  _deltaPosition2: {x: 0, y: 0, z: 0}
+  _deltaRotation: {x: 0, y: 0, z: 0}
+  _rotationSpeed: 0
   _legLiftingSpeed: 1
-  _legLoweringSpeedForGreenZone: 0.25
-  _legLoweringSpeedForYllowZone: 2
+  _legLoweringSpedForFlattening: 0
   _levelComplitedPanel: {fileID: 0}
   _moveState: {fileID: 0}
-  _leg: {fileID: 0}
+  _legPivot: {fileID: 0}
+  _playerCollisionHandler: {fileID: 5636092678131307757}
+  _legLiftingDellay: 0
+  _maxYposition: 0
+  _legloweringSpeed: 0
+  _legLiftingSpead:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _legLoweringSpead:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &2054813005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12048,7 +12070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f70d5f756ef7d64888bd42eb7a10c2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _finish: {fileID: 0}
+  menu: {fileID: 0}
+  _finishItem: {fileID: 0}
 --- !u!1 &5636092678131307756
 GameObject:
   m_ObjectHideFlags: 0
@@ -12212,6 +12235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _changeTargetPosition: {fileID: 2054813004}
+  _legPivot: {fileID: 0}
 --- !u!1 &5636092678131307768
 GameObject:
   m_ObjectHideFlags: 0
@@ -12800,6 +12824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _changeTargetPosition: {fileID: 2054813004}
+  _legPivot: {fileID: 0}
 --- !u!1 &5636092678131307838
 GameObject:
   m_ObjectHideFlags: 0
@@ -13560,7 +13585,7 @@ Transform:
   - {fileID: 5636092678131534042}
   - {fileID: 5636092678131534020}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &5636092678131534094
 Transform:

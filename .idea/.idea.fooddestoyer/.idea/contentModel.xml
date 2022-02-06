@@ -89,9 +89,6 @@
             </e>
           </e>
         </e>
-        <e p="Fantasy Skybox FREE" t="Include">
-          <e p="ReadMe.txt" t="Include" />
-        </e>
         <e p="Feel" t="Include">
           <e p="FeelDemos" t="Include">
             <e p="_Common" t="Include">
@@ -1505,27 +1502,6 @@
                 </e>
               </e>
             </e>
-            <e p="ToonPeople" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="DESTROYER.cs" t="Include" />
-                <e p="Editor" t="Include">
-                  <e p="EditorFemalePrefabMaker.cs" t="Include" />
-                  <e p="EditorFemaleVRAvatarPrefabMaker.cs" t="Include" />
-                  <e p="EditorMalePrefabMaker.cs" t="Include" />
-                  <e p="EditorMaleVRAvatarPrefabMaker.cs" t="Include" />
-                </e>
-                <e p="FemaleTPPrefabMaker.cs" t="Include" />
-                <e p="FemaleVRTPPrefabMaker.cs" t="Include" />
-                <e p="MaleTPPrefabMaker.cs" t="Include" />
-                <e p="MaleVRTPPrefabMaker.cs" t="Include" />
-                <e p="playanimation.cs" t="Include" />
-                <e p="poses.cs" t="Include" />
-                <e p="RagDoll.cs" t="Include" />
-                <e p="SPAWNER.cs" t="Include" />
-                <e p="TPCamera3D.cs" t="Include" />
-                <e p="TPCharacterController3D.cs" t="Include" />
-              </e>
-            </e>
             <e p="unity-scene-reference" t="Include">
               <e p="unity-scene-reference" t="Include">
                 <e p="Assets" t="Include">
@@ -1552,17 +1528,16 @@
             <e p="Animation" t="Include">
               <e p="PlayerAnimationController.cs" t="Include" />
             </e>
-            <e p="CameraFollowing.cs" t="Include" />
-            <e p="CameraMove.cs" t="Include" />
             <e p="ChangeTargetPosition.cs" t="Include" />
             <e p="ControllPoint.cs" t="Include" />
             <e p="Conveer.cs" t="Include" />
             <e p="Coviert.cs" t="Include" />
-            <e p="DESTROYER.cs" t="Include" />
+            <e p="DeletePlayerPrefs.cs" t="Include" />
             <e p="DirtyTheScreen.cs" t="Include" />
             <e p="EffectCreator.cs" t="Include" />
             <e p="Finish.cs" t="Include" />
             <e p="FinishItem.cs" t="Include" />
+            <e p="FinishZone.cs" t="Include" />
             <e p="Items" t="Include">
               <e p="CrackingItem.cs" t="Include" />
               <e p="DeformationItem.cs" t="Include" />
@@ -1576,8 +1551,10 @@
               <e p="ItemCollisionHandler.cs" t="Include" />
             </e>
             <e p="Level.cs" t="Include" />
+            <e p="LevelIndex.cs" t="Include" />
             <e p="LoadLastPassedLevel.cs" t="Include" />
             <e p="NextLevel.cs" t="Include" />
+            <e p="PlayChairAnimation.cs" t="Include" />
             <e p="Player" t="Include">
               <e p="Player.cs" t="Include" />
               <e p="PlayerCollisionHandler.cs" t="Include" />
@@ -1596,11 +1573,19 @@
               </e>
             </e>
             <e p="PlayerInput.cs" t="Include" />
+            <e p="ProgressBar.cs" t="Include" />
             <e p="RagdollActivator.cs" t="Include" />
             <e p="RagDollActivator1.cs" t="Include" />
             <e p="RememberLevel.cs" t="Include" />
+            <e p="SetLevelIndex.cs" t="Include" />
             <e p="SlowDownTime.cs" t="Include" />
+            <e p="StopTimeWayPoint.cs" t="Include" />
+            <e p="SwitchOff.cs" t="Include" />
             <e p="Target.cs" t="Include" />
+            <e p="Training.cs" t="Include" />
+            <e p="TrainingTextAnimation.cs" t="Include" />
+            <e p="TurnConveyor.cs" t="Include" />
+            <e p="TurnPlayerInput.cs" t="Include" />
             <e p="Ui" t="Include">
               <e p="ClickToPlayPanel.cs" t="Include" />
               <e p="LevelComplitedPanel.cs" t="Include" />
@@ -1663,653 +1648,6 @@
             <e p="PanelControl.cs" t="Include" />
           </e>
         </e>
-        <e p="JellyMesh.cs" t="Include" />
-        <e p="MegaFiers" t="Include">
-          <e p="MegaLiner Scene" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="BallBounce.cs" t="Include" />
-              <e p="Bouyancy.cs" t="Include" />
-              <e p="BouyancyNew.cs" t="Include" />
-              <e p="CameraShake.cs" t="Include" />
-              <e p="ChangeBends.cs" t="Include" />
-              <e p="FFDControlAxis.cs" t="Include" />
-              <e p="FFDController.cs" t="Include" />
-              <e p="MegaGlobeLink.cs" t="Include" />
-              <e p="MegaGUI.cs" t="Include" />
-              <e p="MegaRuntimeAttach.cs" t="Include" />
-              <e p="MoveStretchSquash.cs" t="Include" />
-              <e p="OrbitCamera.cs" t="Include" />
-              <e p="PathFollow.cs" t="Include" />
-              <e p="PositionRockets.cs" t="Include" />
-              <e p="ShipControl.cs" t="Include" />
-              <e p="SpinObject.cs" t="Include" />
-              <e p="TyreRipple.cs" t="Include" />
-              <e p="WalkBridge.cs" t="Include" />
-              <e p="WalkRope.cs" t="Include" />
-            </e>
-          </e>
-          <e p="ReadMe.txt" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="Burst" t="Include">
-              <e p="animationcurve.cs" t="Include" />
-              <e p="megaspline.cs" t="Include" />
-              <e p="normals.cs" t="Include" />
-              <e p="vertexblend.cs" t="Include" />
-            </e>
-            <e p="MegaFiers" t="Include">
-              <e p="Editor" t="Include">
-                <e p="CompilerCheck.cs" t="Include" />
-                <e p="MegaAttachEditor.cs" t="Include" />
-                <e p="MegaAttachWrapEditor.cs" t="Include" />
-                <e p="MegaBezPatchEditor.cs" t="Include" />
-                <e p="MegaEditorGUILayout.cs" t="Include" />
-                <e p="MegaEditorTool.cs" t="Include" />
-                <e p="MegaFFDAnimateEditor.cs" t="Include" />
-                <e p="MegaFiersWindow.cs" t="Include" />
-                <e p="MegaMatSelectEditor.cs" t="Include" />
-                <e p="MegaModifierEditor.cs" t="Include" />
-                <e p="MegaModifyObjectEditor.cs" t="Include" />
-                <e p="MegaMorphAnimatorEditor.cs" t="Include" />
-                <e p="MegaMorphAnimEditor.cs" t="Include" />
-                <e p="MegaMorphEditor.cs" t="Include" />
-                <e p="MegaMorphLinkEditor.cs" t="Include" />
-                <e p="MegaMorphOMaticEditor.cs" t="Include" />
-                <e p="MegaMorphRefEditor.cs" t="Include" />
-                <e p="MegaMultiVolSelectEditor.cs" t="Include" />
-                <e p="MegaOBJExportEditor.cs" t="Include" />
-                <e p="MegaParseEditor.cs" t="Include" />
-                <e p="MegaPointCacheAnimatorEditor.cs" t="Include" />
-                <e p="MegaPointCacheFileEditor.cs" t="Include" />
-                <e p="MegaPointCacheRefEditor.cs" t="Include" />
-                <e p="MegaSelectionEditor.cs" t="Include" />
-                <e p="MegaSpriteEditor.cs" t="Include" />
-                <e p="MegaSubDivideWindow.cs" t="Include" />
-                <e p="MegaUVAdjustEditor.cs" t="Include" />
-                <e p="MegaUVTilesEditor.cs" t="Include" />
-                <e p="MegaVertColSelectEditor.cs" t="Include" />
-                <e p="MegaVolSelectEditor.cs" t="Include" />
-                <e p="MegaWaveMeshEditor.cs" t="Include" />
-                <e p="MegaWrapEditor.cs" t="Include" />
-                <e p="Modifiers" t="Include">
-                  <e p="MegaAttractorShapeEditor.cs" t="Include" />
-                  <e p="MegaBendEditor.cs" t="Include" />
-                  <e p="MegaBubbleEditor.cs" t="Include" />
-                  <e p="MegaBulgeEditor.cs" t="Include" />
-                  <e p="MegaConformModEditor.cs" t="Include" />
-                  <e p="MegaConformMultiEditor.cs" t="Include" />
-                  <e p="MegaCrumpleEditor.cs" t="Include" />
-                  <e p="MegaCurveDeformEditor.cs" t="Include" />
-                  <e p="MegaCurveSculptEditor.cs" t="Include" />
-                  <e p="MegaCurveSculptLayeredEditor.cs" t="Include" />
-                  <e p="MegaCylindrifyEditor.cs" t="Include" />
-                  <e p="MegaDeformableEditor.cs" t="Include" />
-                  <e p="MegaDisplaceEditor.cs" t="Include" />
-                  <e p="MegaDisplaceLimitsEditor.cs" t="Include" />
-                  <e p="MegaDynamicRippleEditor.cs" t="Include" />
-                  <e p="MegaFFD2x2Editor.cs" t="Include" />
-                  <e p="MegaFFD2x2x2Editor.cs" t="Include" />
-                  <e p="MegaFFD3x3Editor.cs" t="Include" />
-                  <e p="MegaFFD3x3x3Editor.cs" t="Include" />
-                  <e p="MegaFFD4x4Editor.cs" t="Include" />
-                  <e p="MegaFFD4x4x4Editor.cs" t="Include" />
-                  <e p="MegaFFDEditor.cs" t="Include" />
-                  <e p="MegaGlobeEditor.cs" t="Include" />
-                  <e p="MegaHumpEditor.cs" t="Include" />
-                  <e p="MegaMeltEditor.cs" t="Include" />
-                  <e p="MegaNoiseEditor.cs" t="Include" />
-                  <e p="MegaPageFlipEditor.cs" t="Include" />
-                  <e p="MegaPaintEditor.cs" t="Include" />
-                  <e p="MegaPathDeformEditor.cs" t="Include" />
-                  <e p="MegaPivotAdjustEditor.cs" t="Include" />
-                  <e p="MegaPointCacheEditor.cs" t="Include" />
-                  <e p="MegaPushEditor.cs" t="Include" />
-                  <e p="MegaRadialSkewEditor.cs" t="Include" />
-                  <e p="MegaRippleEditor.cs" t="Include" />
-                  <e p="MegaRopeDeformEditor.cs" t="Include" />
-                  <e p="MegaRubberEditor.cs" t="Include" />
-                  <e p="MegaScaleEditor.cs" t="Include" />
-                  <e p="MegaSimpleEditor.cs" t="Include" />
-                  <e p="MegaSimpleModEditor.cs" t="Include" />
-                  <e p="MegaSinusCurveEditor.cs" t="Include" />
-                  <e p="MegaSkewEditor.cs" t="Include" />
-                  <e p="MegaSpherifyEditor.cs" t="Include" />
-                  <e p="MegaSqueezeEditor.cs" t="Include" />
-                  <e p="MegaStretchEditor.cs" t="Include" />
-                  <e p="MegaTaperEditor.cs" t="Include" />
-                  <e p="MegaTreeBendEditor.cs" t="Include" />
-                  <e p="MegaTwistEditor.cs" t="Include" />
-                  <e p="MegaVertexAnimEditor.cs" t="Include" />
-                  <e p="MegaVertNoiseEditor.cs" t="Include" />
-                  <e p="MegaWarpBindEditor.cs" t="Include" />
-                  <e p="MegaWaveEditor.cs" t="Include" />
-                  <e p="MegaWavingEditor.cs" t="Include" />
-                  <e p="MegaWireDeformEditor.cs" t="Include" />
-                  <e p="MegaWorldPathDeformEditor.cs" t="Include" />
-                </e>
-                <e p="Warps" t="Include">
-                  <e p="MegaBendWarpEditor.cs" t="Include" />
-                  <e p="MegaBubbleWarpEditor.cs" t="Include" />
-                  <e p="MegaCylindrifyWarpEditor.cs" t="Include" />
-                  <e p="MegaFFD2x2x2WarpEditor.cs" t="Include" />
-                  <e p="MegaFFD3x3x3WarpEditor.cs" t="Include" />
-                  <e p="MegaFFD4x4x4WarpEditor.cs" t="Include" />
-                  <e p="MegaFFDWarpEditor.cs" t="Include" />
-                  <e p="MegaGlobeWarpEditor.cs" t="Include" />
-                  <e p="MegaHumpWarpEditor.cs" t="Include" />
-                  <e p="MegaMeltWarpEditor.cs" t="Include" />
-                  <e p="MegaNoiseWarpEditor.cs" t="Include" />
-                  <e p="MegaRippleWarpEditor.cs" t="Include" />
-                  <e p="MegaSinusCurveWarpEditor.cs" t="Include" />
-                  <e p="MegaSkewWarpEditor.cs" t="Include" />
-                  <e p="MegaSpherifyWarpEditor.cs" t="Include" />
-                  <e p="MegaSqueezeWarpEditor.cs" t="Include" />
-                  <e p="MegaStretchWarpEditor.cs" t="Include" />
-                  <e p="MegaTaperWarpEditor.cs" t="Include" />
-                  <e p="MegaTwistWarpEditor.cs" t="Include" />
-                  <e p="MegaWarpEditor.cs" t="Include" />
-                  <e p="MegaWaveWarpEditor.cs" t="Include" />
-                  <e p="MegaWavingWarpEditor.cs" t="Include" />
-                  <e p="MegaZStretchWarpEditor.cs" t="Include" />
-                </e>
-              </e>
-              <e p="MegaBezPatch.cs" t="Include" />
-              <e p="MegaBook.cs" t="Include" />
-              <e p="MegaBox3.cs" t="Include" />
-              <e p="MegaControllers" t="Include">
-                <e p="MegaBezFloatKeyControl.cs" t="Include" />
-                <e p="MegaBezVector3KeyControl.cs" t="Include" />
-                <e p="MegaControl.cs" t="Include" />
-              </e>
-              <e p="MegaMatrix.cs" t="Include" />
-              <e p="MegaUtils.cs" t="Include" />
-              <e p="MegaWaveMesh.cs" t="Include" />
-              <e p="MegaXMLReader.cs" t="Include" />
-              <e p="Modifiers" t="Include">
-                <e p="MegaAttractorShape.cs" t="Include" />
-                <e p="MegaBend.cs" t="Include" />
-                <e p="MegaBubble.cs" t="Include" />
-                <e p="MegaBulge.cs" t="Include" />
-                <e p="MegaCollisionDeform.cs" t="Include" />
-                <e p="MegaConformMod.cs" t="Include" />
-                <e p="MegaConformMulti.cs" t="Include" />
-                <e p="MegaCrumple.cs" t="Include" />
-                <e p="MegaCurveDeform.cs" t="Include" />
-                <e p="MegaCurveSculpt.cs" t="Include" />
-                <e p="MegaCurveSculptLayered.cs" t="Include" />
-                <e p="MegaCylindrify.cs" t="Include" />
-                <e p="MegaDeformable.cs" t="Include" />
-                <e p="MegaDisplace.cs" t="Include" />
-                <e p="MegaDisplaceLimits.cs" t="Include" />
-                <e p="MegaDisplaceRT.cs" t="Include" />
-                <e p="MegaDisplaceWebCam.cs" t="Include" />
-                <e p="MegaDynamicRipple.cs" t="Include" />
-                <e p="MegaFFD.cs" t="Include" />
-                <e p="MegaFFD2x2.cs" t="Include" />
-                <e p="MegaFFD2x2x2.cs" t="Include" />
-                <e p="MegaFFD3x3.cs" t="Include" />
-                <e p="MegaFFD3x3x3.cs" t="Include" />
-                <e p="MegaFFD4x4.cs" t="Include" />
-                <e p="MegaFFD4x4x4.cs" t="Include" />
-                <e p="MegaFFDAnimate.cs" t="Include" />
-                <e p="MegaGlobe.cs" t="Include" />
-                <e p="MegaHitDeform.cs" t="Include" />
-                <e p="MegaHump.cs" t="Include" />
-                <e p="MegaMelt.cs" t="Include" />
-                <e p="MegaModifier.cs" t="Include" />
-                <e p="MegaModifyObject.cs" t="Include" />
-                <e p="MegaMorph" t="Include">
-                  <e p="MegaMorphOMatic.cs" t="Include" />
-                </e>
-                <e p="MegaNoise.cs" t="Include" />
-                <e p="MegaPageFlip.cs" t="Include" />
-                <e p="MegaPaint.cs" t="Include" />
-                <e p="MegaPathDeform.cs" t="Include" />
-                <e p="MegaPivotAdjust.cs" t="Include" />
-                <e p="MegaPointCache.cs" t="Include" />
-                <e p="MegaPointCacheAnimator.cs" t="Include" />
-                <e p="MegaPointCacheFile.cs" t="Include" />
-                <e p="MegaPointCacheInstance.cs" t="Include" />
-                <e p="MegaPointCacheRef.cs" t="Include" />
-                <e p="MegaPush.cs" t="Include" />
-                <e p="MegaRadialSkew.cs" t="Include" />
-                <e p="MegaRipple.cs" t="Include" />
-                <e p="MegaRolled.cs" t="Include" />
-                <e p="MegaRopeDeform.cs" t="Include" />
-                <e p="MegaRubber.cs" t="Include" />
-                <e p="MegaScale.cs" t="Include" />
-                <e p="MegaSimpleMod.cs" t="Include" />
-                <e p="MegaSinusCurve.cs" t="Include" />
-                <e p="MegaSkew.cs" t="Include" />
-                <e p="MegaSpherify.cs" t="Include" />
-                <e p="MegaSqueeze.cs" t="Include" />
-                <e p="MegaStretch.cs" t="Include" />
-                <e p="MegaTaper.cs" t="Include" />
-                <e p="MegaTreeBend.cs" t="Include" />
-                <e p="MegaTwist.cs" t="Include" />
-                <e p="MegaVertexAnim.cs" t="Include" />
-                <e p="MegaVertNoise.cs" t="Include" />
-                <e p="MegaWave.cs" t="Include" />
-                <e p="MegaWaving.cs" t="Include" />
-                <e p="MegaWorldPathDeform.cs" t="Include" />
-                <e p="Morph" t="Include">
-                  <e p="MegaMorph.cs" t="Include" />
-                  <e p="MegaMorphAnim.cs" t="Include" />
-                  <e p="MegaMorphAnimator.cs" t="Include" />
-                  <e p="MegaMorphChan.cs" t="Include" />
-                  <e p="MegaMorphLink.cs" t="Include" />
-                  <e p="MegaMorphRef.cs" t="Include" />
-                  <e p="MegaMorphTarget.cs" t="Include" />
-                </e>
-                <e p="Selection" t="Include">
-                  <e p="MegaMatSelect.cs" t="Include" />
-                  <e p="MegaMultiVolSelect.cs" t="Include" />
-                  <e p="MegaSelection.cs" t="Include" />
-                  <e p="MegaVertColSelect.cs" t="Include" />
-                  <e p="MegaVolSelect.cs" t="Include" />
-                </e>
-                <e p="UVMods" t="Include">
-                  <e p="MegaUVAdjust.cs" t="Include" />
-                  <e p="MegaUVTiles.cs" t="Include" />
-                </e>
-                <e p="Warps" t="Include">
-                  <e p="MegaBendWarp.cs" t="Include" />
-                  <e p="MegaBubbleWarp.cs" t="Include" />
-                  <e p="MegaCylindrifyWarp.cs" t="Include" />
-                  <e p="MegaFFD2x2x2Warp.cs" t="Include" />
-                  <e p="MegaFFD3x3x3Warp.cs" t="Include" />
-                  <e p="MegaFFD4x4x4Warp.cs" t="Include" />
-                  <e p="MegaFFDWarp.cs" t="Include" />
-                  <e p="MegaGlobeWarp.cs" t="Include" />
-                  <e p="MegaHumpWarp.cs" t="Include" />
-                  <e p="MegaMeltWarp.cs" t="Include" />
-                  <e p="MegaNoiseWarp.cs" t="Include" />
-                  <e p="MegaRippleWarp.cs" t="Include" />
-                  <e p="MegaSinusCurveWarp.cs" t="Include" />
-                  <e p="MegaSkewWarp.cs" t="Include" />
-                  <e p="MegaSpherifyWarp.cs" t="Include" />
-                  <e p="MegaSqueezeWarp.cs" t="Include" />
-                  <e p="MegaStretchWarp.cs" t="Include" />
-                  <e p="MegaTaperWarp.cs" t="Include" />
-                  <e p="MegaTwistWarp.cs" t="Include" />
-                  <e p="MegaWarp.cs" t="Include" />
-                  <e p="MegaWarpBind.cs" t="Include" />
-                  <e p="MegaWaveWarp.cs" t="Include" />
-                  <e p="MegaWavingWarp.cs" t="Include" />
-                  <e p="MegaZStretchWarp.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Utils" t="Include">
-                <e p="MegaAttach.cs" t="Include" />
-                <e p="MegaAttachWrap.cs" t="Include" />
-                <e p="MegaBakeMeshTest.cs" t="Include" />
-                <e p="MegaBallBounce.cs" t="Include" />
-                <e p="MegaBlendshapeWorkshop.cs" t="Include" />
-                <e p="MegaFFDMap.cs" t="Include" />
-                <e p="MegaMeshRef.cs" t="Include" />
-                <e p="MegaModLODManager.cs" t="Include" />
-                <e p="MegaNearestPoint.cs" t="Include" />
-                <e p="MegaOBJExport.cs" t="Include" />
-                <e p="MegaParamAttrib.cs" t="Include" />
-                <e p="MegaScroll.cs" t="Include" />
-                <e p="MegaSoft2D.cs" t="Include" />
-                <e p="MegaSprite.cs" t="Include" />
-                <e p="MegaSpriteToMesh.cs" t="Include" />
-                <e p="MegaVoxel.cs" t="Include" />
-                <e p="MegaWalkBridge.cs" t="Include" />
-                <e p="MegaWalkRope.cs" t="Include" />
-                <e p="MegaWrap.cs" t="Include" />
-                <e p="MegaWrapRef.cs" t="Include" />
-              </e>
-            </e>
-            <e p="MegaShape" t="Include">
-              <e p="Editor" t="Include">
-                <e p="MegaDrawSplineEditor.cs" t="Include" />
-                <e p="MegaHoseAttachEditor.cs" t="Include" />
-                <e p="MegaHoseEditor.cs" t="Include" />
-                <e p="MegaMeshPageEditor.cs" t="Include" />
-                <e p="MegaShapeArcEditor.cs" t="Include" />
-                <e p="MegaShapeCircleEditor.cs" t="Include" />
-                <e p="MegaShapeEditor.cs" t="Include" />
-                <e p="MegaShapeEllipseEditor.cs" t="Include" />
-                <e p="MegaShapeHelixEditor.cs" t="Include" />
-                <e p="MegaShapeLineEditor.cs" t="Include" />
-                <e p="MegaShapeNGonEditor.cs" t="Include" />
-                <e p="MegaShapeOSMWindow.cs" t="Include" />
-                <e p="MegaShapeRectangleEditor.cs" t="Include" />
-                <e p="MegaShapeStarEditor.cs" t="Include" />
-                <e p="MegaShapeWindow.cs" t="Include" />
-                <e p="MegaShapeWizard.cs" t="Include" />
-                <e p="MegaTankWheelsEditor.cs" t="Include" />
-                <e p="MegaTracksEditor.cs" t="Include" />
-                <e p="MegaTrainFollowEditor.cs" t="Include" />
-              </e>
-              <e p="MegaCharacterFollow.cs" t="Include" />
-              <e p="MegaDrawSpline.cs" t="Include" />
-              <e p="MegaHose.cs" t="Include" />
-              <e p="MegaHoseAttach.cs" t="Include" />
-              <e p="MegaKML.cs" t="Include" />
-              <e p="MegaMeshPage.cs" t="Include" />
-              <e p="MegaShape.cs" t="Include" />
-              <e p="MegaShapeAnimate.cs" t="Include" />
-              <e p="MegaShapeArc.cs" t="Include" />
-              <e p="MegaShapeCircle.cs" t="Include" />
-              <e p="MegaShapeEllipse.cs" t="Include" />
-              <e p="MegaShapeHelix.cs" t="Include" />
-              <e p="MegaShapeLightMapWindow.cs" t="Include" />
-              <e p="MegaShapeLine.cs" t="Include" />
-              <e p="MegaShapeNGon.cs" t="Include" />
-              <e p="MegaShapeOSM.cs" t="Include" />
-              <e p="MegaShapeRBodyPath.cs" t="Include" />
-              <e p="MegaShapeRBodyPathNew.cs" t="Include" />
-              <e p="MegaShapeRectangle.cs" t="Include" />
-              <e p="MegaShapeStar.cs" t="Include" />
-              <e p="MegaShapeSVG.cs" t="Include" />
-              <e p="MegaShapeSXL.cs" t="Include" />
-              <e p="MegaTankWheels.cs" t="Include" />
-              <e p="MegaTracks.cs" t="Include" />
-              <e p="MegaTrainFollow.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Obi" t="Include">
-          <e p="CHANGELOG_softbody.txt" t="Include" />
-          <e p="Editor" t="Include">
-            <e p="Common" t="Include">
-              <e p="Blueprints" t="Include">
-                <e p="BlueprintEditorTools" t="Include">
-                  <e p="ObiBlueprintEditorTool.cs" t="Include" />
-                  <e p="ObiPaintBrushEditorTool.cs" t="Include" />
-                  <e p="ObiParticleSelectionEditorTool.cs" t="Include" />
-                  <e p="ObiPropertyTextureEditorTool.cs" t="Include" />
-                  <e p="ObiTethersTool.cs" t="Include" />
-                </e>
-                <e p="Brushes" t="Include">
-                  <e p="BrushModes" t="Include">
-                    <e p="ObiBrushMode.cs" t="Include" />
-                    <e p="ObiColorPaintBrushMode.cs" t="Include" />
-                    <e p="ObiColorSmoothBrushMode.cs" t="Include" />
-                    <e p="ObiFloatAddBrushMode.cs" t="Include" />
-                    <e p="ObiFloatPaintBrushMode.cs" t="Include" />
-                    <e p="ObiFloatSmoothBrushMode.cs" t="Include" />
-                    <e p="ObiIntPaintBrushMode.cs" t="Include" />
-                    <e p="ObiMasterSlavePaintBrushMode.cs" t="Include" />
-                    <e p="ObiSelectBrushMode.cs" t="Include" />
-                  </e>
-                  <e p="ObiBrushBase.cs" t="Include" />
-                  <e p="ObiRaycastBrush.cs" t="Include" />
-                  <e p="ObiScreenSpaceBrush.cs" t="Include" />
-                </e>
-                <e p="ObiActorBlueprintEditor.cs" t="Include" />
-                <e p="ObiMeshBasedActorBlueprintEditor.cs" t="Include" />
-                <e p="ObiMeshUtils.cs" t="Include" />
-                <e p="ObiParticleEditorDrawing.cs" t="Include" />
-                <e p="Properties" t="Include">
-                  <e p="BaseTypes" t="Include">
-                    <e p="ObiBlueprintBoolProperty.cs" t="Include" />
-                    <e p="ObiBlueprintColorProperty.cs" t="Include" />
-                    <e p="ObiBlueprintFloatProperty.cs" t="Include" />
-                    <e p="ObiBlueprintIntProperty.cs" t="Include" />
-                    <e p="ObiBlueprintProperty.cs" t="Include" />
-                  </e>
-                  <e p="IObiPropertyEditableProvider.cs" t="Include" />
-                  <e p="ObiBlueprintColor.cs" t="Include" />
-                  <e p="ObiBlueprintLayer.cs" t="Include" />
-                  <e p="ObiBlueprintMass.cs" t="Include" />
-                  <e p="ObiBlueprintRadius.cs" t="Include" />
-                  <e p="ObiBlueprintSelected.cs" t="Include" />
-                </e>
-                <e p="RenderModes" t="Include">
-                  <e p="ObiBlueprintRenderMode.cs" t="Include" />
-                  <e p="ObiBlueprintRenderModeAerodynamicConstraints.cs" t="Include" />
-                  <e p="ObiBlueprintRenderModeBendConstraints.cs" t="Include" />
-                  <e p="ObiBlueprintRenderModeDistanceConstraints.cs" t="Include" />
-                  <e p="ObiBlueprintRenderModeMesh.cs" t="Include" />
-                  <e p="ObiBlueprintRenderModeParticles.cs" t="Include" />
-                  <e p="ObiBlueprintRenderModeShapeMatchingConstraints.cs" t="Include" />
-                  <e p="ObiBlueprintRenderModeTetherConstraints.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Collisions" t="Include">
-                <e p="ObiCollider2DEditor.cs" t="Include" />
-                <e p="ObiColliderEditor.cs" t="Include" />
-                <e p="ObiDistanceFieldEditor.cs" t="Include" />
-              </e>
-              <e p="Constraints" t="Include">
-                <e p="ObiConstraintParametersDrawer.cs" t="Include" />
-              </e>
-              <e p="CrossPlatformInput" t="Include">
-                <e p="CrossPlatformInputInitialize.cs" t="Include" />
-              </e>
-              <e p="ObiAboutWindow.cs" t="Include" />
-              <e p="ObiEditorSettings.cs" t="Include" />
-              <e p="ObiSettingsProvider.cs" t="Include" />
-              <e p="Rendering" t="Include">
-                <e p="ObiParticleRendererEditor.cs" t="Include" />
-              </e>
-              <e p="Solver" t="Include">
-                <e p="ObiSolverEditor.cs" t="Include" />
-              </e>
-              <e p="Utils" t="Include">
-                <e p="ObiEditorUtils.cs" t="Include" />
-                <e p="ObiParticleAttachmentEditor.cs" t="Include" />
-                <e p="ObiRaycastHit.cs" t="Include" />
-                <e p="PreviewHelpers.cs" t="Include" />
-              </e>
-            </e>
-            <e p="ObiParticleSelection.cs" t="Include" />
-            <e p="ObiStitcherEditor.cs" t="Include" />
-            <e p="Resources" t="Include">
-              <e p="DistanceFieldPreview.shader" t="Include" />
-              <e p="EditorLineShader.shader" t="Include" />
-              <e p="EditorParticle.shader" t="Include" />
-              <e p="PaddingShader.shader" t="Include" />
-              <e p="PropertyGradientMaterial.shader" t="Include" />
-              <e p="TopologyBorders.shader" t="Include" />
-              <e p="UVSpaceColor.shader" t="Include" />
-            </e>
-            <e p="Softbody" t="Include">
-              <e p="Blueprints" t="Include">
-                <e p="ObiSoftbodySurfaceBlueprintEditor.cs" t="Include" />
-                <e p="ObiSoftbodyVolumeBlueprintEditor.cs" t="Include" />
-              </e>
-              <e p="ObiSoftbodyEditor.cs" t="Include" />
-              <e p="ObiSoftbodySkinnerEditor.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Plugins" t="Include">
-            <e p="libOni.bundle" t="Include">
-              <e p="Contents" t="Include">
-                <e p="Resources" t="Include">
-                  <e p="CMakeLists.txt" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-          <e p="Resources" t="Include">
-            <e p="ObiMaterials" t="Include">
-              <e p="DistanceFieldSlice.shader" t="Include" />
-              <e p="LitParticles.shader" t="Include" />
-              <e p="ObiEllipsoids.cginc" t="Include" />
-              <e p="ObiParticles.cginc" t="Include" />
-              <e p="ObiUtils.cginc" t="Include" />
-              <e p="ParticleShader.shader" t="Include" />
-              <e p="SimpleParticleShader.shader" t="Include" />
-              <e p="StandardVertexColors.shader" t="Include" />
-            </e>
-          </e>
-          <e p="Samples" t="Include">
-            <e p="Common" t="Include">
-              <e p="SampleResources" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="ActorSpawner.cs" t="Include" />
-                  <e p="AddRandomVelocity.cs" t="Include" />
-                  <e p="Blinker.cs" t="Include" />
-                  <e p="CharacterController" t="Include">
-                    <e p="ObiCharacter.cs" t="Include" />
-                    <e p="SampleCharacterController.cs" t="Include" />
-                  </e>
-                  <e p="ColliderHighlighter.cs" t="Include" />
-                  <e p="CollisionEventHandler.cs" t="Include" />
-                  <e p="ColorFromPhase.cs" t="Include" />
-                  <e p="ColorFromVelocity.cs" t="Include" />
-                  <e p="ColorRandomizer.cs" t="Include" />
-                  <e p="DebugParticleFrames.cs" t="Include" />
-                  <e p="FirstPersonLauncher.cs" t="Include" />
-                  <e p="FPSDisplay.cs" t="Include" />
-                  <e p="MoveAndRotate.cs" t="Include" />
-                  <e p="ObiActorTeleport.cs" t="Include" />
-                  <e p="ObiParticleCounter.cs" t="Include" />
-                  <e p="ObjectDragger.cs" t="Include" />
-                  <e p="ObjectLimit.cs" t="Include" />
-                  <e p="SlowmoToggler.cs" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Common" t="Include">
-              <e p="Actors" t="Include">
-                <e p="IObiParticleCollection.cs" t="Include" />
-                <e p="ObiActor.cs" t="Include" />
-              </e>
-              <e p="Blueprints" t="Include">
-                <e p="Constraints" t="Include">
-                  <e p="Batches" t="Include">
-                    <e p="IStructuralConstraintBatch.cs" t="Include" />
-                    <e p="ObiAerodynamicConstraintsBatch.cs" t="Include" />
-                    <e p="ObiBendConstraintsBatch.cs" t="Include" />
-                    <e p="ObiBendTwistConstraintsBatch.cs" t="Include" />
-                    <e p="ObiChainConstraintsBatch.cs" t="Include" />
-                    <e p="ObiConstraintsBatch.cs" t="Include" />
-                    <e p="ObiDistanceConstraintsBatch.cs" t="Include" />
-                    <e p="ObiPinConstraintsBatch.cs" t="Include" />
-                    <e p="ObiShapeMatchingConstraintsBatch.cs" t="Include" />
-                    <e p="ObiSkinConstraintsBatch.cs" t="Include" />
-                    <e p="ObiStretchShearConstraintsBatch.cs" t="Include" />
-                    <e p="ObiTetherConstraintsBatch.cs" t="Include" />
-                    <e p="ObiVolumeConstraintsBatch.cs" t="Include" />
-                  </e>
-                  <e p="ObiConstraints.cs" t="Include" />
-                  <e p="StructuralConstraint.cs" t="Include" />
-                </e>
-                <e p="GraphColoring.cs" t="Include" />
-                <e p="ObiActorBlueprint.cs" t="Include" />
-                <e p="ObiMeshBasedActorBlueprint.cs" t="Include" />
-                <e p="ObiParticleGroup.cs" t="Include" />
-              </e>
-              <e p="Collisions" t="Include">
-                <e p="ColliderTrackers" t="Include">
-                  <e p="Trackers2D" t="Include">
-                    <e p="ObiBoxShapeTracker2D.cs" t="Include" />
-                    <e p="ObiCapsuleShapeTracker2D.cs" t="Include" />
-                    <e p="ObiCircleShapeTracker2D.cs" t="Include" />
-                    <e p="ObiEdgeShapeTracker2D.cs" t="Include" />
-                  </e>
-                  <e p="Trackers3D" t="Include">
-                    <e p="ObiBoxShapeTracker.cs" t="Include" />
-                    <e p="ObiCapsuleShapeTracker.cs" t="Include" />
-                    <e p="ObiDistanceFieldShapeTracker.cs" t="Include" />
-                    <e p="ObiMeshShapeTracker.cs" t="Include" />
-                    <e p="ObiShapeTracker.cs" t="Include" />
-                    <e p="ObiSphereShapeTracker.cs" t="Include" />
-                    <e p="ObiTerrainShapeTracker.cs" t="Include" />
-                  </e>
-                </e>
-                <e p="ObiCollider.cs" t="Include" />
-                <e p="ObiCollider2D.cs" t="Include" />
-                <e p="ObiColliderBase.cs" t="Include" />
-                <e p="ObiCollisionMaterial.cs" t="Include" />
-                <e p="ObiDistanceField.cs" t="Include" />
-                <e p="ObiRigidbody.cs" t="Include" />
-                <e p="ObiRigidbody2D.cs" t="Include" />
-                <e p="ObiRigidbodyBase.cs" t="Include" />
-              </e>
-              <e p="DataStructures" t="Include">
-                <e p="CastedList.cs" t="Include" />
-                <e p="NativeList" t="Include">
-                  <e p="ObiNativeFloatList.cs" t="Include" />
-                  <e p="ObiNativeIntList.cs" t="Include" />
-                  <e p="ObiNativeIntPtrList.cs" t="Include" />
-                  <e p="ObiNativeList.cs" t="Include" />
-                  <e p="ObiNativeQuaternionList.cs" t="Include" />
-                  <e p="ObiNativeVector2List.cs" t="Include" />
-                  <e p="ObiNativeVector3List.cs" t="Include" />
-                  <e p="ObiNativeVector4List.cs" t="Include" />
-                </e>
-                <e p="ObiList.cs" t="Include" />
-                <e p="ParticlePair.cs" t="Include" />
-                <e p="Voxelization" t="Include">
-                  <e p="MeshVoxelizer.cs" t="Include" />
-                  <e p="VoxelDistanceField.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Rendering" t="Include">
-                <e p="ObiDistanceFieldRenderer.cs" t="Include" />
-                <e p="ObiInstancedParticleRenderer.cs" t="Include" />
-                <e p="ObiParticleRenderer.cs" t="Include" />
-                <e p="ParticleImpostorRendering.cs" t="Include" />
-                <e p="ShadowmapExposer.cs" t="Include" />
-              </e>
-              <e p="Solver" t="Include">
-                <e p="ObiSolver.cs" t="Include" />
-              </e>
-              <e p="Updaters" t="Include">
-                <e p="ObiFixedUpdater.cs" t="Include" />
-                <e p="ObiLateFixedUpdater.cs" t="Include" />
-                <e p="ObiLateUpdater.cs" t="Include" />
-                <e p="ObiUpdater.cs" t="Include" />
-              </e>
-              <e p="Utils" t="Include">
-                <e p="Attributes" t="Include">
-                  <e p="ChildrenOnly.cs" t="Include" />
-                  <e p="DisplayAs.cs" t="Include" />
-                  <e p="Indent.cs" t="Include" />
-                  <e p="InspectorButtonAttribute.cs" t="Include" />
-                  <e p="MinMaxAttribute.cs" t="Include" />
-                  <e p="MultiDelayed.cs" t="Include" />
-                  <e p="MultiPropertyAttribute.cs" t="Include" />
-                  <e p="MultiRange.cs" t="Include" />
-                  <e p="SerializeProperty.cs" t="Include" />
-                  <e p="VisibleIf.cs" t="Include" />
-                </e>
-                <e p="Coroutines" t="Include">
-                  <e p="CoroutineJob.cs" t="Include" />
-                  <e p="EditorCoroutine.cs" t="Include" />
-                </e>
-                <e p="Forces" t="Include">
-                  <e p="ObiAmbientForceZone.cs" t="Include" />
-                  <e p="ObiExternalForce.cs" t="Include" />
-                  <e p="ObiSphericalForceZone.cs" t="Include" />
-                </e>
-                <e p="ObiKinematicVelocities.cs" t="Include" />
-                <e p="ObiParticleAttachment.cs" t="Include" />
-                <e p="ObiParticleDragger.cs" t="Include" />
-                <e p="ObiParticleGridDebugger.cs" t="Include" />
-                <e p="ObiParticlePicker.cs" t="Include" />
-                <e p="ObiProfiler.cs" t="Include" />
-                <e p="ObiStitcher.cs" t="Include" />
-                <e p="ObiUtils.cs" t="Include" />
-                <e p="ObiVectorMath.cs" t="Include" />
-                <e p="SetPhase.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Obi.asmdef" t="Include" />
-            <e p="Oni.cs" t="Include" />
-            <e p="Softbody" t="Include">
-              <e p="Actors" t="Include">
-                <e p="ObiSoftbody.cs" t="Include" />
-              </e>
-              <e p="Blueprints" t="Include">
-                <e p="ObiSoftbodyBlueprintBase.cs" t="Include" />
-                <e p="ObiSoftbodySurfaceBlueprint.cs" t="Include" />
-                <e p="ObiSoftbodyVolumeBlueprint.cs" t="Include" />
-              </e>
-              <e p="Rendering" t="Include">
-                <e p="ObiSoftbodySkinner.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="PlayServicesResolver" t="Include">
           <e p="Editor" t="Include">
             <e p="play-services-resolver_v1.2.135.0.txt" t="Include" />
@@ -2333,15 +1671,6 @@
               </e>
               <e p="ReadMe.txt" t="Include" />
             </e>
-          </e>
-        </e>
-        <e p="Quirky Series" t="Include">
-          <e p="_Scripts" t="Include">
-            <e p="Demo.cs" t="Include" />
-          </e>
-          <e p="_Shader" t="Include">
-            <e p="SoftSurface.shader" t="Include" />
-            <e p="ToonRamp.shader" t="Include" />
           </e>
         </e>
         <e p="RayFire" t="Include">
@@ -2471,7 +1800,6 @@
       <e p="MoreMountains.Tools.Feedbacks.csproj" t="IncludeRecursive" />
       <e p="MoreMountains.Tools.Feedbacks.Editor.csproj" t="IncludeRecursive" />
       <e p="MoreMountains.Tools.TextMeshPro.csproj" t="IncludeRecursive" />
-      <e p="Obi.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
